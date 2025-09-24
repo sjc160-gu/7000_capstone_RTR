@@ -1,0 +1,1050 @@
+country,alum_survey,school_graduation,year_program,same_residence,girl_age,n2_a1,n2_a2,n2_a3,n2_a4,n2_a5,n2_a6,n2_a7,n2_a8,n2_a9,n3_b1,n3_b2,n3_b3,n3_b4,n3_b5,n4_c1,n4_c2_a,n4_c2_b,n4_c2_c,n4_c2_d,n4_c2_e,n4_c2_f,n4_c2_g,n4_c2_h,n4_c2_i,n4_c2_j,n4_c2_k,n4_c3_a,n4_c3_b,n4_c3_c,n4_c3_d,n4_c3_e,n4_c3_f,n4_c3_g,n4_c3_h,n4_c3_i,n4_c3_j,n4_c3_k,n5_d1,n5_d2,n5_d3,n5_d4,n5_d5,n5_d6,n5_d7
+Bangladesh,5 Year,2022,7,1,22,NA,NA,NA,NA,NA,NA,0,0,NA,Married,21,1,1,21,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,1,0,2
+Bangladesh,5 Year,2021,7,NA,22,NA,NA,NA,NA,NA,NA,0,0,NA,Married,18,1,1,21,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,1,0,2
+Bangladesh,5 Year,2021,7,NA,20,NA,NA,NA,NA,NA,NA,0,0,NA,Married,18,0,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,0,NA,0,2
+Bangladesh,5 Year,2022,7,1,20,1,NA,NA,NA,University,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,1,1,1,0,1
+Bangladesh,5 Year,2022,7,1,21,1,NA,NA,NA,University,1,0,0,NA,Married,20,0,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,1,1,2,0,2
+Bangladesh,5 Year,2022,7,1,22,1,NA,NA,NA,University,1,0,0,NA,Married,18,1,1,19,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,0,NA,0,2
+Bangladesh,5 Year,2022,7,NA,21,NA,NA,NA,NA,NA,NA,1,0,1,Never married,NA,NA,0,NA,1,0,0,1,1,1,0,0,0,0,0,0,NA,NA,2,2,2,NA,NA,NA,NA,NA,NA,0,1,1,0,NA,0,1
+Bangladesh,5 Year,2022,7,1,20,NA,NA,NA,NA,NA,NA,0,0,NA,Married,17,1,1,18,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,0,NA,0,1
+Bangladesh,5 Year,2022,7,1,21,1,NA,NA,NA,University,1,0,0,NA,Never married,NA,NA,0,NA,1,1,0,1,1,0,1,0,1,0,0,1,2,NA,2,0,NA,2,NA,1,NA,NA,2,0,0,0,1,1,1,2
+Bangladesh,5 Year,2022,7,1,21,1,NA,NA,NA,University,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,1,1,1,1,2
+Bangladesh,5 Year,2021,7,1,21,1,NA,NA,NA,University,1,0,0,NA,Married,21,0,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,1,1,0,2
+Bangladesh,5 Year,2022,7,1,20,1,NA,NA,NA,University,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,1,1,0,1
+Bangladesh,5 Year,2022,4,NA,21,1,NA,NA,NA,Medical Degree,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,1,1,0,2
+Bangladesh,5 Year,2022,7,1,19,1,NA,NA,NA,University,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,0,NA,0,2
+Bangladesh,5 Year,2023,7,NA,22,NA,NA,NA,NA,NA,NA,0,0,NA,Married,20,0,0,NA,1,0,1,1,1,0,0,0,0,0,0,1,NA,2,1,0,NA,NA,NA,NA,NA,NA,1,0,1,1,1,NA,1,2
+Bangladesh,5 Year,2023,7,1,21,1,NA,NA,NA,University,1,0,0,NA,Married,21,0,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,1,2
+Bangladesh,5 Year,2023,7,1,20,1,NA,NA,NA,University,1,1,0,1,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,NA,1,2
+Bangladesh,5 Year,2023,8,NA,21,NA,NA,NA,NA,NA,NA,0,0,NA,Married,19,1,1,21,1,0,0,1,0,0,0,0,0,0,0,0,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,1,1,1,1
+Bangladesh,5 Year,2023,7,1,20,NA,NA,NA,NA,NA,NA,1,0,1,Married,17,0,0,NA,2,1,0,1,0,0,1,0,1,1,0,0,1,NA,1,NA,NA,1,NA,1,2,NA,NA,0,1,1,1,NA,1,2
+Bangladesh,5 Year,2023,8,1,20,NA,NA,NA,NA,NA,NA,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,1,1,1,1,2
+Bangladesh,5 Year,2023,7,1,19,1,NA,NA,NA,University,1,0,0,NA,Married,19,0,0,NA,1,1,0,0,0,0,0,0,0,0,0,0,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,1,1,1,1,2
+Bangladesh,5 Year,2023,8,1,22,1,NA,0,NA,NA,NA,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,0,NA,0,1
+Bangladesh,5 Year,2023,7,1,20,1,NA,NA,NA,University,1,1,0,1,Never married,NA,NA,0,NA,1,1,0,0,0,0,1,1,1,0,0,0,1,NA,NA,NA,NA,1,1,1,NA,NA,NA,0,1,1,1,NA,1,2
+Bangladesh,5 Year,2023,7,1,19,NA,NA,NA,NA,NA,NA,1,0,0,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,NA,1,2
+Bangladesh,5 Year,2023,7,1,20,1,NA,NA,NA,University,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,1,1,NA,1,2
+Bangladesh,5 Year,2023,8,1,20,NA,NA,NA,NA,NA,NA,0,0,NA,Married,19,0,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,1,1,NA,1,2
+Bangladesh,5 Year,2023,6,NA,20,1,NA,NA,NA,Medical Degree,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,1,2
+Bangladesh,5 Year,2023,8,1,21,NA,NA,NA,NA,NA,NA,0,0,NA,Married,19,1,1,20,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,1,1,0,1
+Bangladesh,5 Year,2023,6,1,21,NA,NA,NA,NA,NA,NA,0,0,NA,Married,19,1,1,20,1,1,0,0,0,1,0,0,0,0,0,1,2,NA,NA,NA,1,NA,NA,NA,NA,NA,2,0,1,1,1,NA,1,2
+Bangladesh,5 Year,2023,7,1,20,1,NA,NA,NA,University,1,1,0,1,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,1,2
+Bangladesh,5 Year,2023,7,1,21,1,NA,NA,NA,University,1,1,0,0,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,NA,1,2
+Bangladesh,5 Year,2023,7,1,20,1,NA,NA,NA,University,1,1,0,1,Never married,NA,NA,0,NA,1,0,0,0,0,0,0,0,1,0,0,0,NA,NA,NA,NA,NA,NA,NA,2,NA,NA,NA,1,1,1,1,NA,1,2
+Bangladesh,5 Year,2023,7,NA,20,1,NA,NA,NA,University,1,0,0,NA,Married,20,0,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,NA,1,2
+Bangladesh,5 Year,2023,7,1,20,1,NA,NA,NA,University,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,0,NA,1,2
+Bangladesh,5 Year,2023,7,NA,21,1,NA,NA,NA,University,1,1,0,1,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,1,2
+Bangladesh,5 Year,2023,8,NA,21,1,NA,NA,NA,University,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,1,2
+Bangladesh,5 Year,2023,7,NA,19,NA,NA,NA,NA,NA,NA,0,0,NA,Married,17,1,1,19,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,0,NA,0,1
+Bangladesh,5 Year,2023,6,1,21,NA,NA,NA,NA,University,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,1,1,1,1
+Bangladesh,5 Year,2023,7,1,20,NA,NA,NA,NA,NA,NA,1,0,0,Never married,NA,NA,0,NA,2,1,0,1,1,0,1,1,1,0,0,0,1,NA,1,1,NA,1,1,1,NA,NA,NA,0,1,1,1,NA,1,2
+Bangladesh,5 Year,2023,7,1,21,1,NA,NA,NA,University,1,1,0,1,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,1,2
+Bangladesh,5 Year,2023,7,1,21,NA,NA,NA,NA,NA,NA,1,0,0,Never married,NA,NA,0,NA,1,0,0,1,0,0,1,1,1,0,0,0,NA,NA,2,NA,NA,1,2,2,NA,NA,NA,0,1,1,1,NA,1,2
+Bangladesh,5 Year,2023,7,1,20,NA,NA,NA,NA,NA,NA,1,1,1,Never married,NA,NA,0,NA,1,0,0,0,0,1,0,0,1,0,0,0,NA,NA,NA,NA,2,NA,NA,1,NA,NA,NA,0,0,1,1,NA,1,2
+Bangladesh,5 Year,2023,7,1,22,NA,NA,NA,NA,NA,NA,0,0,NA,Never married,NA,NA,0,NA,1,1,0,1,0,0,0,0,1,0,0,0,2,NA,2,NA,NA,NA,NA,1,NA,NA,NA,0,1,1,1,NA,1,2
+Bangladesh,5 Year,2023,7,1,20,NA,NA,NA,NA,NA,NA,0,0,NA,Married,19,0,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,1,0,NA,1,1
+Bangladesh,5 Year,2023,7,1,20,1,NA,NA,NA,University,1,1,0,0,Never married,NA,NA,0,NA,2,0,0,0,1,1,1,1,1,0,0,0,NA,NA,NA,2,1,1,1,1,NA,NA,NA,0,1,1,1,NA,1,2
+Bangladesh,5 Year,2023,7,1,21,1,NA,NA,NA,University,1,1,0,1,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,1,1,1,1
+Bangladesh,5 Year,2023,7,1,19,1,NA,NA,NA,University,1,0,0,NA,Married,17,0,0,NA,1,1,0,0,0,0,0,0,0,0,0,0,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,1,1,1
+Bangladesh,5 Year,2023,7,1,21,1,NA,NA,NA,University,1,0,0,NA,Never married,NA,NA,0,NA,1,0,0,1,0,0,0,0,0,0,0,0,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,0,NA,1,2
+Bangladesh,5 Year,2023,7,NA,21,1,NA,NA,NA,University,1,1,0,0,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,1,2
+Bangladesh,5 Year,2023,8,NA,21,1,NA,NA,NA,University,1,1,0,1,Married,19,0,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,1,2
+Bangladesh,5 Year,2023,7,1,20,NA,NA,NA,NA,University,1,0,0,NA,Never married,NA,NA,0,NA,1,1,0,0,0,0,0,0,0,0,0,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,1,1,2
+Bangladesh,5 Year,2023,8,1,21,NA,NA,NA,NA,Post-Secondary -Technical/Vocational,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,0,NA,1,2
+Bangladesh,5 Year,2023,7,NA,21,NA,NA,NA,NA,NA,NA,0,0,NA,Married,18,0,0,NA,1,0,0,1,0,0,0,0,1,0,0,0,NA,NA,0,NA,NA,NA,NA,0,NA,NA,NA,0,0,0,0,NA,0,1
+Bangladesh,5 Year,2023,7,NA,21,NA,NA,NA,NA,NA,NA,0,0,NA,Married,19,1,1,20,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,1,1,1,1
+Bangladesh,1 Year,2021,7,1,19,NA,NA,NA,NA,NA,NA,0,0,NA,Married,17,1,1,18,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,1,1,1,0,2
+Bangladesh,1 Year,2018,7,1,23,1,NA,NA,NA,University,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,1,0,0,1
+Bangladesh,1 Year,2018,7,1,22,NA,NA,NA,NA,NA,NA,0,0,NA,Married,20,1,2,21,1,0,0,1,1,0,1,0,1,1,0,1,NA,NA,0,0,NA,2,NA,2,1,NA,1,0,0,0,0,NA,0,1
+Bangladesh,1 Year,2018,7,1,23,1,NA,0,NA,NA,NA,0,0,NA,Married,22,0,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,1,0,2
+Cambodia,5 Year,2022,6,NA,20,1,NA,0,NA,NA,NA,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,1,2,1,1
+Cambodia,5 Year,2022,6,NA,19,1,NA,NA,NA,Bachelors degree or equivalent,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,NA,1,2,1,2
+Cambodia,5 Year,2022,8,1,19,1,NA,NA,NA,Bachelors degree or equivalent,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,1,1,2,1,2
+Cambodia,5 Year,2022,6,1,NA,NA,NA,NA,NA,NA,NA,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,1,1,2,0,1
+Cambodia,5 Year,2022,6,NA,20,1,NA,NA,NA,Bachelors degree or equivalent,1,1,0,0,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,0,1,1,1,2
+Cambodia,5 Year,2022,6,NA,NA,1,NA,NA,NA,Bachelors degree or equivalent,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,1,2,1,1
+Cambodia,5 Year,2022,6,NA,20,1,NA,NA,NA,Bachelors degree or equivalent,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,0,1,1,0,1
+Cambodia,5 Year,2022,6,NA,20,1,NA,NA,NA,Bachelors degree or equivalent,1,1,0,1,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,1,2,1,2
+Cambodia,5 Year,2022,6,NA,20,1,NA,NA,NA,Short-term career program or course (less than or equal to 2 years),0,0,0,NA,Married,19,0,0,NA,2,0,0,1,0,0,1,1,1,1,1,1,NA,NA,1,NA,NA,1,1,1,2,1,1,0,0,1,1,2,1,2
+Cambodia,5 Year,2022,6,1,20,NA,NA,NA,NA,Short-term career program or course (less than or equal to 2 years),1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,1,1,0,1
+Cambodia,5 Year,2022,6,1,NA,1,NA,NA,NA,A subsidiary or certificate or course (a type that learns less than or 2 years),1,0,0,NA,Never married,NA,NA,0,NA,1,0,0,1,0,0,1,1,0,0,0,0,NA,NA,1,NA,NA,2,1,NA,NA,NA,NA,0,NA,0,1,2,0,1
+Cambodia,5 Year,2022,7,NA,20,1,NA,NA,NA,Bachelors degree or equivalent,1,0,0,NA,Never married,NA,NA,0,NA,1,0,0,0,0,0,1,0,1,0,0,0,NA,NA,NA,NA,NA,1,NA,1,NA,NA,NA,0,0,0,1,2,0,1
+Cambodia,5 Year,2022,6,NA,20,NA,NA,NA,NA,NA,NA,1,0,1,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,1,1,2,0,2
+Cambodia,5 Year,2022,6,NA,19,1,NA,NA,NA,Bachelors degree or equivalent,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,1,2,1,1
+Cambodia,5 Year,2022,6,1,19,NA,NA,NA,NA,NA,NA,1,0,0,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,1,1,2,1,1
+Cambodia,5 Year,2022,6,NA,19,1,NA,NA,NA,Bachelors degree or equivalent,1,1,0,0,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,1,2
+Cambodia,5 Year,2022,6,NA,NA,1,NA,NA,NA,Bachelors degree or equivalent,1,0,0,NA,Never married,NA,NA,0,NA,1,0,0,0,0,0,0,1,1,0,0,0,NA,NA,NA,NA,NA,NA,2,2,NA,NA,NA,0,0,0,1,2,1,1
+Cambodia,5 Year,2022,6,NA,NA,NA,NA,NA,NA,NA,NA,1,0,1,Never married,NA,NA,0,NA,1,1,0,0,0,0,0,0,0,0,0,0,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,1,2,0,1
+Cambodia,5 Year,2022,6,NA,19,1,NA,NA,NA,Bachelors degree or equivalent,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,1,2,1,1
+Cambodia,5 Year,2022,6,NA,19,1,NA,NA,NA,Bachelors degree or equivalent,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,0,1,2,1,2
+Cambodia,5 Year,2022,6,NA,19,1,NA,NA,NA,Bachelors degree or equivalent,1,1,0,1,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,0,1,1,2,1,2
+Cambodia,5 Year,2022,6,NA,20,1,NA,0,NA,NA,NA,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,0,1,2,1,1
+Cambodia,5 Year,2022,6,NA,19,1,NA,NA,NA,A subsidiary or certificate or course (a type that learns less than or 2 years),1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,0,1,1,1,1
+Cambodia,5 Year,2022,6,NA,19,1,NA,NA,NA,Bachelors degree or equivalent,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,1,1,2
+Cambodia,5 Year,2022,6,NA,18,1,NA,NA,NA,Bachelors degree or equivalent,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,1,2,1,2
+Cambodia,5 Year,2022,5,NA,18,1,NA,NA,NA,Bachelors degree or equivalent,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,1,1,2,0,2
+Cambodia,5 Year,2022,6,NA,19,NA,NA,NA,NA,NA,NA,1,0,0,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,1,2,0,2
+Cambodia,5 Year,2022,6,NA,19,1,NA,0,NA,NA,NA,1,0,1,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,0,1,2,1,2
+Cambodia,5 Year,2022,6,NA,19,NA,NA,NA,NA,NA,NA,1,0,0,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,1,2,1,1
+Cambodia,5 Year,2022,6,NA,NA,1,NA,NA,NA,Bachelors degree or equivalent,1,1,0,1,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,0,1,2,1,2
+Cambodia,5 Year,2022,6,NA,18,1,NA,NA,NA,Bachelors degree or equivalent,1,1,0,1,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,1,2,1,2
+Cambodia,5 Year,2022,6,NA,19,1,NA,NA,NA,Bachelors degree or equivalent,1,1,0,1,Never married,NA,NA,0,NA,1,0,0,0,0,0,0,0,0,0,0,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,0,0,0,1,2,1,1
+Cambodia,5 Year,2022,6,NA,20,1,NA,NA,NA,Bachelors degree or equivalent,1,1,0,1,Never married,NA,NA,0,NA,1,0,0,1,0,0,0,0,1,0,0,0,NA,NA,1,NA,NA,NA,NA,2,NA,NA,NA,0,1,1,1,1,1,2
+Cambodia,5 Year,2022,6,NA,20,1,NA,NA,NA,Bachelors degree or equivalent,1,1,0,0,Never married,NA,NA,0,NA,1,0,0,1,0,0,0,0,0,0,0,0,NA,NA,2,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,1,1,0,2
+Cambodia,5 Year,2022,6,1,19,NA,NA,NA,NA,NA,NA,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,1,2,1,2
+Cambodia,5 Year,2022,6,NA,19,NA,NA,NA,NA,NA,NA,0,0,NA,Never married,NA,NA,0,NA,1,0,0,0,1,0,1,0,1,0,0,1,NA,NA,NA,2,NA,1,NA,2,NA,NA,0,0,0,1,1,1,0,2
+Cambodia,5 Year,2022,6,NA,19,1,NA,NA,NA,Bachelors degree or equivalent,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,0,1,1,0,2
+Cambodia,5 Year,2022,6,1,18,1,NA,NA,NA,Bachelors degree or equivalent,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,1,2
+Cambodia,5 Year,2022,6,1,19,NA,NA,NA,NA,NA,NA,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,0,1,2,0,1
+Cambodia,5 Year,2023,6,NA,19,1,NA,NA,NA,Bachelors degree or equivalent,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,1,1,2,0,2
+Cambodia,5 Year,2023,6,NA,19,1,NA,NA,NA,Bachelors degree or equivalent,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,1,1,2,1,2
+Cambodia,5 Year,2023,6,NA,20,1,NA,1,NA,NA,NA,1,0,0,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,1,2,1,2
+Cambodia,5 Year,2023,6,NA,19,1,NA,NA,NA,A subsidiary or certificate or course (a type that learns less than or 2 years),1,1,0,1,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,1,2
+Cambodia,5 Year,2023,6,NA,19,1,NA,NA,NA,Bachelors degree or equivalent,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,1,2
+Cambodia,5 Year,2023,6,NA,19,1,NA,NA,NA,Bachelors degree or equivalent,1,1,0,0,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,1,2
+Cambodia,5 Year,2023,6,NA,18,1,NA,NA,NA,Bachelors degree or equivalent,1,1,0,1,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,0,2
+Cambodia,5 Year,2023,6,NA,19,1,NA,NA,NA,Bachelors degree or equivalent,1,1,0,1,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,1,1,2
+Cambodia,5 Year,2023,6,NA,20,1,NA,NA,NA,Bachelors degree or equivalent,1,1,0,0,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,0,1,2,0,2
+Cambodia,5 Year,2023,6,NA,18,1,NA,1,NA,NA,NA,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,1,1,2
+Cambodia,5 Year,2023,6,1,19,NA,NA,NA,NA,NA,NA,0,1,1,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,0,2
+Cambodia,5 Year,2023,7,NA,20,1,NA,NA,NA,Bachelors degree or equivalent,0,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,1,1,1,0,2
+Cambodia,5 Year,2023,6,NA,20,1,NA,NA,NA,A subsidiary or certificate or course (a type that learns less than or 2 years),1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,1,2,1,2
+Cambodia,5 Year,2023,6,1,19,NA,NA,NA,NA,NA,NA,0,1,1,Never married,NA,NA,0,NA,1,0,0,1,1,0,0,0,0,0,0,0,NA,NA,2,2,NA,NA,NA,NA,NA,NA,NA,0,0,0,1,2,1,1
+Cambodia,5 Year,2023,6,NA,19,1,NA,NA,NA,Bachelors degree or equivalent,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,1,1,1,1
+Cambodia,5 Year,2023,6,1,19,1,NA,NA,NA,Bachelors degree or equivalent,1,1,0,1,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,1,1,2
+Cambodia,5 Year,2023,6,NA,18,1,NA,NA,NA,Bachelors degree or equivalent,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,1,1,1,0,2
+Cambodia,5 Year,2023,6,NA,18,1,NA,NA,NA,Short-term career program or course (less than or equal to 2 years),1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,1,1,2,1,1
+Cambodia,5 Year,2023,6,NA,19,1,NA,NA,NA,Bachelors degree or equivalent,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,1,1,2,1,2
+Cambodia,5 Year,2023,6,NA,19,1,NA,NA,NA,Bachelors degree or equivalent,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,1,1,1,1,1
+Cambodia,5 Year,2023,6,NA,21,1,NA,NA,NA,Bachelors degree or equivalent,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,1,2,1,2
+Cambodia,5 Year,2023,6,NA,19,1,NA,NA,NA,Bachelors degree or equivalent,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,0,2
+Cambodia,5 Year,2023,6,NA,18,1,NA,NA,NA,Bachelors degree or equivalent,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,0,1,1,2,0,1
+Cambodia,5 Year,2023,6,NA,20,1,NA,NA,NA,Bachelors degree or equivalent,1,0,0,NA,Never married,NA,NA,0,NA,1,0,0,1,0,0,0,0,0,0,0,0,NA,NA,2,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,1,2,0,2
+Cambodia,5 Year,2023,6,1,18,NA,NA,NA,NA,NA,NA,0,0,NA,Engaged to be married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,1,1,0,1
+Cambodia,5 Year,2023,6,NA,18,1,NA,0,NA,NA,NA,1,0,1,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,1,0
+Cambodia,5 Year,2023,6,1,18,1,NA,NA,NA,Bachelors degree or equivalent,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,1,1,2,1,1
+Cambodia,5 Year,2023,6,NA,20,NA,NA,NA,NA,NA,NA,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,1,1,2,1,2
+Cambodia,5 Year,2023,6,1,20,NA,NA,NA,NA,NA,NA,1,0,1,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,0,1,1,2,1,2
+Cambodia,5 Year,2023,6,NA,18,1,NA,NA,NA,A subsidiary or certificate or course (a type that learns less than or 2 years),1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,1,1,2,1,2
+Cambodia,5 Year,2023,6,1,20,1,NA,0,NA,NA,NA,1,0,0,Married,19,0,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,1,1,2,1,1
+Cambodia,5 Year,2023,6,NA,22,NA,NA,NA,NA,NA,NA,1,0,1,Engaged to be married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,0,1,2,0,1
+Cambodia,5 Year,2023,6,NA,20,NA,NA,NA,NA,NA,NA,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,1,1,1,1,2
+Cambodia,5 Year,2023,6,NA,19,1,NA,NA,NA,Bachelors degree or equivalent,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,1,1,2,1,2
+Cambodia,5 Year,2023,6,NA,18,NA,NA,NA,NA,NA,NA,1,0,0,Engaged to be married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,1,1,0,2
+Cambodia,5 Year,2023,6,NA,20,NA,NA,NA,NA,NA,NA,1,0,0,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,1,1,2,1,2
+Cambodia,5 Year,2023,6,NA,19,1,NA,NA,NA,Bachelors degree or equivalent,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,1,2,1,2
+Cambodia,1 Year,2018,6,NA,23,1,NA,NA,NA,Bachelors degree or equivalent,1,1,0,1,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,1,2,1,2
+Cambodia,1 Year,2018,6,NA,23,1,NA,0,NA,NA,NA,1,1,1,Married,23,0,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,1,1,0,2
+Cambodia,1 Year,2018,6,1,22,1,NA,NA,NA,A subsidiary or certificate or course (a type that learns less than or 2 years),1,1,0,1,Married,22,1,1,23,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,1,1,2,1,2
+Cambodia,1 Year,2018,6,NA,23,1,NA,NA,NA,Masters degree or equivalent,1,1,0,1,Married,23,0,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,1,2,1,2
+Cambodia,1 Year,2018,6,NA,25,1,NA,1,NA,NA,NA,1,0,1,Married,22,1,2,23,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,0,2
+Cambodia,1 Year,2018,6,NA,23,1,NA,1,NA,NA,NA,1,0,0,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,1,1,2,1,1
+Cambodia,1 Year,2018,6,1,23,NA,NA,NA,NA,NA,NA,1,0,0,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,1,2,1,1
+Cambodia,1 Year,2018,6,NA,23,1,NA,NA,NA,Bachelors degree or equivalent,1,1,0,1,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,1,2,1,2
+Cambodia,1 Year,2018,6,NA,25,1,NA,NA,NA,Bachelors degree or equivalent,1,1,0,1,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,1,2,1,2
+Cambodia,1 Year,2018,6,NA,26,1,NA,1,NA,NA,NA,1,0,1,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,1,2
+Cambodia,1 Year,2018,6,NA,25,1,NA,1,NA,NA,NA,1,0,0,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,1,1,2,1,1
+Cambodia,1 Year,2018,6,1,25,1,NA,NA,NA,Bachelors degree or equivalent,1,1,0,0,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,1,1,2,1,2
+Cambodia,1 Year,2018,6,1,24,NA,NA,NA,NA,NA,NA,1,0,1,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,1,2,1,1
+Cambodia,1 Year,2018,6,NA,22,1,NA,1,NA,NA,NA,0,1,1,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,1,1,2,1,1
+Cambodia,1 Year,2018,6,1,23,NA,NA,NA,NA,Bachelors degree or equivalent,1,1,0,1,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,1,2
+Cambodia,1 Year,2018,6,1,23,NA,NA,NA,NA,Short-term career program or course (less than or equal to 2 years),0,0,1,1,Married,21,1,1,22,1,0,0,0,0,0,0,0,0,0,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,1,1,2,1,2
+Cambodia,1 Year,2018,6,NA,23,NA,NA,NA,NA,NA,NA,0,1,1,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,1,1,2,0,1
+Cambodia,1 Year,2018,6,1,26,1,NA,1,NA,NA,NA,1,1,1,Married,23,0,0,NA,1,0,0,0,1,1,0,0,1,1,0,0,NA,NA,NA,1,1,NA,NA,1,1,NA,NA,0,0,1,1,2,1,2
+Cambodia,1 Year,2018,6,1,25,1,NA,1,NA,NA,NA,1,0,1,Married,25,1,1,25,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,1,2
+Cambodia,1 Year,2018,6,1,NA,NA,NA,NA,NA,NA,NA,1,0,0,Never married,NA,NA,0,NA,1,1,0,0,0,0,0,0,0,0,0,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,1,2
+Cambodia,1 Year,2018,6,NA,21,1,NA,NA,NA,Short-term career program or course (less than or equal to 2 years),0,0,1,1,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,1,1,2
+Cambodia,1 Year,2018,6,1,23,NA,NA,NA,NA,NA,NA,1,1,1,Married,23,1,1,23,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,1,2,1,2
+Cambodia,1 Year,2018,6,1,25,NA,NA,NA,NA,NA,NA,1,1,1,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,1,1,2,0,2
+Cambodia,1 Year,2018,6,NA,23,NA,NA,NA,NA,NA,NA,1,0,0,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,1,1,1,1
+Cambodia,1 Year,2018,5,1,22,1,NA,NA,NA,A subsidiary or certificate or course (a type that learns less than or 2 years),0,1,0,1,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,0,1,2,0,1
+Cambodia,1 Year,2018,6,1,23,NA,NA,NA,NA,NA,NA,1,1,1,Married,18,1,1,21,1,0,0,0,0,0,0,0,1,0,0,0,NA,NA,NA,NA,NA,NA,NA,0,NA,NA,NA,0,NA,NA,1,NA,1,1
+Cambodia,1 Year,2018,6,NA,24,1,NA,0,NA,NA,NA,1,0,1,Married,21,0,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,1,0,2
+Cambodia,1 Year,2018,6,NA,22,1,NA,1,NA,NA,NA,1,0,1,Never married,NA,NA,0,NA,1,0,0,0,0,0,0,0,1,0,0,0,NA,NA,NA,NA,NA,NA,NA,0,NA,NA,NA,1,0,0,1,2,1,2
+Cambodia,1 Year,2018,6,1,NA,NA,NA,NA,NA,NA,NA,0,0,NA,Married,23,1,1,23,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,1,1,1,1,1
+Cambodia,1 Year,2018,6,1,NA,1,NA,1,NA,NA,NA,0,1,1,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,0,1,1,2,1,2
+Cambodia,1 Year,2018,6,NA,23,1,NA,NA,NA,Bachelors degree or equivalent,1,1,0,1,Married,23,0,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,1,1,1,2
+Cambodia,1 Year,2018,6,NA,25,NA,NA,NA,NA,NA,NA,1,0,0,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,1,1,1,0,1
+Cambodia,1 Year,2018,6,NA,23,1,NA,NA,NA,Bachelors degree or equivalent,1,1,0,1,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,1,2,1,NA
+Cambodia,1 Year,2018,6,1,NA,1,NA,NA,NA,Bachelors degree or equivalent,1,1,0,0,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,1,1,2,1,1
+Cambodia,1 Year,2018,6,1,NA,1,NA,NA,NA,A subsidiary or certificate or course (a type that learns less than or 2 years),1,1,0,0,Married,21,1,1,23,1,0,0,0,0,0,0,0,1,0,0,0,NA,NA,NA,NA,NA,NA,NA,0,NA,NA,NA,0,0,1,1,2,1,2
+Cambodia,1 Year,2018,6,1,24,1,NA,1,NA,NA,NA,0,1,1,Married,21,1,1,22,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,0,2
+Cambodia,1 Year,2018,6,NA,24,NA,NA,NA,NA,NA,NA,1,0,0,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,1,1,2,1,2
+Cambodia,1 Year,2018,6,1,25,NA,NA,NA,NA,NA,NA,1,0,1,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,1,1,0,1
+Cambodia,1 Year,2019,6,NA,24,1,NA,0,NA,NA,NA,1,0,1,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,1,1,2,0,2
+Cambodia,1 Year,2019,6,NA,23,NA,NA,NA,NA,Short-term career program or course (less than or equal to 2 years),0,1,1,1,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,1,1,2,0,2
+Cambodia,1 Year,2019,6,NA,25,1,NA,NA,NA,Bachelors degree or equivalent,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,1,2,1,2
+Cambodia,1 Year,2019,6,1,24,NA,NA,NA,NA,NA,NA,1,0,0,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,1,2,0,2
+Cambodia,1 Year,2019,6,NA,25,1,NA,1,NA,NA,NA,1,0,1,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,1,2,0,2
+Cambodia,1 Year,2019,6,NA,23,1,NA,1,NA,NA,NA,1,0,1,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,1,2,1,1
+Cambodia,1 Year,2019,6,NA,23,1,NA,1,NA,NA,NA,1,0,1,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,1,1,2,0,2
+Cambodia,1 Year,2019,6,NA,24,NA,NA,NA,NA,NA,NA,1,0,0,Engaged to be married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,0,2
+Cambodia,1 Year,2019,6,1,23,1,NA,0,NA,NA,NA,1,0,1,Married,20,1,1,20,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,1,2
+Cambodia,1 Year,2019,6,NA,24,1,NA,1,NA,NA,NA,1,0,1,Married,23,0,0,NA,1,0,0,0,0,1,0,0,0,0,0,0,NA,NA,NA,NA,2,NA,NA,NA,NA,NA,NA,0,1,1,1,2,1,1
+Cambodia,1 Year,2019,6,1,24,1,NA,1,NA,NA,NA,1,0,1,Engaged to be married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,1,1,2,0,2
+Cambodia,1 Year,2019,6,1,25,NA,NA,NA,NA,NA,NA,1,0,1,Married,24,0,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,1,1,1,1,2
+Cambodia,1 Year,2019,6,NA,25,1,NA,1,NA,NA,NA,1,0,1,Married,22,1,1,23,1,0,0,0,1,0,0,0,0,0,0,0,NA,NA,NA,2,NA,NA,NA,NA,NA,NA,NA,0,0,0,1,2,0,2
+Cambodia,1 Year,2019,6,NA,24,1,NA,NA,NA,Bachelors degree or equivalent,1,1,0,1,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,1,1,2,1,2
+Cambodia,1 Year,2019,6,NA,23,1,NA,NA,NA,Bachelors degree or equivalent,1,1,0,1,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,0,NA,1,1
+Cambodia,1 Year,2019,6,NA,25,NA,NA,NA,NA,NA,NA,0,0,NA,Married,23,1,1,24,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,1,2,0,1
+Cambodia,1 Year,2019,6,1,25,1,NA,NA,NA,Bachelors degree or equivalent,1,0,1,0,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,0,1,1,1,1,2
+Cambodia,1 Year,2019,6,1,23,NA,NA,NA,NA,NA,NA,0,0,NA,Married,23,1,1,23,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,1,2,1,2
+Cambodia,1 Year,2019,6,1,25,NA,NA,NA,NA,NA,NA,0,1,0,Married,21,1,1,23,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,0,NA,1,1
+Cambodia,1 Year,2019,6,1,22,1,NA,NA,NA,Long-term professional programs or courses (for more than 2 years),1,0,0,NA,Married,21,1,1,21,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,1,2,1,2
+Cambodia,1 Year,2019,6,1,22,NA,NA,NA,NA,NA,NA,0,0,NA,Married,23,1,1,23,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,1,1,1,1
+Cambodia,1 Year,2019,6,NA,24,NA,NA,NA,NA,NA,NA,1,0,0,Engaged to be married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,1,1,1,1,1
+Cambodia,1 Year,2019,6,NA,24,1,NA,1,NA,NA,NA,1,0,1,Never married,NA,NA,0,NA,1,0,0,0,0,0,0,1,1,0,0,1,NA,NA,NA,NA,NA,NA,1,1,NA,NA,0,0,0,0,0,NA,1,2
+Cambodia,1 Year,2019,6,1,23,1,NA,NA,NA,A subsidiary or certificate or course (a type that learns less than or 2 years),1,1,0,1,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,1,1,1,2
+Cambodia,1 Year,2019,6,NA,24,NA,NA,NA,NA,NA,NA,1,0,1,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,1,2
+Cambodia,1 Year,2019,6,NA,24,1,NA,0,NA,NA,NA,0,1,0,Married,20,1,1,22,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,0,2
+Cambodia,1 Year,2019,6,1,24,1,NA,0,NA,NA,NA,1,0,0,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,0,1,2,1,2
+Cambodia,1 Year,2019,6,1,24,NA,NA,NA,NA,NA,NA,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,1,2,1,1
+Cambodia,1 Year,2019,6,NA,24,1,NA,NA,NA,Bachelors degree or equivalent,1,0,0,NA,Never married,NA,NA,0,NA,1,0,0,0,0,0,0,0,0,0,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,1,2
+Cambodia,1 Year,2019,6,1,25,1,NA,NA,NA,Short-term career program or course (less than or equal to 2 years),0,1,0,1,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,1,2
+Cambodia,1 Year,2019,6,NA,21,1,NA,NA,NA,Doctoral degree or equivalent,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,1,2,0,2
+Cambodia,1 Year,2019,6,1,24,NA,NA,NA,NA,NA,NA,0,0,NA,Married,22,1,1,22,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,1,1,0,1
+Cambodia,1 Year,2019,6,NA,23,1,NA,1,NA,NA,NA,1,0,1,Never married,NA,NA,0,NA,1,0,0,0,0,0,0,0,0,0,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,1,1,1
+Cambodia,1 Year,2019,6,1,24,1,NA,1,NA,NA,NA,1,0,1,Never married,NA,NA,0,NA,1,0,0,1,1,0,0,1,0,0,0,0,NA,NA,1,1,NA,NA,1,NA,NA,NA,NA,0,0,1,1,2,1,1
+Cambodia,1 Year,2019,6,NA,24,NA,NA,NA,NA,NA,NA,1,0,0,Married,21,1,1,23,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,1,2,0,2
+Cambodia,1 Year,2019,6,1,23,1,NA,1,NA,NA,NA,1,0,1,Married,21,1,1,22,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,1,1,2,0,2
+Cambodia,1 Year,2019,6,1,23,1,NA,NA,NA,Bachelors degree or equivalent,1,1,0,1,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,0,1,2,1,2
+Cambodia,1 Year,2019,6,NA,24,1,NA,0,NA,NA,NA,1,0,1,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,1,2,0,2
+Cambodia,1 Year,2019,6,1,23,1,NA,0,NA,NA,NA,0,1,1,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,1,1,1,1,2
+Cambodia,1 Year,2019,6,NA,25,1,NA,1,NA,NA,NA,0,1,0,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,1,1,2,1,2
+India,5 Year,2021,2,1,18,1,NA,NA,NA,University,1,0,0,NA,Never married,NA,NA,0,NA,1,1,0,1,0,0,0,0,0,0,0,0,2,NA,2,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,1,0
+India,5 Year,2022,6,1,22,NA,NA,NA,NA,University,1,0,0,NA,Married,22,0,0,NA,1,1,0,0,0,0,0,0,0,0,0,1,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,2,0,0,1,1,2,1,2
+India,5 Year,2022,5,NA,19,1,NA,NA,NA,University,1,1,0,1,Never married,NA,NA,0,NA,1,0,0,0,1,0,0,0,0,0,0,1,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,1,0,1,1,1,2,1,0
+India,5 Year,2021,2,1,19,1,NA,NA,NA,University,1,0,0,NA,Never married,NA,NA,0,NA,1,1,0,0,0,0,0,0,0,0,0,1,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,2,0,1,0,1,2,1,0
+India,5 Year,2020,9,1,18,1,NA,NA,NA,University,1,0,0,NA,Never married,NA,NA,0,NA,1,0,0,1,0,0,0,0,0,0,0,0,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,1,0
+India,5 Year,2021,4,1,19,1,NA,NA,NA,University,1,0,0,NA,Never married,NA,NA,0,NA,1,1,0,0,0,0,0,0,0,0,0,0,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,1,0
+India,5 Year,2018,7,1,23,NA,NA,NA,NA,NA,NA,0,0,NA,Never married,NA,NA,0,NA,1,0,0,1,0,0,0,0,0,0,0,0,NA,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,1,0
+India,5 Year,2021,3,1,21,NA,NA,NA,NA,NA,NA,1,0,1,Never married,NA,NA,0,NA,1,1,0,1,0,1,0,0,0,0,0,1,0,NA,0,NA,0,NA,NA,NA,NA,NA,0,0,1,1,1,1,1,0
+India,5 Year,2020,4,1,18,1,NA,NA,NA,University,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,1,2,1,0
+India,5 Year,2022,2,1,19,NA,NA,NA,NA,NA,NA,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,1,0
+India,5 Year,2022,7,1,19,1,NA,0,NA,NA,NA,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,1,2,1,0
+India,5 Year,2022,4,1,20,1,NA,NA,NA,University,1,0,0,NA,Married,5,0,0,NA,1,1,1,0,0,0,0,0,0,0,0,0,1,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,1,1,1,0
+India,5 Year,2022,7,1,21,NA,NA,NA,NA,University,0,0,0,NA,Married,19,0,0,NA,1,1,0,0,0,0,0,1,0,0,0,1,2,NA,NA,NA,NA,NA,2,NA,NA,NA,2,0,0,1,1,2,1,2
+India,5 Year,2020,5,1,18,1,NA,NA,NA,University,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,1,2,1,0
+India,5 Year,2022,7,NA,19,NA,NA,NA,NA,NA,NA,1,0,1,Married,18,0,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,1,2
+India,5 Year,2022,7,1,19,NA,NA,NA,NA,NA,NA,0,0,NA,Married,18,1,1,18,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,1,0
+India,5 Year,2022,7,1,19,1,NA,NA,NA,University,1,0,0,NA,Never married,NA,NA,0,NA,1,0,0,1,1,1,0,0,0,0,0,0,NA,NA,1,2,1,NA,NA,NA,NA,NA,NA,0,1,1,1,2,1,0
+India,5 Year,2022,7,1,18,1,NA,NA,NA,University,0,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,1,0
+India,5 Year,2022,7,1,18,1,NA,NA,NA,University,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,1,1,2,1,2
+India,5 Year,2018,7,NA,23,1,NA,1,NA,NA,NA,0,0,NA,Married,23,0,0,NA,1,0,0,1,0,0,0,0,0,0,0,0,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,1,0
+India,5 Year,2022,7,1,19,NA,NA,NA,NA,Post-Secondary -Technical/Vocational,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,1,2
+India,5 Year,2021,7,1,19,1,NA,NA,NA,University,1,0,0,NA,Never married,NA,NA,0,NA,1,1,0,0,0,0,0,0,0,0,0,1,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,2,0,1,1,1,2,1,0
+India,5 Year,2022,4,1,19,1,NA,NA,NA,University,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,1,0
+India,5 Year,2022,6,1,20,1,NA,NA,NA,University,1,0,0,NA,Never married,NA,NA,0,NA,1,0,0,0,0,1,0,1,0,0,0,0,NA,NA,NA,NA,1,NA,2,NA,NA,NA,NA,0,1,1,1,2,1,0
+India,5 Year,2022,4,1,19,NA,NA,NA,NA,NA,NA,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,1,0
+India,5 Year,2022,7,1,19,1,NA,NA,NA,University,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,1,1,2,1,0
+India,5 Year,2022,2,1,20,1,NA,NA,NA,University,1,1,1,0,Never married,NA,NA,0,NA,1,0,0,0,0,0,1,0,0,0,0,0,NA,NA,NA,NA,NA,1,NA,NA,NA,NA,NA,0,0,0,1,1,1,0
+India,5 Year,2022,3,1,19,1,NA,NA,NA,University,0,0,0,NA,Never married,NA,NA,0,NA,1,0,0,1,0,0,0,0,1,0,0,0,NA,NA,1,NA,NA,NA,NA,2,NA,NA,NA,0,0,1,1,2,1,0
+India,5 Year,2022,2,1,19,1,NA,NA,NA,University,1,1,0,1,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,1,0
+India,5 Year,2020,7,1,19,NA,NA,NA,NA,University,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,1,1,2,1,2
+India,5 Year,2020,9,1,18,NA,NA,NA,NA,Post-Secondary -Technical/Vocational,0,1,0,1,Never married,NA,NA,0,NA,1,0,0,1,0,0,0,1,0,0,0,0,NA,NA,1,NA,NA,NA,1,NA,NA,NA,NA,0,1,1,1,2,1,0
+India,5 Year,2021,2,1,19,1,NA,NA,NA,University,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,0,1,2,1,0
+India,5 Year,2020,7,1,19,1,NA,1,NA,NA,NA,0,0,NA,Never married,NA,NA,0,NA,1,0,0,1,1,1,1,1,1,0,0,0,NA,NA,2,2,1,1,2,2,NA,NA,NA,0,1,1,1,2,1,0
+India,5 Year,2020,9,NA,22,1,NA,NA,NA,University,1,0,0,NA,Married,21,0,0,NA,1,0,0,0,1,0,0,0,1,0,0,0,NA,NA,NA,1,NA,NA,NA,1,NA,NA,NA,1,1,1,1,2,1,2
+India,5 Year,2018,7,1,24,NA,NA,NA,NA,NA,NA,0,0,NA,Married,21,1,1,23,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,1,0
+India,5 Year,2022,7,1,19,1,NA,NA,NA,University,1,0,0,NA,Never married,NA,NA,0,NA,1,0,0,0,0,0,1,0,1,0,0,0,NA,NA,NA,NA,NA,2,NA,2,NA,NA,NA,0,0,1,1,2,1,0
+India,5 Year,2020,9,1,18,NA,NA,NA,NA,NA,NA,1,0,0,Never married,NA,NA,0,NA,1,0,0,1,1,0,0,0,1,0,0,0,NA,NA,2,2,NA,NA,NA,2,NA,NA,NA,0,1,1,1,2,1,0
+India,5 Year,2018,7,NA,24,NA,NA,NA,NA,NA,NA,0,0,NA,Married,19,1,1,21,1,1,0,1,0,0,0,0,0,0,0,0,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,1,0
+India,5 Year,2018,4,NA,23,1,NA,1,NA,NA,NA,0,0,NA,Married,23,0,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,1,0
+India,5 Year,2021,1,1,20,1,NA,NA,NA,University,1,0,0,NA,Never married,NA,NA,0,NA,1,1,0,0,0,0,0,0,0,0,0,1,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,2,0,1,1,1,2,1,0
+India,5 Year,2018,3,1,26,1,NA,1,NA,NA,NA,0,0,NA,Married,21,1,2,23,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,1,0
+India,5 Year,2018,4,1,23,1,NA,NA,NA,Medical Degree,0,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,1,0
+India,5 Year,2022,8,1,20,NA,NA,NA,NA,NA,NA,0,0,NA,Married,19,0,0,NA,1,0,0,0,1,0,0,0,0,0,0,0,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,1,0
+India,5 Year,2022,5,1,18,1,NA,NA,NA,University,1,0,0,NA,Engaged to be married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,1,0
+India,5 Year,2020,5,1,18,1,NA,NA,NA,University,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,1,2,1,0
+India,5 Year,2021,2,1,20,NA,NA,NA,NA,NA,NA,0,0,NA,Never married,NA,NA,0,NA,1,0,0,1,1,0,0,0,0,0,0,1,NA,NA,0,0,NA,NA,NA,NA,NA,NA,0,0,0,1,1,1,1,0
+India,5 Year,2023,8,1,19,1,NA,NA,NA,University,1,0,0,NA,Never married,NA,NA,0,NA,1,0,0,1,1,1,1,0,0,0,0,0,NA,NA,1,2,1,1,NA,NA,NA,NA,NA,0,1,1,1,2,1,2
+India,5 Year,2023,8,1,20,1,NA,NA,NA,University,1,1,0,0,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,1,2
+India,5 Year,2023,7,1,18,1,NA,NA,NA,Other,1,1,0,1,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,1,1,2,1,2
+India,5 Year,2023,7,1,21,1,NA,NA,NA,University,1,1,0,0,Never married,NA,NA,0,NA,1,1,0,1,1,0,1,1,1,0,0,1,2,NA,2,2,NA,2,1,2,NA,NA,2,0,1,1,1,2,1,2
+India,5 Year,2023,1,1,19,1,NA,NA,NA,University,1,0,0,NA,Engaged to be married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,1,1,2,1,2
+India,5 Year,2023,7,1,19,1,NA,NA,NA,Other,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,1,1,2,1,2
+India,5 Year,2023,4,NA,19,NA,NA,NA,NA,NA,NA,0,0,NA,Never married,NA,NA,0,NA,1,0,0,1,1,0,1,0,1,0,0,0,NA,NA,0,2,NA,1,NA,2,NA,NA,NA,0,1,1,1,1,1,1
+India,5 Year,2023,2,1,18,1,NA,NA,NA,University,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,0,1,2,1,2
+India,5 Year,2023,4,1,19,NA,NA,NA,NA,NA,NA,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,1,1,0,1
+India,5 Year,2023,7,NA,19,1,NA,NA,NA,Post-Secondary -Technical/Vocational,1,0,0,NA,Married,14,0,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,0,2
+India,5 Year,2023,7,1,19,1,NA,NA,NA,University,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,1,1,1,2
+India,5 Year,2023,5,1,18,1,NA,NA,NA,University,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,1,1,1,2
+India,5 Year,2023,7,NA,20,NA,NA,NA,NA,NA,NA,1,0,1,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,1,1,2,0,2
+India,5 Year,2023,5,1,20,1,NA,NA,NA,University,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,0,1
+India,5 Year,2023,4,1,19,1,NA,NA,NA,University,0,0,0,NA,Never married,NA,NA,0,NA,1,0,0,0,1,1,0,0,0,0,0,0,NA,NA,NA,2,2,NA,NA,NA,NA,NA,NA,0,0,0,0,NA,1,1
+India,5 Year,2023,9,1,19,1,NA,NA,NA,Other,1,1,0,0,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,1,2
+India,5 Year,2023,7,1,20,1,NA,NA,NA,University,0,0,0,NA,Never married,NA,NA,0,NA,1,0,0,0,1,1,0,0,0,0,0,0,NA,NA,NA,2,2,NA,NA,NA,NA,NA,NA,0,0,0,1,2,1,2
+India,5 Year,2023,4,1,19,1,NA,0,NA,NA,NA,0,1,0,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,1,1
+India,5 Year,2023,7,1,20,1,NA,NA,NA,University,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,1,1,1,2
+India,5 Year,2023,2,1,20,1,NA,NA,NA,University,0,1,0,0,Never married,NA,NA,0,NA,1,1,0,1,1,1,0,0,0,0,0,1,1,NA,2,2,0,NA,NA,NA,NA,NA,0,0,0,1,1,2,1,2
+India,5 Year,2023,7,1,17,NA,NA,NA,NA,NA,NA,0,0,NA,Married,17,0,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,1,0,NA,1,2
+India,5 Year,2023,8,NA,19,NA,NA,NA,NA,NA,NA,0,0,NA,Married,18,0,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,0,NA,0,2
+India,5 Year,2023,2,1,19,1,NA,NA,NA,University,1,0,0,NA,Never married,NA,NA,0,NA,1,0,0,1,0,0,1,0,1,0,0,1,NA,NA,2,NA,NA,2,NA,2,NA,NA,1,0,1,1,1,1,1,2
+India,5 Year,2023,4,1,18,NA,NA,NA,NA,University,0,0,0,NA,Never married,NA,NA,0,NA,1,1,0,0,1,0,1,0,0,0,0,0,2,NA,NA,2,NA,2,NA,NA,NA,NA,NA,0,1,0,1,2,1,2
+India,5 Year,2023,2,1,19,1,NA,NA,NA,Post-Secondary -Technical/Vocational,1,0,1,1,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,1,0,2
+India,5 Year,2023,7,1,18,1,NA,NA,NA,University,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,0,1,1,1,2
+India,5 Year,2023,4,1,18,1,NA,NA,NA,University,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,1,2,1,2
+India,5 Year,2023,7,1,20,1,NA,NA,NA,University,1,0,0,NA,Married,20,0,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,1,2,1,2
+India,5 Year,2023,4,NA,20,NA,NA,NA,NA,NA,NA,0,0,NA,Married,19,0,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,1,1,2,0,2
+India,5 Year,2023,5,1,20,NA,NA,NA,NA,NA,NA,0,0,NA,Married,5,0,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,1,2,1,2
+India,1 Year,2018,12,1,22,1,NA,NA,NA,University,0,0,0,NA,Never married,NA,NA,0,NA,1,1,1,0,0,0,0,0,1,1,0,1,2,1,NA,NA,NA,NA,NA,2,1,NA,2,0,0,1,1,1,0,1
+India,1 Year,2018,7,1,22,1,NA,1,NA,NA,NA,1,0,1,Married,12,0,0,NA,1,0,0,1,0,0,0,0,0,0,0,1,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,1,0,0,1,1,2,1,0
+India,1 Year,2018,7,NA,21,NA,NA,NA,NA,NA,NA,0,0,NA,Married,18,1,1,20,1,0,0,0,0,0,0,0,1,1,0,0,NA,NA,NA,NA,NA,NA,NA,1,1,NA,NA,0,1,1,1,2,1,0
+India,1 Year,2018,7,1,23,NA,NA,NA,NA,NA,NA,0,0,NA,Married,19,1,1,22,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,1,1,0,1
+India,1 Year,2018,7,NA,24,1,NA,0,NA,NA,NA,0,0,NA,Married,19,1,3,20,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2
+India,1 Year,2018,7,1,22,1,NA,1,NA,NA,NA,1,1,1,Never married,NA,NA,0,NA,1,0,0,0,1,0,0,0,0,0,0,1,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,1,0,1,1,0,NA,1,2
+India,1 Year,2022,7,1,18,NA,NA,NA,NA,NA,NA,0,1,1,Engaged to be married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,0,1,1
+India,1 Year,2012,5,NA,24,1,NA,1,NA,NA,NA,0,0,NA,Married,21,1,2,22,1,0,0,0,0,0,1,0,1,0,0,0,NA,NA,NA,NA,NA,2,NA,2,NA,NA,NA,0,0,1,1,1,0,1
+India,1 Year,2018,7,1,23,1,NA,NA,NA,University,1,0,0,NA,Never married,NA,NA,0,NA,1,0,1,1,1,1,1,1,1,1,1,1,NA,1,1,1,1,1,1,1,1,1,1,0,1,1,1,2,1,2
+India,1 Year,2019,7,1,24,1,NA,0,NA,NA,NA,0,0,NA,Married,22,1,1,23,1,1,1,1,1,0,1,0,1,1,1,1,1,1,1,1,NA,1,NA,1,1,2,1,0,1,1,1,2,1,1
+India,1 Year,2018,7,NA,22,1,NA,1,NA,NA,NA,1,0,0,Never married,NA,NA,0,NA,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,1,2,1,2
+India,1 Year,2018,7,NA,23,1,NA,1,NA,NA,NA,0,0,NA,Married,19,1,1,23,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,1,2,0,0
+India,1 Year,2018,7,1,22,1,NA,NA,NA,Other,1,0,0,NA,Never married,NA,NA,0,NA,1,0,0,0,0,0,0,0,0,0,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,1,1
+India,1 Year,2018,7,1,22,1,NA,0,NA,NA,NA,0,0,NA,Married,19,1,1,20,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,NA,1,1,2,1,0,0,1,1,1,1,1
+India,1 Year,2018,7,1,23,1,NA,NA,NA,University,0,1,0,1,Never married,NA,NA,0,NA,1,1,0,1,1,0,0,0,0,0,0,0,2,NA,2,2,NA,NA,NA,NA,NA,NA,NA,1,1,1,1,2,1,2
+India,1 Year,2018,12,1,22,1,NA,1,NA,NA,NA,0,0,NA,Never married,NA,NA,0,NA,1,0,0,0,1,1,1,0,0,0,0,0,NA,NA,NA,2,2,2,NA,NA,NA,NA,NA,0,1,1,1,1,1,1
+India,1 Year,2018,7,1,22,1,NA,NA,NA,University,1,1,1,1,Married,21,0,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,1,1,1,1,0
+India,1 Year,2018,7,1,25,NA,NA,NA,NA,NA,NA,1,0,0,Never married,NA,NA,0,NA,1,1,0,1,1,0,0,0,0,0,0,0,2,NA,2,2,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,1,2
+India,1 Year,2022,2,1,20,NA,NA,NA,NA,NA,NA,0,0,NA,Engaged to be married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,1,2,1,0
+India,1 Year,2018,7,1,22,NA,NA,NA,NA,NA,NA,0,0,NA,Married,20,1,2,21,2,1,1,0,0,0,1,0,1,1,0,0,1,1,NA,NA,NA,1,NA,1,1,NA,NA,0,1,1,1,1,1,1
+India,1 Year,2018,7,NA,23,1,NA,1,NA,NA,NA,1,0,1,Never married,NA,NA,0,NA,1,0,0,0,1,0,0,0,0,0,0,1,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,1,0,1,1,0,NA,1,2
+India,1 Year,2018,7,NA,21,1,NA,0,NA,NA,NA,0,0,NA,Married,19,1,1,20,1,1,1,1,1,0,1,0,0,1,0,1,1,1,1,2,NA,1,NA,NA,1,NA,1,1,1,1,1,1,1,1
+India,1 Year,2021,7,NA,24,1,NA,NA,NA,University,0,1,0,1,Never married,NA,NA,0,NA,1,1,0,0,1,0,0,0,0,0,0,0,2,NA,NA,2,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,1,0,2
+India,1 Year,2016,6,1,22,NA,NA,NA,NA,NA,NA,1,0,1,Married,19,1,1,21,1,0,0,1,0,0,1,1,1,0,1,0,NA,NA,1,NA,NA,2,2,2,NA,1,NA,0,1,1,1,2,1,2
+India,1 Year,2023,7,1,18,NA,NA,NA,NA,University,1,0,0,NA,Never married,NA,NA,0,NA,1,0,0,0,1,1,0,1,0,0,0,0,NA,NA,NA,0,1,NA,1,NA,NA,NA,NA,0,0,0,1,2,1,2
+India,1 Year,2021,5,1,19,1,NA,NA,NA,University,1,0,0,NA,No response,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,1,1,2,1,2
+India,1 Year,2019,7,NA,21,1,NA,NA,NA,Other,0,0,0,NA,Married,21,0,0,NA,1,0,0,0,1,0,0,1,0,0,0,0,NA,NA,NA,1,NA,NA,0,NA,NA,NA,NA,1,1,1,1,1,1,2
+India,1 Year,2019,7,1,23,NA,NA,NA,NA,NA,NA,0,0,NA,Married,21,0,0,NA,1,1,0,1,1,1,1,0,1,0,0,0,2,NA,1,1,2,2,NA,2,NA,NA,NA,0,1,1,1,1,1,2
+India,1 Year,2021,5,1,21,NA,NA,NA,NA,NA,NA,1,0,0,No response,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,1,1,2,1,2
+India,1 Year,2020,6,1,21,1,NA,NA,NA,University,1,1,0,1,Never married,NA,NA,0,NA,1,0,0,1,1,0,1,0,1,0,1,1,NA,NA,2,2,NA,2,NA,2,NA,2,2,1,1,1,1,2,1,2
+India,1 Year,2017,5,1,21,1,NA,NA,NA,University,1,1,0,1,No response,NA,NA,0,NA,1,1,1,1,1,1,1,1,1,1,0,0,2,2,2,2,2,2,2,2,2,NA,NA,0,1,1,1,1,1,1
+India,1 Year,2019,2,NA,24,1,NA,NA,NA,Other,1,1,0,0,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,1,1,1,0,2
+India,1 Year,2021,5,1,18,1,NA,NA,NA,University,1,1,0,1,No response,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,1,2
+India,1 Year,2019,7,1,24,1,NA,NA,NA,University,1,0,0,NA,Never married,NA,NA,0,NA,1,1,0,0,0,0,1,1,1,0,1,0,1,NA,NA,NA,NA,2,2,2,NA,2,NA,1,1,1,1,2,1,2
+India,1 Year,2019,7,1,24,NA,NA,NA,NA,NA,NA,1,1,0,Married,20,0,0,NA,1,1,0,1,0,0,0,0,0,1,1,0,2,NA,2,NA,NA,NA,NA,NA,2,2,NA,0,0,1,1,1,0,1
+India,1 Year,2019,2,NA,24,1,NA,NA,NA,University,1,1,0,1,Married,18,1,1,20,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,1,1,1,1,2
+India,1 Year,2018,5,1,20,1,NA,NA,NA,Other,0,1,0,1,Engaged to be married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,1,0,1
+India,1 Year,2016,4,NA,22,NA,NA,NA,NA,NA,NA,1,0,1,Engaged to be married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,1,2
+India,1 Year,2019,7,1,24,1,NA,1,NA,NA,NA,1,1,0,Never married,NA,NA,0,NA,1,1,0,0,0,0,1,0,1,0,0,1,2,NA,NA,NA,NA,2,NA,2,NA,NA,2,0,1,1,1,2,1,2
+India,1 Year,2019,7,1,23,1,NA,NA,NA,University,1,1,0,1,Never married,NA,NA,0,NA,1,0,0,1,1,1,1,1,1,1,1,0,NA,NA,1,1,1,1,1,1,1,1,NA,0,1,1,1,1,1,1
+India,1 Year,2019,7,NA,24,1,NA,0,NA,NA,NA,0,0,NA,Married,22,1,1,23,2,0,0,1,0,0,1,1,1,1,0,1,NA,NA,1,NA,NA,1,1,1,1,NA,1,1,1,1,1,2,0,2
+India,1 Year,2019,7,NA,24,NA,NA,NA,NA,NA,NA,0,0,NA,Married,21,1,1,23,2,1,1,0,0,1,1,1,1,1,1,1,1,1,NA,NA,1,1,1,1,1,1,1,1,1,1,1,2,0,2
+India,1 Year,2019,7,1,24,1,NA,1,NA,NA,NA,0,0,NA,Engaged to be married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,0,NA,1,1
+India,1 Year,2019,2,NA,23,1,NA,NA,NA,University,1,0,0,NA,Never married,NA,NA,0,NA,1,1,1,0,0,1,1,0,1,1,0,1,1,2,NA,NA,1,1,NA,1,1,NA,1,0,1,1,1,2,0,2
+India,1 Year,2019,3,NA,23,1,NA,NA,NA,Other,1,0,0,NA,Never married,NA,NA,0,NA,1,0,0,0,0,0,0,0,0,0,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,1,0,2
+India,1 Year,2019,2,NA,24,NA,NA,NA,NA,NA,NA,1,1,1,Married,20,1,1,23,1,0,0,0,0,0,0,0,1,0,0,0,NA,NA,NA,NA,NA,NA,NA,2,NA,NA,NA,0,0,0,1,0,0,2
+India,1 Year,2019,7,1,22,1,NA,NA,NA,University,1,0,0,NA,Never married,NA,NA,0,NA,1,0,0,1,0,0,0,0,0,0,0,0,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,1,1,1,1,1,1,2
+India,1 Year,2019,7,1,22,1,NA,1,NA,NA,NA,1,1,1,Never married,NA,NA,0,NA,1,0,0,1,0,0,0,1,0,0,0,0,NA,NA,1,NA,NA,NA,0,NA,NA,NA,NA,0,1,1,1,1,1,1
+India,1 Year,2019,7,1,23,1,NA,NA,NA,University,1,1,0,0,Never married,NA,NA,0,NA,1,1,0,1,1,1,1,1,0,0,0,0,2,NA,2,0,2,2,2,NA,NA,NA,NA,1,1,1,1,2,1,2
+India,1 Year,2017,5,NA,21,1,NA,0,NA,NA,NA,0,1,1,Married,20,0,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,1,1,1,1,1
+India,1 Year,2019,7,NA,22,1,NA,1,NA,NA,NA,0,0,NA,Married,20,1,1,22,1,1,0,0,1,0,0,0,0,0,0,0,2,NA,NA,2,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,0,2
+India,1 Year,2016,4,NA,22,1,NA,1,NA,NA,NA,1,0,1,No response,NA,NA,0,NA,1,1,0,1,1,0,0,0,0,0,0,0,0,NA,1,0,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,1,2
+India,1 Year,2019,7,1,22,1,NA,NA,NA,University,1,1,1,1,Never married,NA,NA,0,NA,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,2,1,2
+India,1 Year,2019,5,1,23,1,NA,1,NA,NA,NA,1,1,1,Married,23,0,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,1,2
+India,1 Year,2019,7,NA,23,NA,NA,NA,NA,NA,NA,0,0,NA,Married,11,1,1,23,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,1,1,1,1
+India,1 Year,2019,7,1,23,1,NA,1,NA,NA,NA,1,1,1,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,0,NA,0,2
+India,1 Year,2019,7,1,22,1,NA,1,NA,NA,NA,0,0,NA,Never married,NA,NA,0,NA,1,0,0,0,0,1,0,0,1,0,1,1,NA,NA,NA,NA,1,NA,NA,1,NA,2,2,1,0,1,1,2,1,2
+India,1 Year,2021,5,1,18,1,NA,NA,NA,Post-Secondary -Technical/Vocational,1,0,0,NA,Engaged to be married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,1,2
+India,1 Year,2023,7,1,18,1,NA,NA,NA,University,1,1,1,1,Engaged to be married,NA,NA,0,NA,1,0,0,1,1,1,1,0,1,0,1,0,NA,NA,1,0,1,1,NA,0,NA,1,NA,0,1,1,1,2,1,2
+India,1 Year,2019,7,NA,23,1,NA,1,NA,NA,NA,1,0,1,Never married,NA,NA,0,NA,1,1,1,1,1,1,1,1,1,1,0,1,2,1,1,1,1,1,1,1,2,NA,1,0,1,1,1,2,1,2
+India,1 Year,2019,5,1,24,1,NA,NA,NA,Other,0,1,0,1,Never married,NA,NA,0,NA,1,0,0,1,1,0,1,0,1,1,1,1,NA,NA,1,1,NA,1,NA,1,1,2,1,0,1,1,1,0,1,2
+India,1 Year,2019,7,1,23,1,NA,NA,NA,University,0,1,1,1,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,0,2
+India,1 Year,2023,8,1,18,NA,NA,NA,NA,NA,NA,1,1,0,Never married,NA,NA,0,NA,1,0,0,0,0,1,0,1,0,0,1,1,NA,NA,NA,NA,1,NA,2,NA,NA,2,2,0,0,0,1,0,1,1
+India,1 Year,2019,5,NA,24,1,NA,0,NA,NA,NA,0,0,NA,Married,20,1,1,21,2,0,1,1,0,1,1,1,1,1,1,0,NA,1,2,NA,1,1,1,1,1,1,NA,1,1,1,1,2,1,2
+India,1 Year,2019,7,NA,23,1,NA,1,NA,NA,NA,0,0,NA,Married,23,0,0,NA,1,1,1,1,1,1,1,1,1,0,1,1,1,2,1,2,1,1,1,1,NA,1,1,0,1,1,1,2,1,2
+India,1 Year,2019,7,1,21,1,NA,NA,NA,Other,0,0,0,NA,Never married,NA,NA,0,NA,1,0,0,0,1,0,1,0,1,0,0,1,NA,NA,NA,2,NA,2,NA,2,NA,NA,2,0,1,1,1,2,1,2
+India,1 Year,2019,7,NA,26,NA,NA,NA,NA,NA,NA,1,1,1,Married,19,1,2,20,2,1,0,0,1,1,1,1,1,0,1,1,1,NA,NA,1,1,1,1,1,NA,1,1,0,1,1,0,NA,0,2
+India,1 Year,2019,7,NA,24,1,NA,1,NA,NA,NA,0,0,NA,Married,21,1,1,24,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,1,1,0,1,2
+India,1 Year,2023,4,1,19,NA,NA,NA,NA,NA,NA,0,0,NA,Never married,NA,NA,0,NA,1,0,0,1,1,0,0,1,1,0,0,0,NA,NA,1,1,NA,NA,1,1,NA,NA,NA,0,1,1,1,2,1,2
+India,1 Year,2019,7,NA,23,1,NA,1,NA,NA,NA,1,0,1,Never married,NA,NA,0,NA,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,1,2
+Laos,5 Year,2022,7,NA,19,NA,NA,NA,NA,NA,NA,1,0,1,Never married,NA,NA,0,NA,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,1,2,1,2
+Laos,5 Year,2022,7,NA,21,NA,NA,NA,NA,NA,NA,1,0,0,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,1,1,2,1,2
+Laos,5 Year,2022,7,1,21,NA,NA,NA,NA,NA,NA,0,0,NA,Married,20,1,1,20,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,0,NA,0,2
+Laos,5 Year,2022,7,1,20,NA,NA,NA,NA,NA,NA,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,0,NA,0,1
+Laos,5 Year,2022,7,1,20,NA,NA,NA,NA,NA,NA,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,1,0,0,2
+Laos,5 Year,2022,7,NA,19,NA,NA,NA,NA,NA,NA,1,0,1,Married,18,0,0,NA,1,1,1,0,0,1,1,0,1,1,1,1,1,1,NA,NA,1,1,NA,1,1,1,1,0,0,0,1,2,1,2
+Laos,5 Year,2022,7,NA,21,1,NA,NA,NA,Other,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,1,1,2,1,2
+Laos,5 Year,2022,7,NA,19,NA,NA,NA,NA,NA,NA,1,0,1,Never married,NA,NA,0,NA,2,1,1,0,1,1,1,1,1,1,1,1,1,1,NA,2,1,1,1,1,1,1,1,0,0,0,1,2,1,2
+Laos,5 Year,2022,7,NA,18,1,NA,NA,NA,University,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,1,2,1,2
+Laos,5 Year,2022,7,1,18,NA,NA,NA,NA,NA,NA,0,0,NA,Married,17,1,1,18,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,0,0,1,2,1,2
+Laos,5 Year,2022,7,NA,20,1,NA,NA,NA,Post-Secondary -Technical/Vocational,1,0,0,NA,Never married,NA,NA,0,NA,2,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,NA,1,1,1,1,0,0,0,1,2,1,2
+Laos,5 Year,2022,7,1,18,NA,NA,NA,NA,NA,NA,0,0,NA,Never married,NA,NA,0,NA,1,1,1,0,0,1,1,0,1,1,1,1,1,1,NA,NA,1,1,NA,1,1,1,1,0,0,0,1,2,1,2
+Laos,5 Year,2022,7,NA,18,NA,NA,NA,NA,NA,NA,1,0,1,Never married,NA,NA,0,NA,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,1,2,1,2
+Laos,5 Year,2022,7,NA,20,NA,NA,NA,NA,NA,NA,1,0,1,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,1,1,2,1,2
+Laos,5 Year,2022,7,NA,19,NA,NA,NA,NA,NA,NA,1,0,1,Never married,NA,NA,0,NA,1,1,1,0,0,0,0,0,1,1,1,1,2,2,NA,NA,NA,NA,NA,2,2,2,2,0,0,0,1,2,1,2
+Laos,5 Year,2022,7,NA,20,NA,NA,NA,NA,NA,NA,0,1,1,Married,19,0,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,1,1,2,1,2
+Laos,5 Year,2022,3,1,20,NA,NA,NA,NA,NA,NA,0,0,NA,Separated/divorced,19,1,1,20,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,1,2,0,2
+Laos,5 Year,2022,7,NA,18,1,NA,NA,NA,University,1,0,0,NA,Never married,NA,NA,0,NA,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,1,2,1,2
+Laos,5 Year,2022,7,1,19,1,NA,1,NA,NA,NA,1,1,1,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,1,1,2,1,2
+Laos,5 Year,2022,7,1,20,NA,NA,NA,NA,NA,NA,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,1,2,0,2
+Laos,5 Year,2022,7,1,18,1,NA,1,NA,NA,NA,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,0,NA,0,2
+Laos,5 Year,2022,7,NA,19,NA,NA,NA,NA,NA,NA,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,1,1,2,0,2
+Laos,5 Year,2022,7,1,18,NA,NA,NA,NA,NA,NA,0,0,NA,Never married,NA,NA,0,NA,1,1,1,0,0,1,1,0,1,1,1,1,1,1,NA,NA,1,1,NA,1,1,1,1,0,0,0,1,2,1,2
+Laos,5 Year,2022,4,NA,18,NA,NA,NA,NA,NA,NA,1,1,1,Married,18,0,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,1,2,0,2
+Laos,5 Year,2022,7,1,18,NA,NA,NA,NA,NA,NA,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,1,2,0,2
+Laos,5 Year,2022,7,1,20,1,NA,0,NA,NA,NA,0,0,NA,Married,20,0,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,1,2,0,2
+Laos,5 Year,2022,7,1,18,NA,NA,NA,NA,NA,NA,0,0,NA,Married,18,0,0,NA,2,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,NA,1,1,1,1,0,0,0,1,2,1,2
+Laos,5 Year,2022,7,1,20,NA,NA,NA,NA,NA,NA,0,0,NA,Married,18,0,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,1,2
+Laos,5 Year,2022,7,NA,18,NA,NA,NA,NA,NA,NA,1,0,1,Married,18,0,0,NA,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,1,2,1,2
+Laos,5 Year,2022,7,NA,19,1,NA,NA,NA,University,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,1,2,1,2
+Laos,5 Year,2022,7,1,19,1,NA,1,NA,NA,NA,1,1,0,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,1,2,0,2
+Laos,5 Year,2022,7,1,20,NA,NA,NA,NA,NA,NA,0,0,NA,Married,19,0,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,1,1,2,1,2
+Laos,5 Year,2022,7,1,20,1,NA,NA,NA,University,0,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,1,2,1,2
+Laos,5 Year,2022,7,1,20,1,NA,0,NA,NA,NA,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,0,NA,0,2
+Laos,5 Year,2022,7,1,20,NA,NA,NA,NA,NA,NA,1,0,1,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,1,2,1,2
+Laos,5 Year,2022,7,NA,19,NA,NA,NA,NA,NA,NA,1,0,1,Never married,NA,NA,0,NA,1,1,1,0,0,1,1,0,1,1,1,1,1,1,NA,NA,1,1,NA,1,1,1,1,0,0,0,1,2,1,2
+Laos,5 Year,2022,7,1,20,NA,NA,NA,NA,NA,NA,0,0,NA,Married,20,0,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,0,0,1,2,0,2
+Laos,5 Year,2022,7,NA,18,1,NA,1,NA,NA,NA,1,0,1,Never married,NA,NA,0,NA,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,1,2,1,2
+Laos,5 Year,2022,7,1,21,NA,NA,NA,NA,NA,NA,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,0,NA,1,2
+Laos,5 Year,2022,7,1,18,NA,NA,NA,NA,NA,NA,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,0,NA,0,2
+Laos,5 Year,2022,7,1,19,NA,NA,NA,NA,NA,NA,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,1,2,1,2
+Laos,1 Year,2022,7,1,20,NA,NA,NA,NA,NA,NA,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,1,2
+Laos,1 Year,2022,7,1,20,NA,NA,NA,NA,NA,NA,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,1,1,2,1,2
+Laos,1 Year,2022,7,1,20,1,NA,0,NA,NA,NA,1,0,0,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,1,2
+Laos,1 Year,2018,7,1,24,1,NA,1,NA,NA,NA,1,0,1,Married,23,0,0,NA,2,1,1,1,1,1,1,1,1,1,1,1,1,1,2,1,1,1,1,1,1,1,1,0,0,0,1,2,1,2
+Laos,1 Year,2022,7,NA,20,NA,NA,NA,NA,NA,NA,1,0,1,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,1,1,2,1,2
+Laos,1 Year,2018,7,1,25,1,NA,1,NA,NA,NA,1,0,1,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,1,2,1,2
+Laos,1 Year,2018,7,1,23,1,NA,1,NA,NA,NA,0,0,NA,Never married,NA,NA,0,NA,2,1,1,1,1,1,1,0,1,1,1,1,1,1,2,2,1,1,NA,1,1,1,1,0,0,0,1,2,1,2
+Laos,1 Year,2018,7,1,23,1,NA,0,NA,NA,NA,0,0,NA,Married,21,1,1,22,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,1,1,2,1,2
+Laos,1 Year,2018,5,1,23,NA,NA,NA,NA,NA,NA,0,1,1,Married,19,1,2,19,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,1,1,2,1,2
+Laos,1 Year,2018,7,1,24,NA,NA,NA,NA,NA,NA,0,0,NA,Married,19,1,2,19,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,0,NA,0,2
+Laos,1 Year,2022,7,1,19,1,NA,NA,NA,Engineering Degree,0,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,1,2,0,2
+Laos,1 Year,2018,5,1,25,1,NA,0,NA,NA,NA,1,0,0,Separated/divorced,22,0,0,NA,1,1,0,0,0,0,0,0,0,0,0,0,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,1,2,0,2
+Laos,1 Year,2018,7,NA,24,NA,NA,NA,NA,NA,NA,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,1,2,0,2
+Laos,1 Year,2018,7,1,24,NA,NA,NA,NA,NA,NA,0,0,NA,Married,22,0,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,0,NA,1,2
+Laos,1 Year,2018,7,1,25,NA,NA,NA,NA,NA,NA,0,0,NA,Married,20,1,1,20,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,0,NA,0,2
+Laos,1 Year,2018,7,1,24,NA,NA,NA,NA,NA,NA,0,0,NA,Married,23,1,1,24,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,1,2,1,2
+Laos,1 Year,2022,7,1,20,NA,NA,NA,NA,NA,NA,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,1,1,2,1,2
+Laos,1 Year,2018,7,NA,23,1,NA,1,NA,NA,NA,1,0,1,Never married,NA,NA,0,NA,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,1,2,1,2
+Laos,1 Year,2018,7,1,24,1,NA,1,NA,NA,NA,0,0,NA,Never married,NA,NA,0,NA,1,1,1,0,1,1,1,0,1,1,1,1,1,1,NA,2,2,1,NA,1,1,1,1,0,0,0,1,2,1,2
+Laos,1 Year,2018,7,1,25,NA,NA,NA,NA,NA,NA,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,0,NA,0,2
+Laos,1 Year,2018,7,NA,26,NA,NA,NA,NA,NA,NA,1,0,0,Married,20,1,2,21,1,1,1,0,1,1,1,1,1,1,1,1,1,1,NA,2,1,1,1,1,1,1,2,0,0,0,1,2,1,2
+Laos,1 Year,2022,7,1,20,NA,NA,NA,NA,NA,NA,1,0,0,Married,19,0,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,1,2,0,2
+Laos,1 Year,2018,7,1,24,NA,NA,NA,NA,NA,NA,0,0,NA,Married,23,0,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,1,2,0,2
+Laos,1 Year,2022,7,1,19,NA,NA,NA,NA,NA,NA,0,0,NA,Married,19,0,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,1,2,1,2
+Laos,1 Year,2018,7,1,22,NA,NA,NA,NA,NA,NA,1,0,0,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,1,1,2,1,2
+Laos,1 Year,2018,7,NA,25,1,NA,1,NA,NA,NA,1,0,0,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,1,2,0,2
+Laos,1 Year,2018,7,1,23,1,NA,1,NA,NA,NA,1,1,1,Never married,NA,NA,0,NA,1,1,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,0,0,0,1,1,1,2
+Laos,1 Year,2022,7,NA,20,NA,NA,NA,NA,NA,NA,1,0,1,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,1,1,2,1,2
+Laos,1 Year,2022,7,1,18,NA,NA,NA,NA,NA,NA,0,0,NA,Married,19,0,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,1,2,0,2
+Laos,1 Year,2022,7,1,20,1,NA,1,NA,NA,NA,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,1,2,0,2
+Laos,1 Year,2018,7,1,23,1,NA,1,NA,NA,NA,1,0,1,Never married,NA,NA,0,NA,1,1,1,0,0,1,1,1,1,1,1,1,2,2,NA,NA,2,2,2,2,2,2,2,0,0,0,1,2,1,2
+Laos,1 Year,2018,7,1,23,NA,NA,NA,NA,NA,NA,0,0,NA,Married,22,1,1,22,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,1,2
+Laos,1 Year,2018,7,1,25,NA,NA,NA,NA,NA,NA,0,0,NA,Married,25,0,0,NA,1,1,1,0,0,1,1,1,1,1,1,1,2,2,NA,NA,2,2,2,2,2,2,2,0,0,0,1,1,1,2
+Laos,1 Year,2018,7,1,24,NA,NA,NA,NA,NA,NA,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,0,NA,0,2
+Laos,1 Year,2018,7,1,25,NA,NA,NA,NA,NA,NA,0,0,NA,Married,20,1,2,20,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,0,1,2,1,2
+Laos,1 Year,2018,7,1,24,NA,NA,NA,NA,NA,NA,1,0,1,Widowed,18,1,1,21,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,1,2,1,2
+Laos,1 Year,2018,7,1,24,NA,NA,NA,NA,NA,NA,0,0,NA,Married,20,1,1,20,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,1,2,0,2
+Laos,1 Year,2018,7,1,24,NA,NA,NA,NA,NA,NA,0,0,NA,Separated/divorced,20,0,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,0,NA,0,2
+Laos,1 Year,2018,7,NA,23,1,NA,1,NA,NA,NA,1,0,1,Married,22,0,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,1,1,2,1,2
+Laos,1 Year,2018,7,1,23,1,NA,1,NA,NA,NA,1,0,0,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,0,2
+Laos,1 Year,2018,7,NA,22,NA,NA,NA,NA,NA,NA,1,0,0,Married,24,0,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,1,2,1,2
+Laos,1 Year,2018,7,1,24,NA,NA,NA,NA,NA,NA,0,0,NA,Married,22,1,1,23,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,1,1,2,1,2
+Laos,1 Year,2018,7,NA,23,NA,NA,NA,NA,NA,NA,0,0,NA,Married,20,1,1,21,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,1,1,2,1,2
+Laos,1 Year,2018,7,1,22,NA,NA,NA,NA,NA,NA,1,0,0,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,1,2
+Laos,1 Year,2022,7,1,20,NA,NA,NA,NA,NA,NA,0,0,NA,Married,19,0,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,1,2
+Laos,1 Year,2019,7,1,24,NA,NA,NA,NA,NA,NA,0,0,NA,Engaged to be married,NA,NA,0,NA,1,0,0,1,0,1,1,0,0,0,1,0,NA,NA,2,NA,2,2,NA,NA,NA,2,NA,0,1,1,1,1,0,2
+Laos,1 Year,2019,7,1,22,1,NA,0,NA,NA,NA,1,0,1,Never married,NA,NA,0,NA,2,1,1,0,1,1,1,1,1,1,1,1,1,1,NA,2,1,1,1,1,1,1,1,0,0,0,1,2,1,2
+Laos,1 Year,2019,7,NA,24,1,NA,1,NA,NA,NA,1,0,0,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,1,1,2,1,2
+Laos,1 Year,2019,7,NA,25,NA,NA,NA,NA,NA,NA,1,0,0,Never married,NA,NA,0,NA,1,0,0,1,1,0,0,0,0,0,0,1,NA,NA,2,2,NA,NA,NA,NA,NA,NA,2,0,1,1,1,1,0,2
+Laos,1 Year,2019,7,1,24,NA,NA,NA,NA,NA,NA,1,0,1,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,1,2
+Laos,1 Year,2019,7,NA,24,NA,NA,NA,NA,NA,NA,1,0,0,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,1,2
+Laos,1 Year,2019,7,1,24,1,NA,1,NA,NA,NA,0,0,NA,Married,23,1,1,23,1,0,0,0,1,1,1,0,0,0,0,0,NA,NA,NA,2,2,2,NA,NA,NA,NA,NA,0,1,0,1,1,0,2
+Laos,1 Year,2019,7,NA,25,NA,NA,NA,NA,NA,NA,1,0,1,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,1,1,1,1,2
+Laos,1 Year,2019,7,NA,24,NA,NA,NA,NA,NA,NA,1,0,0,Married,21,1,1,21,1,0,1,0,1,0,1,0,0,0,0,1,NA,2,NA,2,NA,2,NA,NA,NA,NA,2,0,1,1,1,1,0,2
+Laos,1 Year,2019,7,1,25,NA,NA,NA,NA,NA,NA,0,0,NA,Married,20,1,2,21,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,1,2
+Laos,1 Year,2019,7,NA,23,NA,NA,NA,NA,NA,NA,1,0,1,Never married,NA,NA,0,NA,2,1,1,1,1,1,1,1,1,1,1,1,1,1,2,1,1,1,1,1,1,1,1,0,0,0,1,2,1,2
+Laos,1 Year,2019,7,1,25,1,NA,1,NA,NA,NA,0,0,NA,Married,22,1,1,23,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,1,2,1,2
+Laos,1 Year,2019,7,NA,24,1,NA,0,NA,NA,NA,1,0,1,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,1,2
+Laos,1 Year,2019,7,1,24,NA,NA,NA,NA,NA,NA,1,0,1,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,1,2
+Laos,1 Year,2019,7,NA,24,NA,NA,NA,NA,NA,NA,0,0,NA,Married,20,1,2,20,1,1,1,0,1,1,1,0,1,1,1,0,2,2,NA,2,1,2,NA,1,1,2,NA,0,0,0,1,2,1,2
+Laos,1 Year,2019,7,NA,24,NA,NA,NA,NA,NA,NA,1,0,0,Never married,NA,NA,0,NA,1,0,0,1,1,0,0,1,0,0,0,0,NA,NA,2,2,NA,NA,2,NA,NA,NA,NA,0,1,1,1,1,0,2
+Laos,1 Year,2019,7,1,24,NA,NA,NA,NA,NA,NA,0,0,NA,Married,22,0,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,1,1,2,1,2
+Laos,1 Year,2019,7,NA,23,1,NA,1,NA,NA,NA,1,0,0,Never married,NA,NA,0,NA,1,0,0,0,0,0,0,0,0,0,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,0,1,2,0,2
+Laos,1 Year,2019,7,1,23,NA,NA,NA,NA,NA,NA,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,1,1,0,2
+Laos,1 Year,2019,7,NA,24,NA,NA,NA,NA,NA,NA,0,0,NA,Engaged to be married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,1,0,0,2
+Laos,1 Year,2019,7,NA,22,1,NA,1,NA,NA,NA,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,1,2,1,2
+Laos,1 Year,2019,7,1,23,1,NA,1,NA,NA,NA,1,0,0,Married,22,0,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,1,2
+Laos,1 Year,2019,7,NA,24,NA,NA,NA,NA,NA,NA,1,0,0,Married,24,0,0,NA,1,0,0,0,1,1,1,0,0,0,0,0,NA,NA,NA,2,2,2,NA,NA,NA,NA,NA,0,1,1,1,1,0,2
+Laos,1 Year,2019,7,1,26,NA,NA,NA,NA,NA,NA,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,1,2
+Laos,1 Year,2019,7,NA,25,NA,NA,NA,NA,NA,NA,1,0,1,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,1,2
+Laos,1 Year,2019,7,1,24,1,NA,1,NA,NA,NA,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,0,1,2,1,2
+Laos,1 Year,2019,7,NA,23,NA,NA,NA,NA,NA,NA,1,0,1,Separated/divorced,20,1,1,20,2,1,1,0,1,1,1,1,1,1,1,1,1,1,NA,2,1,1,2,1,1,1,2,0,0,1,1,2,1,2
+Laos,1 Year,2019,7,1,23,1,NA,1,NA,NA,NA,0,1,0,Married,21,1,1,23,1,0,1,0,1,0,1,0,0,0,0,0,NA,2,NA,2,NA,2,NA,NA,NA,NA,NA,0,0,1,1,1,0,2
+Laos,1 Year,2019,7,NA,23,NA,NA,NA,NA,NA,NA,1,0,0,Married,21,0,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,1,1,2,1,2
+Laos,1 Year,2019,7,NA,23,1,NA,1,NA,NA,NA,0,0,NA,Married,22,0,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,1,1,2,1,2
+Laos,1 Year,2019,7,1,27,NA,NA,NA,NA,NA,NA,0,0,NA,Married,19,1,2,20,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,1,2,1,2
+Laos,1 Year,2019,7,NA,23,NA,NA,NA,NA,NA,NA,1,1,1,Married,20,1,1,22,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,1,2
+Laos,1 Year,2019,7,NA,24,1,NA,1,NA,NA,NA,1,0,0,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,1,2
+Laos,1 Year,2019,7,1,24,1,NA,1,NA,NA,NA,1,0,0,Married,21,0,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,1,1,2,1,2
+Laos,1 Year,2019,7,1,23,1,NA,1,NA,NA,NA,0,0,NA,Engaged to be married,NA,NA,0,NA,1,0,0,0,1,1,1,0,0,0,0,0,NA,NA,NA,2,2,2,NA,NA,NA,NA,NA,0,0,1,1,1,1,2
+Laos,1 Year,2019,7,1,23,1,NA,0,NA,NA,NA,1,0,0,Married,21,0,0,NA,1,1,1,0,0,1,0,1,1,1,1,1,1,1,NA,NA,1,NA,2,2,1,2,1,0,0,0,1,2,1,2
+Laos,1 Year,2019,7,NA,27,1,NA,1,NA,NA,NA,1,0,0,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,1,2
+Laos,1 Year,2018,7,NA,24,1,NA,0,NA,NA,NA,1,0,1,Never married,NA,NA,0,NA,2,1,1,1,1,1,1,1,1,1,1,1,1,1,2,1,1,1,1,1,1,1,1,0,0,1,1,2,1,2
+Laos,1 Year,2019,7,1,24,1,NA,0,NA,NA,NA,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,1,2
+Laos,1 Year,2019,7,1,24,NA,NA,NA,NA,NA,NA,0,0,NA,Married,22,1,1,22,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,1,2
+Laos,1 Year,2019,7,NA,25,NA,NA,NA,NA,NA,NA,1,0,0,Never married,NA,NA,0,NA,1,0,0,0,1,0,0,1,0,0,0,0,NA,NA,NA,2,NA,NA,2,NA,NA,NA,NA,1,1,0,1,1,0,2
+Laos,1 Year,2019,7,1,24,NA,NA,NA,NA,NA,NA,1,0,1,Married,23,0,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,1,2
+Laos,1 Year,2019,7,1,24,NA,NA,NA,NA,NA,NA,0,0,NA,Married,22,1,1,23,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,1,2
+Laos,1 Year,2019,7,1,24,NA,NA,NA,NA,NA,NA,0,0,NA,Engaged to be married,NA,NA,0,NA,2,1,1,0,1,1,1,1,1,1,1,1,1,1,NA,2,1,1,2,1,1,1,1,0,0,0,1,2,1,2
+Laos,1 Year,2019,7,1,24,NA,NA,NA,NA,NA,NA,0,0,NA,Married,20,1,2,21,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,1,1,2,1,2
+Laos,1 Year,2019,7,1,24,NA,NA,NA,NA,NA,NA,0,0,NA,Married,22,1,1,23,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,1,1,2,1,2
+Laos,1 Year,2019,7,NA,24,NA,NA,NA,NA,NA,NA,1,0,0,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,1,1,2,1,2
+Laos,1 Year,2019,7,1,24,NA,NA,NA,NA,NA,NA,0,1,0,Married,22,1,1,22,1,0,0,0,1,0,1,0,0,0,0,0,NA,NA,NA,2,NA,2,NA,NA,NA,NA,NA,0,1,1,1,1,0,2
+Nepal,5 Year,2022,4,1,20,1,NA,NA,NA,Graduate Degree,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,1,0,NA,0,0
+Nepal,5 Year,2022,7,1,20,1,NA,NA,NA,Graduate Degree,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,1,1,1,0
+Nepal,5 Year,2022,4,1,19,1,NA,NA,NA,Graduate Degree,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,1,NA,0,1
+Nepal,5 Year,2022,7,NA,20,NA,NA,NA,NA,NA,NA,0,0,NA,Married,20,0,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,1,1,0,1,0
+Nepal,5 Year,2022,5,1,20,1,NA,NA,NA,Graduate Degree,1,1,0,1,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,1,2,0,0
+Nepal,5 Year,2022,5,NA,22,1,NA,NA,NA,Graduate Degree,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,1,1,1,1,0
+Nepal,5 Year,2022,7,NA,20,NA,NA,NA,NA,NA,NA,1,0,0,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,0,NA,0,1
+Nepal,5 Year,2022,7,NA,21,1,NA,NA,NA,Diploma Program,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,0,NA,0,0
+Nepal,5 Year,2022,7,NA,20,NA,NA,NA,NA,NA,NA,0,0,NA,Married,19,0,0,NA,1,0,0,0,1,0,0,0,0,0,0,0,NA,NA,NA,0,NA,NA,NA,NA,NA,NA,NA,0,0,0,1,1,1,1
+Nepal,5 Year,2022,4,1,19,1,NA,NA,NA,Graduate Degree,1,0,0,NA,Never married,NA,NA,0,NA,1,0,0,0,0,0,0,0,0,0,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,NA,1,0
+Nepal,5 Year,2022,7,1,18,1,NA,NA,NA,Graduate Degree,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,0,NA,0,1
+Nepal,5 Year,2022,5,NA,20,1,NA,NA,NA,Graduate Degree,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,1,1,NA,0,0
+Nepal,5 Year,2022,4,1,21,1,NA,NA,NA,Diploma Program,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,1,0
+Nepal,5 Year,2022,5,1,19,1,NA,NA,NA,Graduate Degree,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,1,1,0,0,0
+Nepal,5 Year,2022,7,NA,18,1,NA,NA,NA,Graduate Degree,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,1,1,0
+Nepal,5 Year,2022,7,NA,21,NA,NA,NA,NA,NA,NA,0,0,NA,Married,19,0,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,1,1,0,0
+Nepal,5 Year,2022,4,NA,23,1,NA,NA,NA,Graduate Degree,1,1,0,0,Married,16,1,1,19,1,1,0,1,0,0,0,0,0,0,0,1,1,NA,1,NA,NA,NA,NA,NA,NA,NA,1,0,0,1,1,0,1,0
+Nepal,5 Year,2022,7,1,21,1,NA,NA,NA,Graduate Degree,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,1,0,NA,0,1
+Nepal,5 Year,2022,4,1,19,NA,NA,NA,NA,NA,NA,1,0,1,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,1,1,1,0
+Nepal,5 Year,2022,4,NA,20,1,NA,NA,NA,Graduate Degree,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,0,1,1,2,0,0
+Nepal,5 Year,2022,4,NA,19,1,NA,NA,NA,Graduate Degree,0,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,0,NA,0,1
+Nepal,5 Year,2022,7,1,18,1,NA,NA,NA,Graduate Degree,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,1,0,NA,1,0
+Nepal,5 Year,2022,7,1,20,1,NA,NA,NA,Graduate Degree,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,NA,1,0
+Nepal,5 Year,2022,7,1,21,NA,NA,NA,NA,NA,NA,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,1,1,NA,0,1
+Nepal,5 Year,2022,5,NA,18,1,NA,NA,NA,Graduate Degree,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,1,0,NA,0,1
+Nepal,5 Year,2022,4,NA,20,1,NA,NA,NA,Graduate Degree,1,1,0,0,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,1,1,NA,1,0
+Nepal,5 Year,2022,4,NA,19,1,NA,NA,NA,Graduate Degree,1,0,0,NA,Never married,NA,NA,0,NA,1,0,0,0,0,1,0,0,0,0,1,0,NA,NA,NA,NA,1,NA,NA,NA,NA,1,NA,0,0,1,1,1,1,0
+Nepal,5 Year,2022,7,1,20,1,NA,NA,NA,Graduate Degree,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,1,1,1,1,0
+Nepal,5 Year,2022,5,1,19,1,NA,NA,NA,Graduate Degree,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,0,0,1,NA,0,0
+Nepal,5 Year,2022,6,1,20,1,NA,NA,NA,Graduate Degree,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,NA,0,1
+Nepal,5 Year,2022,5,1,20,1,NA,NA,NA,Graduate Degree,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,NA,1,1
+Nepal,5 Year,2022,7,1,20,1,NA,NA,NA,Graduate Degree,1,1,0,0,Never married,NA,NA,0,NA,1,1,0,1,0,1,0,0,0,0,0,0,1,NA,1,NA,1,NA,NA,NA,NA,NA,NA,0,0,0,1,1,0,0
+Nepal,5 Year,2022,4,1,19,1,NA,NA,NA,Graduate Degree,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,1,1,NA,0,1
+Nepal,5 Year,2022,7,NA,19,1,NA,NA,NA,Graduate Degree,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,NA,1,0
+Nepal,5 Year,2022,7,1,25,NA,NA,NA,NA,NA,NA,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,1,0,NA,1,1
+Nepal,5 Year,2022,4,1,20,NA,NA,NA,NA,NA,NA,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,1,0,NA,0,0
+Nepal,5 Year,2022,4,1,20,NA,NA,NA,NA,NA,NA,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,0,NA,0,0
+Nepal,5 Year,2022,4,NA,20,NA,NA,NA,NA,NA,NA,0,0,NA,Married,18,1,1,20,1,1,1,0,0,0,0,0,0,0,0,1,2,1,NA,NA,NA,NA,NA,NA,NA,NA,1,0,0,0,1,NA,0,1
+Nepal,5 Year,2022,4,1,19,NA,NA,NA,NA,NA,NA,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,1,1,NA,0,0
+Nepal,5 Year,2022,7,1,19,NA,NA,NA,NA,NA,NA,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,0,NA,0,0
+Nepal,5 Year,2022,7,1,18,1,NA,NA,NA,Graduate Degree,1,0,0,NA,Never married,NA,NA,0,NA,1,0,0,0,0,0,0,0,0,0,1,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,2,2,0,0,1,1,NA,1,1
+Nepal,5 Year,2022,5,1,20,1,NA,NA,NA,Graduate Degree,1,0,0,NA,Never married,NA,NA,0,NA,1,0,0,1,0,0,1,0,0,0,0,0,NA,NA,1,NA,NA,1,NA,NA,NA,NA,NA,0,0,0,1,NA,0,0
+Nepal,5 Year,2022,7,1,20,1,NA,NA,NA,Graduate Degree,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,1,1,1,0
+Nepal,5 Year,2022,6,NA,19,1,NA,NA,NA,Graduate Degree,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,1,1,1,1,0
+Nepal,5 Year,2022,5,NA,19,1,NA,NA,NA,Graduate Degree,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,0,NA,0,0
+Nepal,5 Year,2022,5,1,20,1,NA,NA,NA,Pre Diploma program,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,1,1,2,1,0
+Nepal,5 Year,2022,3,NA,20,1,NA,NA,NA,Pre Diploma program,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,0,NA,0,0
+Nepal,5 Year,2022,7,NA,20,NA,NA,NA,NA,NA,NA,0,0,NA,Married,19,0,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,0,NA,0,0
+Nepal,5 Year,2022,5,1,19,NA,NA,NA,NA,NA,NA,1,0,1,Married,19,0,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,0,NA,0,1
+Nepal,5 Year,2022,4,1,19,1,NA,NA,NA,Short term technical and vocational training,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,1,0
+Nepal,5 Year,2022,3,1,19,1,NA,NA,NA,Pre Diploma program,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,1,0
+Nepal,5 Year,2022,7,1,21,1,NA,NA,NA,Pre Diploma program,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,1,1,2,1,0
+Nepal,5 Year,2022,6,1,20,1,NA,NA,NA,Pre Diploma program,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,1,1,2,1,0
+Nepal,5 Year,2022,3,1,19,1,NA,NA,NA,Diploma Program,1,1,0,0,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,1,0
+Nepal,5 Year,2022,4,1,21,1,NA,NA,NA,Short term technical and vocational training,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,0,0
+Nepal,5 Year,2022,3,NA,21,1,NA,NA,NA,Pre Diploma program,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,0,NA,0,0
+Nepal,5 Year,2019,13,1,23,1,NA,1,NA,NA,NA,0,0,NA,Never married,NA,NA,0,NA,1,0,0,0,0,1,0,0,0,1,0,1,NA,NA,NA,NA,1,NA,NA,NA,1,NA,2,0,1,1,1,2,1,0
+Nepal,5 Year,2022,3,NA,18,1,NA,NA,NA,Diploma Program,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,0,0
+Nepal,5 Year,2022,6,NA,21,NA,NA,NA,NA,NA,NA,0,0,NA,Married,20,1,1,21,2,1,0,0,1,0,1,1,1,1,0,0,2,NA,NA,0,NA,2,0,1,1,NA,NA,0,1,1,1,2,0,0
+Nepal,5 Year,2022,6,1,21,1,NA,NA,NA,Pre Diploma program,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,1,1,2,1,0
+Nepal,5 Year,2022,3,1,20,1,NA,NA,NA,Pre Diploma program,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,0,0
+Nepal,5 Year,2022,6,1,20,NA,NA,NA,NA,NA,NA,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,1,1,1
+Nepal,5 Year,2022,6,1,20,NA,NA,NA,NA,NA,NA,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,1,0
+Nepal,5 Year,2022,6,NA,19,NA,NA,NA,NA,NA,NA,0,0,NA,Married,19,0,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,1,1,2,0,1
+Nepal,5 Year,2022,3,1,20,1,NA,NA,NA,Pre Diploma program,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,1,0
+Nepal,5 Year,2022,6,1,19,NA,NA,NA,NA,NA,NA,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,0,NA,0,0
+Nepal,5 Year,2022,6,1,NA,NA,NA,NA,NA,NA,NA,0,0,NA,Married,17,1,1,19,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,1,1,0
+Nepal,5 Year,2022,3,NA,19,NA,NA,NA,NA,NA,NA,1,1,0,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,0,0
+Nepal,5 Year,2022,7,1,19,1,NA,NA,NA,Pre Diploma program,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,1,1
+Nepal,5 Year,2022,6,1,NA,NA,NA,NA,NA,NA,NA,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,1,NA
+Nepal,5 Year,2022,6,1,19,1,NA,NA,NA,Pre Diploma program,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,1,1,1,1,0
+Nepal,5 Year,2022,4,1,19,1,NA,NA,NA,Pre Diploma program,1,1,0,1,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,0,NA,1,1
+Nepal,5 Year,2022,6,1,18,NA,NA,NA,NA,NA,NA,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,1,1,2,1,0
+Nepal,5 Year,2022,3,NA,21,1,NA,NA,NA,Pre Diploma program,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,1,0,NA,1,0
+Nepal,5 Year,2022,6,1,20,NA,NA,NA,NA,NA,NA,0,0,NA,Married,19,0,0,NA,1,1,0,1,0,0,0,0,0,0,0,0,2,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,0,0,1,1,2,1,0
+Nepal,5 Year,2022,6,1,20,1,NA,NA,NA,Pre Diploma program,1,0,0,NA,Engaged to be married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,0,NA,0,0
+Nepal,5 Year,2022,6,1,19,NA,NA,NA,NA,NA,NA,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,1,0,0
+Nepal,5 Year,2022,6,1,19,1,NA,NA,NA,Pre Diploma program,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,0,1,2,0,0
+Nepal,5 Year,2022,6,NA,22,NA,NA,NA,NA,NA,NA,0,0,NA,Married,21,0,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,0,NA,0,0
+Nepal,5 Year,2022,3,1,19,1,NA,NA,NA,Pre Diploma program,1,1,0,0,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,0,1,0,NA,0,0
+Nepal,5 Year,2022,6,NA,19,1,NA,NA,NA,Pre Diploma program,1,1,0,0,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,0,NA,0,0
+Nepal,5 Year,2022,3,1,20,NA,NA,NA,NA,NA,NA,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,0,NA,0,0
+Nepal,5 Year,2022,6,1,20,1,NA,NA,NA,Pre Diploma program,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,0,0
+Nepal,5 Year,2022,6,1,18,NA,NA,NA,NA,NA,NA,0,0,NA,Never married,NA,NA,0,NA,1,0,0,0,0,0,0,1,1,0,0,0,NA,NA,NA,NA,NA,NA,1,2,NA,NA,NA,0,1,1,0,NA,1,0
+Nepal,5 Year,2022,4,1,21,1,NA,NA,NA,Pre Diploma program,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,0,0
+Nepal,5 Year,2022,6,NA,22,NA,NA,NA,NA,NA,NA,0,0,NA,Married,19,1,1,19,1,0,0,0,0,0,0,1,0,0,0,0,NA,NA,NA,NA,NA,NA,2,NA,NA,NA,NA,0,1,1,1,2,1,0
+Nepal,1 Year,2018,12,NA,26,NA,NA,NA,NA,NA,NA,0,0,NA,Married,19,0,0,NA,2,0,0,0,1,1,1,0,1,0,0,0,NA,NA,NA,0,2,2,NA,0,NA,NA,NA,0,0,0,1,0,1,0
+Nepal,1 Year,2018,13,NA,28,1,NA,1,NA,NA,NA,1,0,1,Engaged to be married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,1,0
+Nepal,1 Year,2018,12,NA,25,1,NA,1,NA,NA,NA,0,0,NA,Married,22,0,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,0,1,0
+Nepal,1 Year,2018,7,NA,22,NA,NA,NA,NA,NA,NA,0,0,NA,Married,21,1,1,22,1,0,0,1,0,1,0,0,0,0,0,0,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,0,0,0,0,NA,0,0
+Nepal,1 Year,2018,7,1,25,1,NA,0,NA,NA,NA,1,1,1,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,1,1,NA,1,0
+Nepal,1 Year,2018,7,NA,30,NA,NA,NA,NA,NA,NA,0,0,NA,Married,20,1,1,23,1,0,1,1,1,0,1,1,0,0,0,1,NA,0,2,0,NA,2,2,NA,NA,NA,2,1,1,1,0,NA,0,0
+Nepal,1 Year,2018,12,NA,26,1,NA,NA,NA,Graduate Degree,1,1,0,1,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,0,NA,1,0
+Nepal,1 Year,2018,12,NA,25,1,NA,1,NA,NA,NA,1,0,1,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,1,NA,1,0
+Nepal,1 Year,2018,7,1,23,NA,NA,NA,NA,Graduate Degree,1,0,0,NA,Married,21,1,1,22,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,NA,1,0
+Nepal,1 Year,2018,11,NA,22,1,NA,1,NA,NA,NA,1,0,1,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,1,1,0
+Nepal,1 Year,2018,7,NA,25,NA,NA,NA,NA,NA,NA,0,0,NA,Married,20,1,1,22,1,0,1,1,0,0,1,0,0,0,0,0,NA,0,0,NA,NA,2,NA,NA,NA,NA,NA,1,1,1,1,1,0,1
+Nepal,1 Year,2018,7,1,22,NA,NA,NA,NA,NA,NA,0,0,NA,Never married,NA,NA,0,NA,2,0,0,1,1,0,0,0,0,0,0,0,NA,NA,0,2,NA,NA,NA,NA,NA,NA,NA,0,1,1,0,NA,0,0
+Nepal,1 Year,2018,10,NA,26,NA,NA,NA,NA,NA,NA,1,1,1,Married,21,1,2,22,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,1,0,NA,1,0
+Nepal,1 Year,2017,9,1,26,1,NA,0,NA,NA,NA,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,0,1,1,2,0,0
+Nepal,1 Year,2018,12,NA,24,1,NA,NA,NA,Graduate Degree,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,1,1,NA,1,0
+Nepal,1 Year,2018,7,1,23,NA,NA,NA,NA,NA,NA,0,0,NA,Married,20,1,1,22,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,1,2,1,0
+Nepal,1 Year,2018,7,1,24,1,NA,NA,NA,Graduate Degree,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,1,2,1,0
+Nepal,1 Year,2018,11,NA,25,1,NA,0,NA,NA,NA,1,0,0,Married,22,1,1,24,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,0,1,0
+Nepal,1 Year,2018,7,1,22,NA,NA,NA,NA,NA,NA,0,1,1,Married,21,0,0,NA,1,0,0,0,0,0,0,0,0,0,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,NA,1,0
+Nepal,1 Year,2018,12,1,27,NA,NA,NA,NA,NA,NA,1,1,0,Married,20,1,1,21,1,0,0,0,0,0,0,1,0,0,0,0,NA,NA,NA,NA,NA,NA,1,NA,NA,NA,NA,0,0,0,1,NA,0,0
+Nepal,1 Year,2018,12,NA,27,NA,NA,NA,NA,NA,NA,1,0,0,Married,21,1,2,22,1,0,0,1,0,0,0,0,0,0,0,0,NA,NA,2,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,1,0,0
+Nepal,1 Year,2018,12,1,24,1,NA,1,NA,NA,NA,0,0,NA,Never married,NA,NA,0,NA,1,0,0,0,0,0,0,0,0,0,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,1,0
+Nepal,1 Year,2018,13,NA,25,NA,NA,NA,NA,Graduate Degree,1,1,1,1,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,0,1,1,2,1,0
+Nepal,1 Year,2018,7,NA,25,NA,NA,NA,NA,Graduate Degree,1,1,0,1,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,NA,0,0
+Nepal,1 Year,2017,8,NA,26,1,NA,0,NA,NA,NA,0,0,NA,Married,21,1,1,24,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,0,1,1,2,0,0
+Nepal,1 Year,2018,7,NA,23,1,NA,NA,NA,Graduate Degree,1,0,0,NA,Never married,NA,NA,0,NA,1,1,0,0,0,0,0,0,0,0,0,0,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,0,0
+Nepal,1 Year,2018,4,1,23,1,NA,NA,NA,Graduate Degree,1,1,0,1,Never married,NA,NA,0,NA,1,0,0,0,0,0,0,0,1,0,0,0,NA,NA,NA,NA,NA,NA,NA,1,NA,NA,NA,0,0,1,0,NA,0,0
+Nepal,1 Year,2019,12,NA,24,1,NA,0,NA,NA,NA,1,0,1,Married,23,0,0,NA,1,0,0,0,0,0,0,1,1,0,0,1,NA,NA,NA,NA,NA,NA,2,2,NA,NA,2,0,1,1,1,2,1,0
+Nepal,1 Year,2019,13,NA,24,1,NA,NA,NA,Pre Diploma program,1,0,0,NA,Married,22,0,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,1,1,2,1,0
+Nepal,1 Year,2019,7,1,23,NA,NA,NA,NA,NA,NA,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,0,NA,1,1
+Nepal,1 Year,2019,8,1,25,1,NA,0,NA,NA,NA,1,0,1,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,0,0
+Nepal,1 Year,2019,14,1,26,1,NA,0,NA,NA,NA,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,1,1,2,0,0
+Nepal,1 Year,2019,7,1,24,NA,NA,NA,NA,NA,NA,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,1,1,2,1,0
+Nepal,1 Year,2019,7,1,23,1,NA,0,NA,NA,NA,1,0,1,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,1,1,2,0,0
+Nepal,1 Year,2019,4,1,21,1,NA,NA,NA,Pre Diploma program,1,1,0,1,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,1,1,2,0,0
+Nepal,1 Year,2019,13,NA,24,1,NA,1,NA,NA,NA,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,0,0
+Nepal,1 Year,2019,12,NA,23,1,NA,NA,NA,Pre Diploma program,1,1,0,1,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,1,0
+Nepal,1 Year,2019,12,NA,25,NA,NA,NA,NA,NA,NA,0,0,NA,Married,21,0,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,1,0
+Nepal,1 Year,2019,7,1,23,1,NA,0,NA,NA,NA,0,0,NA,Married,22,0,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,1,0,0
+Nepal,1 Year,2019,7,NA,24,1,NA,0,NA,NA,NA,0,0,NA,Married,22,0,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,0,0
+Nepal,1 Year,2019,7,1,22,1,NA,NA,NA,Pre Diploma program,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,1,1,0
+Nepal,1 Year,2019,7,1,21,1,NA,1,NA,NA,NA,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,1,1,0
+Nepal,1 Year,2019,5,NA,28,1,NA,NA,NA,Pre Diploma program,1,0,0,NA,Married,24,1,1,28,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,1,1,2,1,0
+Nepal,1 Year,2019,7,NA,24,NA,NA,NA,NA,NA,NA,0,0,NA,Married,20,1,1,23,1,0,1,1,0,0,0,0,0,0,0,0,NA,1,2,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,1,1,0,0
+Nepal,1 Year,2019,8,NA,24,NA,NA,NA,NA,NA,NA,0,0,NA,Married,21,1,1,23,1,0,0,0,1,0,0,0,0,0,0,0,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,0,1,1,0,NA,0,0
+Nepal,1 Year,2019,7,1,24,1,NA,NA,NA,Pre Diploma program,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,1,1,0
+Nepal,1 Year,2019,7,1,23,1,NA,0,NA,NA,NA,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,1,1,2,1,0
+Nepal,1 Year,2019,4,1,25,NA,NA,NA,NA,NA,NA,0,0,NA,Married,24,0,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,0,NA,0,0
+Nepal,1 Year,2019,7,1,25,1,NA,NA,NA,Pre Diploma program,1,1,0,1,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,1,0
+Nepal,1 Year,2019,5,1,24,1,NA,NA,NA,Pre Diploma program,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,1,1,0
+Nepal,1 Year,2019,8,1,24,1,NA,0,NA,NA,NA,1,0,1,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,1,0
+Nepal,1 Year,2019,7,NA,24,1,NA,NA,NA,Pre Diploma program,1,0,0,NA,Married,24,0,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,1,0
+Nepal,1 Year,2019,4,1,24,NA,NA,NA,NA,NA,NA,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,1,0
+Nepal,1 Year,2019,12,NA,25,1,NA,0,NA,NA,NA,0,0,NA,Married,24,1,1,25,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,1,1,2,1,0
+Nepal,1 Year,2019,7,1,23,1,NA,NA,NA,Pre Diploma program,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,1,2,1,0
+Nepal,1 Year,2019,7,NA,28,NA,NA,NA,NA,NA,NA,0,0,NA,Married,21,1,1,22,1,0,0,0,1,0,0,1,0,0,0,0,NA,NA,NA,2,NA,NA,2,NA,NA,NA,NA,0,1,1,1,2,1,0
+Nepal,1 Year,2019,7,1,24,NA,NA,NA,NA,NA,NA,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,1,2,0,0
+Nepal,1 Year,2019,7,1,23,1,NA,0,NA,NA,NA,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,1,0
+Nepal,1 Year,2019,13,1,25,1,NA,0,NA,NA,NA,0,0,NA,Married,24,0,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,1,1,2,1,0
+Nepal,1 Year,2019,7,1,26,1,NA,NA,NA,Pre Diploma program,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,1,0
+Nepal,1 Year,2019,11,NA,29,NA,NA,NA,NA,NA,NA,0,0,NA,Married,27,0,0,NA,1,0,0,1,0,0,0,0,1,0,0,0,NA,NA,0,NA,NA,NA,NA,2,NA,NA,NA,0,1,1,0,NA,0,1
+Nepal,1 Year,2019,5,1,22,1,NA,0,NA,NA,NA,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,1,0,0
+Nepal,1 Year,2019,7,1,22,1,NA,NA,NA,Pre Diploma program,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,1,0
+Sri Lanka,5 Year,2022,8,1,19,1,NA,NA,NA,University,0,0,0,NA,Never married,NA,NA,0,NA,1,0,0,0,0,0,0,0,0,0,1,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,NA,0,1,1,1,2,1,2
+Sri Lanka,5 Year,2022,8,1,21,1,NA,NA,NA,Post-Secondary -Technical/Vocational,1,1,0,1,Never married,NA,NA,0,NA,1,0,0,0,0,1,0,1,0,0,0,0,NA,NA,NA,NA,1,NA,1,NA,NA,NA,NA,1,1,1,1,2,0,2
+Sri Lanka,5 Year,2022,8,1,22,1,NA,1,NA,NA,NA,0,0,NA,Never married,NA,NA,0,NA,1,0,0,0,0,0,0,0,0,0,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,1,1,2,0,2
+Sri Lanka,5 Year,2022,8,1,23,1,NA,NA,NA,Post-Secondary -Technical/Vocational,0,1,0,1,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,1,2
+Sri Lanka,5 Year,2022,8,1,18,1,NA,NA,NA,University,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,1,2
+Sri Lanka,5 Year,2022,8,1,22,NA,NA,NA,NA,NA,NA,0,0,NA,Married,19,0,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,1,2
+Sri Lanka,5 Year,2022,8,1,22,1,NA,NA,NA,Post-Secondary -Technical/Vocational,0,1,0,1,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,1,2
+Sri Lanka,5 Year,2022,8,1,19,NA,NA,NA,NA,NA,NA,0,0,NA,Married,19,1,1,19,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,1,2
+Sri Lanka,5 Year,2020,8,1,18,1,NA,0,NA,NA,NA,1,0,1,Never married,NA,NA,0,NA,1,0,0,0,1,1,0,0,0,0,1,1,NA,NA,NA,1,1,NA,NA,NA,NA,1,1,0,1,1,1,2,1,2
+Sri Lanka,5 Year,2022,8,1,22,NA,NA,NA,NA,NA,NA,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,1,1,2,1,2
+Sri Lanka,5 Year,2022,8,1,21,1,NA,NA,NA,Post-Secondary -Technical/Vocational,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,1,1,2,1,2
+Sri Lanka,5 Year,2022,8,1,19,1,NA,NA,NA,Post-Secondary -Technical/Vocational,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,1,2
+Sri Lanka,5 Year,2022,8,1,22,1,NA,NA,NA,University,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,1,2
+Sri Lanka,5 Year,2022,8,1,23,NA,NA,NA,NA,NA,NA,1,0,1,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,1,2
+Sri Lanka,5 Year,2022,8,1,19,NA,NA,NA,NA,Other,1,1,0,0,No response,NA,NA,0,NA,1,1,1,1,1,1,1,1,1,1,1,0,1,2,1,1,1,1,2,2,1,2,NA,0,0,1,1,1,0,2
+Sri Lanka,5 Year,2022,8,1,21,NA,NA,NA,NA,NA,NA,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,0,2
+Sri Lanka,5 Year,2022,8,1,20,NA,NA,NA,NA,NA,NA,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,1,1,2,0,2
+Sri Lanka,5 Year,2022,8,1,19,1,NA,NA,NA,Post-Secondary -Technical/Vocational,0,0,0,NA,Never married,NA,NA,0,NA,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,1,1,2,1,2
+Sri Lanka,5 Year,2022,8,1,20,NA,NA,NA,NA,NA,NA,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,1,1,2,0,2
+Sri Lanka,5 Year,2022,8,1,19,NA,NA,NA,NA,NA,NA,0,0,NA,Married,18,1,1,19,1,1,1,1,0,1,1,1,1,1,0,1,1,2,1,NA,1,1,2,1,2,NA,2,0,1,1,1,1,0,2
+Sri Lanka,5 Year,2022,8,1,19,1,NA,NA,NA,Post-Secondary -Technical/Vocational,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,1,2
+Sri Lanka,5 Year,2020,8,1,18,NA,NA,NA,NA,Post-Secondary -Technical/Vocational,0,1,1,0,Engaged to be married,NA,NA,0,NA,1,0,0,0,0,0,0,1,0,0,1,0,NA,NA,NA,NA,NA,NA,1,NA,NA,1,NA,0,0,1,1,2,0,2
+Sri Lanka,5 Year,2022,8,1,22,1,NA,NA,NA,University,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,0,2
+Sri Lanka,5 Year,2022,8,1,23,1,NA,NA,NA,Post-Secondary -Technical/Vocational,0,1,0,0,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,1,0,NA,0,2
+Sri Lanka,5 Year,2022,8,1,19,NA,NA,NA,NA,Other,1,1,0,0,Married,19,0,0,NA,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,1,2
+Sri Lanka,5 Year,2022,9,1,21,NA,NA,NA,NA,NA,NA,0,1,0,Never married,NA,NA,0,NA,1,0,0,0,1,0,0,0,0,0,0,0,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,1,1,1,1,1,0,2
+Sri Lanka,5 Year,2020,8,1,18,1,NA,1,NA,NA,NA,1,1,0,Married,18,0,0,NA,1,0,0,0,0,0,0,1,0,0,0,0,NA,NA,NA,NA,NA,NA,1,NA,NA,NA,NA,0,1,1,1,1,0,2
+Sri Lanka,5 Year,2022,8,1,22,1,NA,NA,NA,University,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,1,2
+Sri Lanka,5 Year,2022,8,1,22,1,NA,NA,NA,Post-Secondary -Technical/Vocational,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,1,1,2,1,2
+Sri Lanka,5 Year,2021,8,1,19,NA,NA,NA,NA,NA,NA,0,0,NA,Married,19,0,0,NA,1,0,0,0,0,1,0,1,0,0,1,0,NA,NA,NA,NA,1,NA,2,NA,NA,2,NA,0,1,1,1,1,1,2
+Sri Lanka,5 Year,2022,8,1,19,1,NA,NA,NA,Post-Secondary -Technical/Vocational,1,0,0,NA,Never married,NA,NA,0,NA,2,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,NA,0,0,0,0,NA,0,2
+Sri Lanka,5 Year,2022,8,1,19,1,NA,NA,NA,Post-Secondary -Technical/Vocational,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,1,2
+Sri Lanka,5 Year,2022,8,1,22,1,NA,NA,NA,University,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,0,2
+Sri Lanka,5 Year,2022,9,1,21,NA,NA,NA,NA,NA,NA,0,0,NA,Never married,NA,NA,0,NA,1,0,0,0,0,0,0,0,0,0,0,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2,1,1,1,0,NA,0,2
+Sri Lanka,5 Year,2022,8,1,22,1,NA,NA,NA,University,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,1,1,2,1,2
+Sri Lanka,5 Year,2022,8,1,22,1,NA,NA,NA,Post-Secondary -Technical/Vocational,0,1,0,1,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,1,1,2,0,2
+Sri Lanka,5 Year,2020,8,1,18,NA,NA,NA,NA,NA,NA,0,0,NA,Never married,NA,NA,0,NA,1,0,0,0,1,0,0,0,0,0,0,0,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,1,2
+Sri Lanka,5 Year,2022,8,1,23,NA,NA,NA,NA,NA,NA,0,0,NA,Married,21,0,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,0,2
+Sri Lanka,5 Year,2022,8,1,22,1,NA,NA,NA,Post-Secondary -Technical/Vocational,0,1,0,0,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,0,2
+Sri Lanka,5 Year,2022,8,1,19,1,NA,NA,NA,Post-Secondary -Technical/Vocational,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,1,2
+Sri Lanka,5 Year,2022,8,1,19,1,NA,NA,NA,Post-Secondary -Technical/Vocational,1,0,0,NA,Never married,NA,NA,0,NA,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,1,1,1,1,2,1,2
+Sri Lanka,5 Year,2021,8,1,22,1,NA,0,NA,NA,NA,0,0,NA,Married,22,0,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,1,1,2,1,2
+Sri Lanka,5 Year,2022,8,1,19,NA,NA,NA,NA,NA,NA,0,0,NA,Married,19,0,0,NA,1,0,0,0,0,0,0,1,0,0,1,1,NA,NA,NA,NA,NA,NA,1,NA,NA,2,2,1,1,1,1,2,1,2
+Sri Lanka,5 Year,2022,8,1,22,1,NA,NA,NA,Post-Secondary -Technical/Vocational,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,0,2
+Sri Lanka,5 Year,2023,8,1,22,1,NA,0,NA,NA,NA,0,0,NA,Married,19,1,1,20,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,0,NA,0,2
+Sri Lanka,5 Year,2023,8,1,24,1,NA,NA,NA,Post-Secondary -Technical/Vocational,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,1,2
+Sri Lanka,5 Year,2023,8,1,25,1,NA,NA,NA,Post-Secondary -Technical/Vocational,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,1,1,2,1,2
+Sri Lanka,5 Year,2023,8,1,25,1,NA,NA,NA,University,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,1,2
+Sri Lanka,5 Year,2023,8,1,20,1,NA,0,NA,NA,NA,0,0,NA,Married,20,1,1,21,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,0,2
+Sri Lanka,5 Year,2023,8,1,23,1,NA,NA,NA,Post-Secondary -Technical/Vocational,0,1,0,0,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,1,1,2,1,2
+Sri Lanka,5 Year,2023,8,1,22,NA,NA,NA,NA,NA,NA,1,1,0,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,1,2
+Sri Lanka,5 Year,2023,8,1,25,1,NA,NA,NA,Post-Secondary -Technical/Vocational,1,1,0,1,Married,20,1,1,20,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,1,1,2,1,2
+Sri Lanka,5 Year,2023,8,1,22,1,NA,NA,NA,Post-Secondary -Technical/Vocational,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,1,1,2,1,2
+Sri Lanka,5 Year,2023,8,1,23,1,NA,NA,NA,University,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,0,NA,1,2
+Sri Lanka,5 Year,2023,8,NA,23,NA,NA,NA,NA,NA,NA,1,0,0,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,1,2,1,2
+Sri Lanka,5 Year,2023,8,1,24,NA,NA,NA,NA,NA,NA,0,0,NA,Married,23,1,1,24,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,0,NA,0,2
+Sri Lanka,5 Year,2023,8,NA,23,1,NA,NA,NA,Post-Secondary -Technical/Vocational,0,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,0,NA,0,2
+Sri Lanka,5 Year,2023,8,1,21,1,NA,NA,NA,University,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,1,1,0,1,2
+Sri Lanka,5 Year,2023,8,1,23,1,NA,NA,NA,Post-Secondary -Technical/Vocational,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,0,NA,1,2
+Sri Lanka,5 Year,2023,8,1,25,1,NA,NA,NA,University,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,0,0,NA,1,2
+Sri Lanka,5 Year,2023,8,1,23,1,NA,NA,NA,University,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,0,1,2,1,2
+Sri Lanka,5 Year,2023,8,1,22,1,NA,NA,NA,Post-Secondary -Technical/Vocational,0,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,1,2
+Sri Lanka,5 Year,2023,8,1,24,1,NA,NA,NA,Post-Secondary -Technical/Vocational,0,0,0,NA,Married,21,1,1,22,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,0,0,1,2,1,2
+Sri Lanka,5 Year,2023,8,1,22,1,NA,NA,NA,Post-Secondary -Technical/Vocational,1,1,0,0,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,1,1,2,1,2
+Sri Lanka,5 Year,2023,8,1,24,1,NA,NA,NA,Post-Secondary -Technical/Vocational,0,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,1,1,2,1,2
+Sri Lanka,5 Year,2023,8,1,24,NA,NA,NA,NA,NA,NA,0,0,NA,Married,18,1,1,19,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,0,NA,0,1
+Sri Lanka,5 Year,2023,8,1,23,1,NA,NA,NA,Post-Secondary -Technical/Vocational,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,1,1,2,1,2
+Sri Lanka,5 Year,2023,8,1,26,1,NA,NA,NA,University,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,1,0,NA,1,2
+Sri Lanka,5 Year,2023,8,1,21,1,NA,NA,NA,Post-Secondary -Technical/Vocational,0,0,0,NA,Married,19,1,1,21,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,1,1,2,0,2
+Sri Lanka,5 Year,2023,8,1,21,1,NA,NA,NA,Post-Secondary -Technical/Vocational,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,1,1,2,1,2
+Sri Lanka,5 Year,2023,8,1,23,1,NA,NA,NA,Post-Secondary -Technical/Vocational,0,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,0,0,NA,0,2
+Sri Lanka,5 Year,2023,8,1,24,1,NA,1,NA,NA,NA,1,0,1,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,0,NA,1,2
+Sri Lanka,5 Year,2023,8,1,25,1,NA,NA,NA,Post-Secondary -Technical/Vocational,1,1,0,1,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,1,1,2,1,2
+Sri Lanka,5 Year,2023,8,1,26,NA,NA,NA,NA,NA,NA,0,0,NA,Married,20,0,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,1,0,NA,1,2
+Sri Lanka,5 Year,2023,8,1,23,1,NA,NA,NA,Post-Secondary -Technical/Vocational,0,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,1,1,2,0,2
+Sri Lanka,5 Year,2023,8,1,22,1,NA,NA,NA,Post-Secondary -Technical/Vocational,1,1,1,1,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,1,1,2,1,2
+Sri Lanka,5 Year,2023,8,NA,22,NA,NA,NA,NA,NA,NA,0,0,NA,Married,18,0,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,0,NA,0,2
+Sri Lanka,5 Year,2023,8,1,24,1,NA,NA,NA,Post-Secondary -Technical/Vocational,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,1,2,1,2
+Sri Lanka,5 Year,2023,8,NA,22,1,NA,NA,NA,Post-Secondary -Technical/Vocational,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,1,2
+Sri Lanka,5 Year,2023,8,1,25,1,NA,NA,NA,Post-Secondary -Technical/Vocational,0,0,0,NA,Married,20,0,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,1,0,NA,1,2
+Sri Lanka,5 Year,2023,8,NA,26,1,NA,NA,NA,Post-Secondary -Technical/Vocational,0,0,0,NA,Married,22,1,1,23,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,0,0,0,NA,1,2
+Sri Lanka,5 Year,2023,8,1,23,1,NA,NA,NA,Post-Secondary -Technical/Vocational,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,0,0,NA,1,2
+Sri Lanka,5 Year,2023,8,1,23,1,NA,NA,NA,Other,0,0,0,NA,Married,18,0,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,0,NA,0,2
+Sri Lanka,5 Year,2023,8,1,21,1,NA,NA,NA,Post-Secondary -Technical/Vocational,0,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,1,1,2,1,2
+Sri Lanka,5 Year,2023,8,NA,22,1,NA,NA,NA,Post-Secondary -Technical/Vocational,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,1,1,2,1,2
+Sri Lanka,5 Year,2023,8,1,21,1,NA,NA,NA,University,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,1,1,2,1,2
+Sri Lanka,5 Year,2023,8,1,22,1,NA,0,NA,NA,NA,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,1,0,NA,1,2
+Sri Lanka,5 Year,2023,8,1,24,1,NA,NA,NA,Post-Secondary -Technical/Vocational,0,1,0,0,Married,19,0,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,0,NA,0,2
+Sri Lanka,5 Year,2023,8,1,26,1,NA,NA,NA,Other,0,0,0,NA,Married,20,0,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,0,0,NA,1,2
+Sri Lanka,5 Year,2023,8,1,24,1,NA,NA,NA,University,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,0,1,1,2,1,2
+Sri Lanka,5 Year,2023,8,1,22,1,NA,NA,NA,Post-Secondary -Technical/Vocational,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,1,1,2,1,2
+Sri Lanka,5 Year,2023,8,1,24,NA,NA,NA,NA,Post-Secondary -Technical/Vocational,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,1,1,2,1,2
+Sri Lanka,1 Year,2019,9,1,23,1,NA,NA,NA,University,0,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,0,1
+Sri Lanka,1 Year,2019,9,NA,23,NA,NA,NA,NA,NA,NA,0,1,0,Married,20,1,1,23,2,1,0,0,0,0,0,0,0,0,0,0,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,0,2
+Sri Lanka,1 Year,2019,9,1,23,1,NA,NA,NA,Post-Secondary -Technical/Vocational,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,1,1,2,1,2
+Sri Lanka,1 Year,2018,8,1,24,1,NA,NA,NA,Other,0,1,0,1,Married,22,0,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,0,2
+Sri Lanka,1 Year,2018,8,1,24,1,NA,0,NA,NA,NA,1,1,1,Married,22,1,1,23,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,1,1,2,0,2
+Sri Lanka,1 Year,2018,7,1,23,1,NA,1,NA,NA,NA,1,0,1,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,1,2
+Sri Lanka,1 Year,2018,8,1,24,1,NA,0,NA,NA,NA,0,0,NA,Married,21,1,1,22,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,0,2
+Sri Lanka,1 Year,2019,9,1,22,1,NA,NA,NA,University,0,0,0,NA,Never married,NA,NA,0,NA,1,1,0,0,0,0,1,0,0,0,0,0,2,NA,NA,NA,NA,0,NA,NA,NA,NA,NA,1,1,1,1,2,0,2
+Sri Lanka,1 Year,2020,10,1,23,1,NA,0,NA,NA,NA,0,1,0,Married,19,1,1,20,1,1,0,0,0,0,0,0,0,0,0,0,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,1,1,1,0,2
+Sri Lanka,1 Year,2018,8,1,24,1,NA,NA,NA,Post-Secondary -Technical/Vocational,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,1,1,2,0,2
+Sri Lanka,1 Year,2018,8,1,24,1,NA,0,NA,NA,NA,0,0,NA,Married,22,0,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,0,2
+Sri Lanka,1 Year,2018,8,1,24,1,NA,NA,NA,University,1,1,0,1,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,0,2
+Sri Lanka,1 Year,2018,8,1,24,1,NA,NA,NA,University,1,1,0,1,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,1,1,2,0,2
+Sri Lanka,1 Year,2019,9,NA,23,1,NA,0,NA,NA,NA,1,0,1,Married,23,0,0,NA,1,1,0,0,0,0,0,0,0,0,0,0,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,0,2
+Sri Lanka,1 Year,2019,9,1,23,1,NA,0,NA,NA,NA,1,0,1,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,1,2
+Sri Lanka,1 Year,2018,5,1,23,1,NA,1,NA,NA,NA,1,0,1,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,0,2
+Sri Lanka,1 Year,2019,9,1,23,1,NA,NA,NA,Post-Secondary -Technical/Vocational,0,1,0,1,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,1,1,2,1,2
+Sri Lanka,1 Year,2019,9,1,23,NA,NA,NA,NA,Other,0,1,0,1,Never married,NA,NA,0,NA,1,1,0,0,0,0,0,0,0,0,0,0,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,0,2
+Sri Lanka,1 Year,2019,9,1,23,1,NA,NA,NA,University,0,0,0,NA,Never married,NA,NA,0,NA,1,0,0,0,0,0,1,0,0,0,0,0,NA,NA,NA,NA,NA,2,NA,NA,NA,NA,NA,1,1,1,1,2,1,1
+Sri Lanka,1 Year,2018,5,1,23,NA,NA,NA,NA,NA,NA,1,0,1,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,0,1,1,2,0,2
+Sri Lanka,1 Year,2019,9,1,23,1,NA,NA,NA,Other,0,0,0,NA,Never married,NA,NA,0,NA,1,0,0,0,0,1,0,0,0,0,0,0,NA,NA,NA,NA,2,NA,NA,NA,NA,NA,NA,0,1,1,1,2,0,2
+Sri Lanka,1 Year,2019,9,1,23,1,NA,NA,NA,University,0,1,0,0,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,1,1,2,0,2
+Sri Lanka,1 Year,2018,8,1,24,1,NA,NA,NA,Post-Secondary -Technical/Vocational,1,1,0,1,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,1,2
+Sri Lanka,1 Year,2018,8,1,24,NA,NA,NA,NA,NA,NA,0,0,NA,Married,22,1,1,22,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,1,1,2,0,2
+Sri Lanka,1 Year,2018,8,1,24,NA,NA,NA,NA,NA,NA,0,0,NA,Married,22,1,1,23,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,0,2
+Sri Lanka,1 Year,2019,9,1,22,1,NA,0,NA,NA,NA,1,0,1,Never married,NA,NA,0,NA,1,1,0,0,0,0,0,0,0,0,0,0,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,1,1,2,0,2
+Sri Lanka,1 Year,2018,8,1,24,1,NA,NA,NA,Post-Secondary -Technical/Vocational,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,1,1,2,0,2
+Sri Lanka,1 Year,2019,9,1,23,1,NA,NA,NA,University,0,1,0,1,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,1,1,2,0,2
+Sri Lanka,1 Year,2018,8,1,24,1,NA,NA,NA,Post-Secondary -Technical/Vocational,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,1,1,2,0,2
+Sri Lanka,1 Year,2018,8,1,24,NA,NA,NA,NA,NA,NA,1,0,1,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,1,1,2,0,2
+Sri Lanka,1 Year,2018,8,1,24,1,NA,NA,NA,University,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,0,2
+Sri Lanka,1 Year,2018,8,1,24,1,NA,0,NA,NA,NA,0,0,NA,Married,22,1,1,23,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,1,1,2,0,2
+Sri Lanka,1 Year,2018,8,1,24,1,NA,0,NA,NA,NA,1,0,1,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,1,1,2,0,2
+Sri Lanka,1 Year,2018,8,1,24,1,NA,1,NA,NA,NA,1,0,1,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,0,2
+Sri Lanka,1 Year,2018,8,1,24,1,NA,1,NA,NA,NA,0,0,NA,Married,22,1,1,23,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,1,1,2,0,2
+Sri Lanka,1 Year,2018,8,1,24,1,NA,NA,NA,Post-Secondary -Technical/Vocational,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,0,2
+Sri Lanka,1 Year,2019,9,1,23,1,NA,NA,NA,University,0,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,0,2
+Sri Lanka,1 Year,2020,8,1,23,NA,NA,NA,NA,NA,NA,0,0,NA,Married,20,1,1,21,2,1,0,0,0,0,0,0,0,0,0,0,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,1,1,1,0,1
+Sri Lanka,1 Year,2022,8,1,21,1,NA,NA,NA,University,1,0,0,NA,Never married,NA,NA,0,NA,1,0,0,0,0,0,0,0,0,0,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,1,1,1,0,2
+Sri Lanka,1 Year,2019,8,1,24,1,NA,NA,NA,Post-Secondary -Technical/Vocational,0,1,0,0,Married,22,0,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,1,2
+Sri Lanka,1 Year,2019,8,1,26,1,NA,NA,NA,Post-Secondary -Technical/Vocational,0,1,0,0,Married,22,0,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,1,2,0,2
+Sri Lanka,1 Year,2020,7,1,22,1,NA,NA,NA,University,1,0,0,NA,Never married,NA,NA,0,NA,1,0,0,0,0,0,0,0,0,0,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,1,1,2,0,2
+Sri Lanka,1 Year,2022,8,1,20,1,NA,1,NA,NA,NA,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,1,0,2
+Sri Lanka,1 Year,2020,8,1,23,1,NA,0,NA,NA,NA,0,0,NA,Never married,NA,NA,0,NA,1,0,0,1,0,0,0,0,0,0,0,0,NA,NA,2,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,0,0
+Sri Lanka,1 Year,2021,8,NA,23,NA,NA,NA,NA,NA,NA,0,0,NA,Married,18,0,0,NA,1,1,0,0,0,0,0,0,0,0,0,0,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,1,2,0,2
+Sri Lanka,1 Year,2018,8,NA,25,NA,NA,NA,NA,NA,NA,0,0,NA,Married,20,1,1,24,1,1,0,0,0,0,0,0,0,0,0,0,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,1,1,1,0,1
+Sri Lanka,1 Year,2019,8,1,24,1,NA,NA,NA,Post-Secondary -Technical/Vocational,0,1,1,0,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,1,2
+Sri Lanka,1 Year,2018,8,1,25,NA,NA,NA,NA,NA,NA,0,1,1,Married,20,1,1,23,1,1,0,0,0,0,0,1,0,0,0,0,2,NA,NA,NA,NA,NA,2,NA,NA,NA,NA,1,1,1,1,2,0,2
+Sri Lanka,1 Year,2019,8,1,26,1,NA,NA,NA,Other,0,1,0,0,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,1,0,NA,0,2
+Sri Lanka,1 Year,2019,8,1,25,1,NA,NA,NA,Post-Secondary -Technical/Vocational,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,1,2
+Sri Lanka,1 Year,2022,8,1,21,1,NA,NA,NA,Other,1,0,0,NA,Never married,NA,NA,0,NA,1,0,0,0,0,0,0,0,0,0,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,1,1,2,1,2
+Sri Lanka,1 Year,2020,8,1,23,1,NA,0,NA,NA,NA,1,0,1,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,0,2
+Sri Lanka,1 Year,2019,8,1,24,1,NA,0,NA,NA,NA,0,0,NA,Married,20,0,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,0,NA,1,2
+Sri Lanka,1 Year,2013,8,1,22,1,NA,NA,NA,University,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,1,2,1,2
+Sri Lanka,1 Year,2019,8,1,25,1,NA,NA,NA,University,0,1,0,0,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,1,0,NA,0,2
+Sri Lanka,1 Year,2019,8,1,23,1,NA,NA,NA,Post-Secondary -Technical/Vocational,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,1,2
+Sri Lanka,1 Year,2019,8,NA,25,NA,NA,NA,NA,NA,NA,1,0,0,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,0,NA,0,2
+Sri Lanka,1 Year,2020,8,1,23,1,NA,NA,NA,Post-Secondary -Technical/Vocational,1,0,0,NA,Never married,NA,NA,0,NA,1,1,0,0,0,0,0,0,0,0,0,0,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,1,0,1
+Sri Lanka,1 Year,2020,8,NA,23,NA,NA,NA,NA,NA,NA,1,0,1,Married,20,0,0,NA,1,1,0,1,0,0,0,0,0,0,0,1,2,NA,2,NA,NA,NA,NA,NA,NA,NA,2,0,1,1,1,1,0,1
+Sri Lanka,1 Year,2020,8,1,22,NA,NA,NA,NA,NA,NA,1,0,1,Never married,NA,NA,0,NA,1,0,0,0,1,0,0,1,0,0,0,1,NA,NA,NA,2,NA,NA,1,NA,NA,NA,2,0,1,1,1,1,0,2
+Sri Lanka,1 Year,2020,8,NA,23,NA,NA,NA,NA,NA,NA,0,0,NA,Never married,NA,NA,0,NA,1,1,0,0,0,0,1,0,1,0,0,0,2,NA,NA,NA,NA,2,NA,2,NA,NA,NA,0,1,1,1,1,0,1
+Sri Lanka,1 Year,2018,7,NA,24,NA,NA,NA,NA,NA,NA,1,0,1,Never married,NA,NA,0,NA,1,1,0,0,0,0,0,0,0,0,0,1,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,2,0,1,1,1,2,0,2
+Sri Lanka,1 Year,2019,8,1,26,1,NA,NA,NA,Post-Secondary -Technical/Vocational,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,0,NA,0,2
+Sri Lanka,1 Year,2019,8,1,24,NA,NA,NA,NA,NA,NA,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,1,2
+Sri Lanka,1 Year,2018,7,NA,23,1,NA,NA,NA,Other,0,1,0,1,Never married,NA,NA,0,NA,1,0,0,0,0,0,0,0,0,0,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,1,1,1,0,2
+Sri Lanka,1 Year,2014,8,1,21,1,NA,NA,NA,University,1,1,0,1,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,0,0,0,NA,1,2
+Sri Lanka,1 Year,2019,8,1,21,1,NA,NA,NA,Post-Secondary -Technical/Vocational,0,0,0,NA,Married,21,1,1,22,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,1,0,NA,1,2
+Sri Lanka,1 Year,2019,8,1,24,1,NA,NA,NA,Post-Secondary -Technical/Vocational,1,0,0,NA,Married,24,0,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,1,2
+Sri Lanka,1 Year,2018,7,1,25,1,NA,1,NA,NA,NA,1,0,1,Never married,NA,NA,0,NA,1,0,0,0,0,0,0,1,1,0,0,0,NA,NA,NA,NA,NA,NA,2,1,NA,NA,NA,1,1,1,1,1,1,1
+Sri Lanka,1 Year,2018,8,1,25,1,NA,NA,NA,University,0,1,0,1,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,1,1,1,0,2
+Tanzania,5 Year,2023,4,NA,20,NA,NA,NA,NA,NA,NA,1,1,0,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,1,0,2
+Tanzania,5 Year,2023,4,1,18,1,NA,NA,NA,Other,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,1,1,1,0,2
+Tanzania,5 Year,2023,4,NA,18,1,NA,0,NA,NA,NA,1,0,0,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,1,1
+Tanzania,5 Year,2023,4,1,19,NA,NA,NA,NA,NA,NA,0,0,NA,Separated/divorced,19,1,1,19,1,1,1,0,0,0,0,0,0,1,0,0,2,1,NA,NA,NA,NA,NA,NA,2,NA,NA,0,1,1,1,1,0,1
+Tanzania,5 Year,2023,4,1,19,1,NA,NA,NA,Post-Secondary -Technical/Vocational,0,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,0,NA,0,1
+Tanzania,5 Year,2023,4,1,18,1,NA,NA,NA,Other,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,1,1
+Tanzania,5 Year,2023,4,1,19,1,NA,NA,NA,Other,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,1,0,1
+Tanzania,5 Year,2023,4,1,18,1,NA,NA,NA,Other,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,1,1,2,0,1
+Tanzania,5 Year,2023,4,1,19,1,NA,NA,NA,Post-Secondary -Technical/Vocational,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,1,2,0,2
+Tanzania,5 Year,2023,4,NA,18,1,NA,NA,NA,Other,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,1,2,0,2
+Tanzania,5 Year,2023,4,1,18,1,NA,NA,NA,Other,1,0,0,NA,Never married,NA,NA,0,NA,1,0,0,0,0,1,0,0,0,0,0,0,NA,NA,NA,NA,2,NA,NA,NA,NA,NA,NA,0,0,1,1,2,1,2
+Tanzania,5 Year,2023,4,1,18,1,NA,NA,NA,Other,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,0,1,2,0,1
+Tanzania,5 Year,2023,4,1,18,1,NA,NA,NA,Other,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,1,0,1
+Tanzania,5 Year,2023,4,NA,18,NA,NA,NA,NA,NA,NA,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,1,1,1,0,1
+Tanzania,5 Year,2023,4,NA,17,1,NA,NA,NA,Post-Secondary -Technical/Vocational,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,1,2,0,1
+Tanzania,5 Year,2023,7,1,17,1,NA,NA,NA,Post-Secondary -Technical/Vocational,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,0,1
+Tanzania,5 Year,2023,4,1,18,1,NA,NA,NA,Post-Secondary -Technical/Vocational,1,0,0,NA,No response,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,1,2,0,2
+Tanzania,5 Year,2023,4,1,18,1,NA,NA,NA,Other,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,1,0,1
+Tanzania,5 Year,2023,2,NA,18,1,NA,NA,NA,Post-Secondary -Technical/Vocational,0,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,1,0,0,2
+Tanzania,5 Year,2023,4,1,20,NA,NA,NA,NA,Other,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,0,1
+Tanzania,5 Year,2023,4,1,17,1,NA,NA,NA,Other,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,1,0,2
+Tanzania,5 Year,2023,4,1,19,1,NA,NA,NA,Other,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,1,0,1
+Tanzania,5 Year,2023,4,NA,18,NA,NA,NA,NA,NA,NA,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,1,2,0,2
+Tanzania,5 Year,2023,7,1,17,1,NA,NA,NA,Other,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,1,1,1,1,2
+Tanzania,5 Year,2023,7,1,20,NA,NA,NA,NA,NA,NA,0,1,1,No response,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,0,2
+Tanzania,5 Year,2023,4,NA,17,1,NA,NA,NA,Other,1,0,0,NA,Never married,NA,NA,0,NA,1,0,0,1,0,1,0,0,0,0,0,1,NA,NA,2,NA,2,NA,NA,NA,NA,NA,2,0,1,1,1,1,1,1
+Tanzania,5 Year,2023,4,1,19,1,NA,NA,NA,Other,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,1,1,1
+Tanzania,5 Year,2023,7,1,18,1,NA,NA,NA,Post-Secondary -Technical/Vocational,0,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,1,0,2
+Tanzania,1 Year,2018,4,1,22,1,NA,NA,NA,Post-Secondary -Technical/Vocational,0,1,1,1,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,1,0,2
+Tanzania,1 Year,2018,4,NA,22,1,NA,NA,NA,University,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,1,2
+Tanzania,1 Year,2018,4,1,23,NA,NA,NA,NA,NA,NA,0,1,1,No response,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,1,1,2,0,2
+Tanzania,1 Year,2018,4,1,23,1,NA,1,NA,NA,NA,1,1,0,Married,21,1,1,22,2,1,0,0,0,1,1,0,1,1,0,1,2,NA,NA,NA,1,0,NA,1,0,NA,0,1,1,0,1,1,0,2
+Tanzania,1 Year,2018,4,1,22,1,NA,1,NA,NA,NA,0,0,NA,Engaged to be married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,1,1,1,0,2
+Tanzania,1 Year,2018,4,NA,24,NA,NA,NA,NA,NA,NA,0,0,NA,Married,23,1,1,24,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,1,0,1
+Tanzania,1 Year,2018,4,NA,23,1,NA,NA,NA,University,1,0,0,NA,No response,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,1,2
+Tanzania,1 Year,2018,2,1,22,1,NA,1,NA,NA,NA,0,0,NA,Married,21,1,1,21,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,1,1,2,0,2
+Tanzania,1 Year,2018,4,NA,24,NA,NA,NA,NA,NA,NA,1,0,1,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,1,0,2
+Tanzania,1 Year,2018,4,NA,22,1,NA,1,NA,NA,NA,1,0,0,No response,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,0,0,0
+Tanzania,1 Year,2018,4,NA,22,1,NA,NA,NA,University,1,0,0,NA,No response,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,0,2
+Tanzania,1 Year,2018,4,1,22,1,NA,1,NA,NA,NA,0,0,NA,No response,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,1,0,2
+Tanzania,1 Year,2018,4,NA,23,NA,NA,NA,NA,NA,NA,0,0,NA,Engaged to be married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,0,0,1,1,0,2
+Tanzania,1 Year,2018,4,NA,23,1,NA,NA,NA,University,1,1,1,0,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,1,1,2,1,2
+Tanzania,1 Year,2018,4,1,23,1,NA,0,NA,NA,NA,1,0,0,Never married,NA,NA,0,NA,1,0,0,0,1,0,0,0,0,0,0,0,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,0,2
+Tanzania,1 Year,2018,4,1,22,1,NA,1,NA,NA,NA,0,0,NA,No response,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,1,1,2,1,2
+Tanzania,1 Year,2018,4,1,25,NA,NA,NA,NA,NA,NA,1,1,0,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,0,1
+Tanzania,1 Year,2018,4,1,23,NA,NA,NA,NA,NA,NA,0,0,NA,Married,20,0,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,0,0,2
+Tanzania,1 Year,2018,4,1,23,1,NA,1,NA,NA,NA,0,0,NA,No response,NA,NA,0,NA,1,0,0,0,1,0,0,0,0,0,0,0,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,0,0,1,1,1,0,1
+Tanzania,1 Year,2018,4,NA,23,1,NA,NA,NA,University,1,0,0,NA,Engaged to be married,NA,NA,0,NA,1,1,0,0,1,0,0,1,0,1,0,0,1,NA,NA,1,NA,NA,1,NA,1,NA,NA,0,1,1,1,1,0,2
+Tanzania,1 Year,2018,4,1,23,NA,NA,NA,NA,NA,NA,0,1,1,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,1,1,1,0,2
+Tanzania,1 Year,2018,4,1,21,1,NA,1,NA,NA,NA,0,1,0,No response,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,0,2
+Tanzania,1 Year,2018,4,NA,22,1,NA,0,NA,NA,NA,1,0,1,No response,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,1,1,1,0,2
+Tanzania,1 Year,2018,4,NA,22,NA,NA,NA,NA,NA,NA,1,0,0,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,1,0,2
+Tanzania,1 Year,2018,4,NA,23,NA,NA,NA,NA,NA,NA,0,0,NA,Never married,NA,NA,0,NA,1,0,0,0,0,0,1,1,1,1,0,0,NA,NA,NA,NA,NA,1,1,2,1,NA,NA,0,1,0,1,0,0,2
+Tanzania,1 Year,2018,4,NA,25,1,NA,1,NA,NA,NA,0,1,0,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,0,NA,0,2
+Tanzania,1 Year,2018,4,NA,23,1,NA,NA,NA,University,1,0,1,1,Never married,NA,NA,0,NA,1,0,0,1,0,1,0,0,1,1,0,0,NA,NA,1,NA,1,NA,NA,1,1,NA,NA,1,1,1,1,2,0,2
+Tanzania,1 Year,2018,4,NA,22,NA,NA,NA,NA,NA,NA,1,1,0,Married,20,1,2,19,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,1,2
+Tanzania,1 Year,2018,4,NA,23,NA,NA,NA,NA,NA,NA,0,1,1,No response,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,1,1,1,0,2
+Tanzania,1 Year,2018,4,1,22,NA,NA,NA,NA,NA,NA,1,0,0,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,1,1,0,2
+Tanzania,1 Year,2018,4,1,23,1,NA,NA,NA,University,1,0,1,0,Never married,NA,NA,0,NA,1,0,1,0,1,0,1,0,1,0,0,0,NA,1,NA,1,NA,1,NA,1,NA,NA,NA,1,1,1,1,1,0,2
+Tanzania,1 Year,2018,4,1,21,1,NA,1,NA,NA,NA,1,0,1,No response,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,1,0,1
+Tanzania,1 Year,2018,4,1,21,1,NA,1,NA,NA,NA,1,0,1,No response,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,1,0,2
+Tanzania,1 Year,2018,4,1,22,NA,NA,NA,NA,NA,NA,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,1,1,2,0,1
+Tanzania,1 Year,2018,4,1,22,1,NA,NA,NA,Other,0,1,1,1,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,1,1,1,1,2
+Tanzania,1 Year,2018,4,NA,22,1,NA,NA,NA,University,1,0,0,NA,No response,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,0,2
+Tanzania,1 Year,2018,4,1,22,NA,NA,NA,NA,NA,NA,0,0,NA,No response,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,1,2,0,2
+Tanzania,1 Year,2018,4,NA,22,1,NA,NA,NA,Post-Secondary -Technical/Vocational,0,1,0,1,No response,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,1,1,1,1,2
+Tanzania,1 Year,2018,4,1,23,1,NA,1,NA,NA,NA,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,1,0,2
+Tanzania,1 Year,2018,4,NA,24,NA,NA,NA,NA,NA,NA,0,1,0,No response,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,1,2,0,2
+Tanzania,1 Year,2019,4,NA,25,NA,NA,NA,NA,NA,NA,1,0,1,Married,23,0,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,0,0,1,0,0,1
+Tanzania,1 Year,2019,4,1,23,NA,NA,NA,NA,NA,NA,1,1,0,Married,22,1,1,22,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,1,1,0,1
+Tanzania,1 Year,2019,4,NA,24,NA,NA,NA,NA,NA,NA,1,1,0,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,1,0,0,1
+Tanzania,1 Year,2019,4,1,22,1,NA,1,NA,NA,NA,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,0,1,1,0,1
+Tanzania,1 Year,2019,4,1,23,NA,NA,NA,NA,NA,NA,0,0,NA,Married,20,1,2,20,1,0,0,0,0,0,0,0,0,0,0,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,0,0,0,1,1,0,2
+Tanzania,1 Year,2019,4,NA,24,NA,NA,NA,NA,NA,NA,1,1,1,Never married,NA,NA,0,NA,1,1,0,1,1,1,0,1,0,1,0,0,1,NA,0,1,1,NA,1,NA,1,NA,NA,0,1,1,1,1,0,2
+Tanzania,1 Year,2019,4,1,21,1,NA,1,NA,NA,NA,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,1,0,2
+Tanzania,1 Year,2019,4,1,22,1,NA,NA,NA,Post-Secondary -Technical/Vocational,0,1,0,0,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,1,1,0,1
+Tanzania,1 Year,2019,4,1,22,1,NA,NA,NA,Post-Secondary -Technical/Vocational,0,1,1,1,Married,20,1,1,21,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,1,0,2
+Tanzania,1 Year,2019,2,NA,22,1,NA,NA,NA,Post-Secondary -Technical/Vocational,0,1,1,0,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,1,0,2
+Tanzania,1 Year,2019,4,NA,22,1,NA,NA,NA,University,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,1,0,2
+Tanzania,1 Year,2019,4,NA,22,1,NA,NA,NA,University,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,1,0,1
+Tanzania,1 Year,2019,4,1,23,1,NA,1,NA,NA,NA,0,1,0,Married,23,1,1,21,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,1,1,0,1
+Tanzania,1 Year,2019,4,1,24,1,NA,NA,NA,Post-Secondary -Technical/Vocational,0,0,0,NA,Never married,NA,NA,0,NA,1,0,0,1,1,0,0,0,0,0,0,0,NA,NA,0,1,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,1,0,2
+Tanzania,1 Year,2019,2,NA,21,1,NA,NA,NA,University,1,0,1,0,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,0,1,0,NA,0,1
+Tanzania,1 Year,2019,4,1,22,NA,NA,NA,NA,NA,NA,0,0,NA,Engaged to be married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,0,0,0,NA,0,1
+Tanzania,1 Year,2019,4,NA,21,1,NA,NA,NA,University,1,0,1,0,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,1,0,2
+Tanzania,1 Year,2019,4,NA,21,1,NA,NA,NA,Medical Degree,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,1,1,1,0,1
+Tanzania,1 Year,2019,4,NA,21,1,NA,NA,NA,University,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,0,1,1,0,1
+Tanzania,1 Year,2019,4,1,23,NA,NA,NA,NA,NA,NA,1,0,0,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,1,0,1
+Tanzania,1 Year,2019,4,1,21,1,NA,1,NA,NA,NA,0,1,0,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,0,2
+Tanzania,1 Year,2019,4,1,22,1,NA,NA,NA,Post-Secondary -Technical/Vocational,0,0,0,NA,No response,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,0,2
+Tanzania,1 Year,2019,4,1,23,NA,NA,NA,NA,NA,NA,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,0,NA,0,1
+Tanzania,1 Year,2019,4,1,22,NA,NA,NA,NA,NA,NA,0,1,0,Never married,NA,NA,0,NA,1,0,0,1,1,0,0,1,1,0,0,1,NA,NA,0,2,NA,NA,2,2,NA,NA,0,0,1,1,1,0,0,1
+Tanzania,1 Year,2019,4,NA,23,NA,NA,NA,NA,NA,NA,0,0,NA,Married,22,1,1,21,1,1,1,1,0,0,0,0,1,0,0,1,1,1,0,NA,NA,NA,NA,1,NA,NA,1,0,1,1,1,0,0,1
+Tanzania,1 Year,2019,4,1,23,1,NA,0,NA,NA,NA,0,1,0,Never married,NA,NA,0,NA,1,0,0,1,1,0,1,0,0,0,0,1,NA,NA,0,2,NA,1,NA,NA,NA,NA,2,1,1,1,1,1,0,2
+Tanzania,1 Year,2019,4,1,26,NA,NA,NA,NA,NA,NA,0,1,0,Married,23,1,2,23,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,1,1,0,1
+Tanzania,1 Year,2019,4,1,24,1,NA,NA,NA,Post-Secondary -Technical/Vocational,1,1,0,0,Never married,NA,NA,0,NA,1,0,0,0,1,0,0,1,1,0,0,1,NA,NA,NA,2,NA,NA,1,1,NA,NA,1,0,0,0,1,1,0,1
+Tanzania,1 Year,2019,4,NA,24,NA,NA,NA,NA,NA,NA,0,1,0,Never married,NA,NA,0,NA,1,0,0,1,0,0,0,0,0,0,0,0,NA,NA,2,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,1,1,0,2
+Tanzania,1 Year,2019,4,1,22,1,NA,1,NA,NA,NA,0,0,NA,Never married,NA,NA,0,NA,1,0,0,1,0,1,0,0,1,0,0,1,NA,NA,1,NA,1,NA,NA,1,NA,NA,1,0,1,1,1,0,0,0
+Tanzania,1 Year,2019,4,NA,23,1,NA,1,NA,NA,NA,1,0,1,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,1,0,1
+Tanzania,1 Year,2019,4,NA,22,1,NA,NA,NA,University,1,0,0,NA,Never married,NA,NA,0,NA,1,0,0,0,0,0,0,0,1,0,0,0,NA,NA,NA,NA,NA,NA,NA,1,NA,NA,NA,0,1,1,1,1,0,1
+Tanzania,1 Year,2019,4,NA,21,1,NA,1,NA,NA,NA,0,1,0,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,1,1,0,1
+Tanzania,1 Year,2019,4,1,24,NA,NA,NA,NA,NA,NA,1,0,0,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,1,0,2
+Tanzania,1 Year,2019,4,1,24,NA,NA,NA,NA,NA,NA,1,0,1,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,0,2
+Tanzania,1 Year,2019,4,1,21,1,NA,1,NA,NA,NA,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,1,1,1,0,1
+Tanzania,1 Year,2019,4,NA,23,1,NA,NA,NA,University,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,1,0,2
+Tanzania,1 Year,2019,4,1,23,NA,NA,NA,NA,NA,NA,0,1,1,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,1,1,1,0,2
+Tanzania,1 Year,2019,4,NA,22,1,NA,NA,NA,University,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,1,1,1,0,2
+Vietnam,5 Year,2022,7,1,19,1,NA,NA,NA,University,1,0,0,NA,Never married,NA,NA,0,NA,1,0,0,0,0,0,0,1,0,0,0,0,NA,NA,NA,NA,NA,NA,1,NA,NA,NA,NA,0,0,1,1,2,0,2
+Vietnam,5 Year,2022,7,1,19,NA,NA,NA,NA,NA,NA,1,0,1,Never married,NA,NA,0,NA,1,0,0,1,1,0,1,0,0,0,0,1,NA,NA,0,2,NA,0,NA,NA,NA,NA,1,0,0,1,1,2,0,1
+Vietnam,5 Year,2022,7,1,19,1,NA,NA,NA,University,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,1,1,2,1,2
+Vietnam,5 Year,2022,7,1,19,1,NA,NA,NA,Post-Secondary -Technical/Vocational,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,0,NA,0,2
+Vietnam,5 Year,2022,7,1,19,1,NA,NA,NA,University,1,1,0,0,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,1,2,0,2
+Vietnam,5 Year,2022,7,1,19,1,NA,NA,NA,University,1,0,0,NA,Never married,NA,NA,0,NA,1,0,0,1,1,1,0,1,1,1,0,0,NA,NA,2,2,2,NA,2,2,2,NA,NA,0,0,1,1,2,0,2
+Vietnam,5 Year,2022,7,NA,19,1,NA,NA,NA,University,1,0,0,NA,Never married,NA,NA,0,NA,1,0,0,1,0,0,0,0,0,0,0,1,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,1,0,1,1,0,NA,0,2
+Vietnam,5 Year,2022,7,NA,19,NA,NA,NA,NA,NA,NA,1,0,1,Never married,NA,NA,0,NA,1,0,0,1,1,0,1,0,0,0,0,0,NA,NA,1,2,NA,1,NA,NA,NA,NA,NA,0,0,1,0,NA,0,1
+Vietnam,5 Year,2022,7,NA,19,1,NA,NA,NA,University,1,0,0,NA,Never married,NA,NA,0,NA,1,0,0,0,0,0,0,0,1,0,0,0,NA,NA,NA,NA,NA,NA,NA,1,NA,NA,NA,0,1,0,1,2,0,2
+Vietnam,5 Year,2022,7,1,19,NA,NA,NA,NA,NA,NA,1,0,1,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,1,2,0,1
+Vietnam,5 Year,2022,7,NA,19,NA,NA,NA,NA,NA,NA,1,0,1,Never married,NA,NA,0,NA,1,1,0,1,1,0,0,1,0,1,0,0,1,NA,2,2,NA,NA,0,NA,1,NA,NA,0,0,1,1,2,0,2
+Vietnam,5 Year,2022,7,1,19,NA,NA,NA,NA,NA,NA,1,0,0,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,0,NA,0,2
+Vietnam,5 Year,2022,7,1,20,1,NA,0,NA,NA,NA,1,0,1,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,1,2
+Vietnam,5 Year,2022,7,1,19,1,NA,NA,NA,University,1,1,0,1,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,0,NA,0,1
+Vietnam,5 Year,2022,7,NA,19,1,NA,NA,NA,Post-Secondary -Technical/Vocational,0,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,1,2,0,0
+Vietnam,5 Year,2022,7,NA,20,1,NA,NA,NA,University,1,1,0,0,Never married,NA,NA,0,NA,1,0,0,1,1,0,0,0,0,0,0,0,NA,NA,1,2,NA,NA,NA,NA,NA,NA,NA,0,0,1,1,2,0,2
+Vietnam,5 Year,2022,7,NA,19,1,NA,NA,NA,University,1,1,0,1,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,0,2
+Vietnam,5 Year,2022,7,1,19,NA,NA,NA,NA,NA,NA,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,1,2,0,1
+Vietnam,5 Year,2022,7,NA,19,1,NA,NA,NA,University,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,1,2,0,1
+Vietnam,5 Year,2022,7,NA,19,1,NA,NA,NA,University,1,0,0,NA,Never married,NA,NA,0,NA,1,0,0,1,0,1,0,1,0,0,0,1,NA,NA,1,NA,2,NA,2,NA,NA,NA,1,0,0,1,1,2,0,2
+Vietnam,5 Year,2022,8,1,20,NA,NA,NA,NA,NA,NA,1,0,1,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,1,1,2,0,1
+Vietnam,5 Year,2022,7,NA,19,1,NA,NA,NA,University,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,1,2,0,1
+Vietnam,5 Year,2022,7,1,19,1,NA,NA,NA,University,1,1,0,1,Never married,NA,NA,0,NA,1,0,0,0,0,1,1,0,1,0,0,1,NA,NA,NA,NA,0,2,NA,0,NA,NA,1,0,1,1,1,2,0,2
+Vietnam,5 Year,2022,7,1,19,NA,NA,NA,NA,NA,NA,1,0,1,Never married,NA,NA,0,NA,1,0,0,0,0,0,1,0,0,0,0,0,NA,NA,NA,NA,NA,1,NA,NA,NA,NA,NA,0,0,1,1,1,0,1
+Vietnam,5 Year,2022,7,NA,19,1,NA,NA,NA,Other,1,1,0,1,Never married,NA,NA,0,NA,1,0,0,1,1,0,1,0,0,0,0,1,NA,NA,1,2,NA,2,NA,NA,NA,NA,2,0,0,1,1,2,0,2
+Vietnam,5 Year,2022,7,NA,19,1,NA,NA,NA,Other,1,1,0,1,Never married,NA,NA,0,NA,1,0,0,0,0,0,0,0,0,0,0,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,0,1,1,1,2,0,2
+Vietnam,5 Year,2020,7,1,21,1,NA,NA,NA,University,1,0,0,NA,Never married,NA,NA,0,NA,1,0,0,1,1,0,0,0,1,0,0,0,NA,NA,1,2,NA,NA,NA,2,NA,NA,NA,1,1,1,1,1,NA,1
+Vietnam,5 Year,2022,7,NA,19,1,NA,NA,NA,University,1,1,0,0,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,1,1,2,1,2
+Vietnam,5 Year,2022,7,NA,19,1,NA,NA,NA,University,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,0,0,NA,0,2
+Vietnam,5 Year,2022,7,1,19,1,NA,NA,NA,University,1,0,0,NA,Never married,NA,NA,0,NA,1,0,0,1,1,0,0,0,0,0,0,0,NA,NA,2,2,NA,NA,NA,NA,NA,NA,NA,0,0,0,0,NA,0,2
+Vietnam,5 Year,2022,7,NA,19,1,NA,NA,NA,University,1,0,0,NA,Never married,NA,NA,0,NA,1,1,0,0,0,0,0,0,0,0,0,0,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,0,2
+Vietnam,5 Year,2022,7,NA,19,1,NA,NA,NA,University,1,0,0,NA,Never married,NA,NA,0,NA,1,0,0,0,1,1,0,0,0,0,0,0,NA,NA,NA,2,2,NA,NA,NA,NA,NA,NA,0,0,1,0,NA,0,1
+Vietnam,5 Year,2022,7,NA,19,1,NA,NA,NA,University,1,1,0,1,Never married,NA,NA,0,NA,1,0,0,0,0,0,0,0,0,0,0,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,0,0,1,1,2,0,1
+Vietnam,5 Year,2022,7,1,20,NA,NA,NA,NA,NA,NA,1,0,1,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,1,1,0,2
+Vietnam,5 Year,2022,7,1,19,1,NA,NA,NA,University,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,1,1,2,0,2
+Vietnam,5 Year,2022,7,1,19,1,NA,NA,NA,University,1,0,0,NA,Never married,NA,NA,0,NA,1,0,0,0,0,0,0,1,0,0,0,0,NA,NA,NA,NA,NA,NA,2,NA,NA,NA,NA,0,0,1,1,2,1,1
+Vietnam,5 Year,2022,7,NA,19,1,NA,NA,NA,Post-Secondary -Technical/Vocational,0,0,0,NA,Never married,NA,NA,0,NA,1,0,0,1,0,0,1,0,1,0,0,0,NA,NA,1,NA,NA,1,NA,1,NA,NA,NA,0,0,0,0,NA,0,1
+Vietnam,5 Year,2022,7,NA,23,1,NA,NA,NA,University,1,1,0,0,Never married,NA,NA,0,NA,1,1,0,1,1,1,1,1,0,0,0,1,2,NA,2,2,2,2,2,NA,NA,NA,2,0,1,1,1,1,1,1
+Vietnam,5 Year,2022,7,1,19,1,NA,NA,NA,University,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,1,1,1,0,2
+Vietnam,5 Year,2022,7,1,19,NA,NA,NA,NA,NA,NA,1,0,1,Never married,NA,NA,0,NA,1,0,0,1,1,0,0,0,0,0,0,0,NA,NA,1,1,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,0,2
+Vietnam,5 Year,2023,7,NA,19,NA,NA,NA,NA,NA,NA,1,0,1,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,0,NA,0,1
+Vietnam,5 Year,2023,7,NA,19,1,NA,NA,NA,Post-Secondary -Technical/Vocational,0,1,0,1,Never married,NA,NA,0,NA,1,1,0,1,1,0,0,0,0,1,0,0,1,NA,1,2,NA,NA,NA,NA,1,NA,NA,1,1,1,1,2,1,2
+Vietnam,5 Year,2023,7,1,19,1,NA,NA,NA,Medical Degree,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,1,0,1
+Vietnam,5 Year,2023,7,NA,19,NA,NA,NA,NA,NA,NA,1,0,1,Never married,NA,NA,0,NA,1,0,0,0,0,0,0,1,0,0,0,1,NA,NA,NA,NA,NA,NA,2,NA,NA,NA,2,0,0,1,1,1,0,2
+Vietnam,5 Year,2023,7,NA,19,1,NA,NA,NA,Post-Secondary -Technical/Vocational,1,1,0,1,Never married,NA,NA,0,NA,1,1,0,1,1,1,1,1,0,0,0,1,1,NA,2,2,2,1,2,NA,NA,NA,2,0,1,1,1,2,1,2
+Vietnam,5 Year,2023,7,1,19,NA,NA,NA,NA,NA,NA,0,0,NA,Never married,NA,NA,0,NA,1,1,0,0,1,0,0,1,0,0,0,0,2,NA,NA,2,NA,NA,2,NA,NA,NA,NA,0,0,1,1,1,1,1
+Vietnam,5 Year,2023,7,1,19,NA,NA,NA,NA,NA,NA,1,0,1,Never married,NA,NA,0,NA,1,1,1,1,1,1,1,1,0,0,0,0,1,1,2,2,1,1,2,NA,NA,NA,NA,1,1,1,1,1,0,1
+Vietnam,5 Year,2023,7,1,19,1,NA,NA,NA,Post-Secondary -Technical/Vocational,0,1,0,1,Never married,NA,NA,0,NA,2,0,0,0,0,0,1,1,0,0,0,0,NA,NA,NA,NA,NA,2,2,NA,NA,NA,NA,0,1,1,0,NA,0,1
+Vietnam,5 Year,2023,7,1,19,1,NA,NA,NA,Other,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,0,2
+Vietnam,5 Year,2023,7,NA,19,1,NA,NA,NA,University,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,1,0,1
+Vietnam,5 Year,2023,7,1,19,NA,NA,NA,NA,NA,NA,1,0,1,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,1,0,2
+Vietnam,5 Year,2023,7,1,19,1,NA,NA,NA,Other,0,0,0,NA,Never married,NA,NA,0,NA,1,0,0,1,1,0,0,0,0,0,0,0,NA,NA,2,2,NA,NA,NA,NA,NA,NA,NA,0,0,0,1,2,1,1
+Vietnam,5 Year,2023,7,NA,19,1,NA,NA,NA,Medical Degree,1,0,0,NA,Never married,NA,NA,0,NA,1,0,0,1,1,0,0,1,0,0,0,0,NA,NA,2,0,NA,NA,2,NA,NA,NA,NA,0,0,1,1,2,1,2
+Vietnam,5 Year,2023,7,1,19,1,NA,NA,NA,Other,1,1,0,1,Never married,NA,NA,0,NA,1,0,0,1,0,0,0,0,0,0,0,0,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,1,0,2
+Vietnam,5 Year,2023,7,1,19,1,NA,NA,NA,Other,0,1,0,0,Never married,NA,NA,0,NA,1,1,0,0,1,1,1,1,0,0,0,1,2,NA,NA,2,2,2,1,NA,NA,NA,2,0,1,1,0,NA,0,2
+Vietnam,5 Year,2023,7,1,19,1,NA,NA,NA,University,1,0,0,NA,Never married,NA,NA,0,NA,1,1,0,0,0,0,1,1,1,1,0,0,1,NA,NA,NA,NA,2,2,2,2,NA,NA,0,1,1,1,2,1,2
+Vietnam,5 Year,2023,7,1,20,NA,NA,NA,NA,NA,NA,1,0,1,Married,20,0,0,NA,1,0,0,0,0,0,1,0,0,0,0,0,NA,NA,NA,NA,NA,0,NA,NA,NA,NA,NA,0,1,1,1,2,0,2
+Vietnam,5 Year,2023,7,1,19,1,NA,NA,NA,Other,1,1,0,0,Never married,NA,NA,0,NA,1,0,0,1,1,0,0,1,0,0,0,1,NA,NA,1,1,NA,NA,1,NA,NA,NA,2,0,0,1,1,1,0,2
+Vietnam,5 Year,2023,7,NA,19,NA,NA,NA,NA,NA,NA,1,0,1,Never married,NA,NA,0,NA,1,0,0,1,1,0,1,1,0,0,0,1,NA,NA,1,1,NA,1,1,NA,NA,NA,1,0,1,1,1,2,1,2
+Vietnam,5 Year,2023,7,NA,19,1,NA,NA,NA,University,1,0,0,NA,Never married,NA,NA,0,NA,1,0,0,1,0,0,0,0,1,1,0,0,NA,NA,1,NA,NA,NA,NA,2,1,NA,NA,1,1,1,1,2,1,2
+Vietnam,5 Year,2023,7,NA,19,NA,NA,NA,NA,NA,NA,0,1,1,Married,20,1,1,20,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,1,1,2,0,1
+Vietnam,5 Year,2023,7,1,19,1,NA,NA,NA,Other,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,0,NA,0,1
+Vietnam,5 Year,2023,7,1,19,1,NA,NA,NA,University,1,1,0,1,Never married,NA,NA,0,NA,1,0,0,1,0,0,1,1,1,0,0,0,NA,NA,1,NA,NA,2,1,2,NA,NA,NA,0,0,1,0,NA,0,1
+Vietnam,5 Year,2023,7,1,19,NA,NA,NA,NA,NA,NA,0,0,NA,Never married,NA,NA,0,NA,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,0,NA,0,1
+Vietnam,5 Year,2023,7,NA,19,NA,NA,NA,NA,NA,NA,1,0,1,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,1,1,1,0,2
+Vietnam,5 Year,2023,7,1,19,NA,NA,NA,NA,NA,NA,1,0,1,Never married,NA,NA,0,NA,1,0,0,1,1,1,1,1,0,0,0,0,NA,NA,0,2,2,2,1,NA,NA,NA,NA,0,1,0,0,NA,0,2
+Vietnam,5 Year,2023,7,1,19,NA,NA,NA,NA,NA,NA,1,0,1,Never married,NA,NA,0,NA,1,0,0,0,1,1,1,1,1,0,0,0,NA,NA,NA,1,2,2,2,2,NA,NA,NA,0,0,0,0,NA,0,1
+Vietnam,5 Year,2023,7,1,19,1,NA,NA,NA,Medical Degree,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,1,1,1,0,2
+Vietnam,5 Year,2023,7,1,19,NA,NA,NA,NA,NA,NA,1,0,1,Never married,NA,NA,0,NA,1,0,0,1,1,0,1,1,0,0,0,1,NA,NA,1,1,NA,1,1,NA,NA,NA,1,0,1,1,1,2,0,2
+Vietnam,5 Year,2023,7,1,19,NA,NA,NA,NA,NA,NA,1,0,1,Never married,NA,NA,0,NA,1,0,0,0,1,0,0,0,0,0,0,0,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,0,0,0,0,NA,0,2
+Vietnam,5 Year,2023,7,1,19,NA,NA,NA,NA,NA,NA,1,0,1,Never married,NA,NA,0,NA,1,1,1,0,0,0,0,0,0,0,0,0,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,1,0,1
+Vietnam,5 Year,2023,7,1,19,1,NA,NA,NA,University,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,0,2
+Vietnam,5 Year,2023,7,NA,19,NA,NA,NA,NA,NA,NA,1,0,1,Never married,NA,NA,0,NA,1,1,1,1,1,1,1,1,1,0,1,1,1,1,2,1,2,1,2,1,NA,2,2,0,1,1,1,2,0,1
+Vietnam,5 Year,2023,7,NA,19,1,NA,NA,NA,University,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,1,2,1,2
+Vietnam,5 Year,2023,7,1,19,1,NA,NA,NA,University,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,1,1,1,0,2
+Vietnam,5 Year,2023,7,1,19,1,NA,NA,NA,Other,0,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,1,1,2
+Vietnam,1 Year,2018,7,1,23,1,NA,NA,NA,University,1,1,0,1,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,1,1,2,1,1
+Vietnam,1 Year,2018,4,NA,23,1,NA,1,NA,NA,NA,1,0,1,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,1,2,0,2
+Vietnam,1 Year,2018,7,NA,23,1,NA,NA,NA,Engineering Degree,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,0,2
+Vietnam,1 Year,2018,7,NA,23,1,NA,1,NA,NA,NA,1,0,1,Never married,NA,NA,0,NA,1,0,0,0,1,0,0,0,0,0,0,1,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,1,0,1,0,1,1,0,1
+Vietnam,1 Year,2018,7,NA,23,1,NA,1,NA,NA,NA,1,0,1,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,1,1,2,0,2
+Vietnam,1 Year,2018,7,1,23,NA,NA,NA,NA,NA,NA,0,1,1,Married,23,1,1,23,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,1,1,2
+Vietnam,1 Year,2018,7,NA,23,NA,NA,NA,NA,NA,NA,1,0,1,Married,22,0,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,1,1,0,2
+Vietnam,1 Year,2018,7,1,23,1,NA,1,NA,NA,NA,1,0,1,Never married,NA,NA,0,NA,1,0,0,1,1,0,0,0,0,0,0,0,NA,NA,1,1,NA,NA,NA,NA,NA,NA,NA,1,1,1,1,1,1,1
+Vietnam,1 Year,2018,7,NA,23,1,NA,NA,NA,University,1,1,0,0,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,1,2,1,1
+Vietnam,1 Year,2018,7,NA,23,NA,NA,NA,NA,NA,NA,1,0,1,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,1,1,1,1,1
+Vietnam,1 Year,2018,7,NA,23,1,NA,NA,NA,University,1,1,0,1,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,1,1,2,0,2
+Vietnam,1 Year,2018,7,NA,23,1,NA,NA,NA,Other,0,1,0,1,Married,22,1,1,22,1,1,1,0,1,1,0,0,0,1,0,1,1,2,NA,2,1,NA,NA,NA,2,NA,2,0,0,0,0,NA,0,1
+Vietnam,1 Year,2018,7,1,23,NA,NA,NA,NA,NA,NA,1,0,1,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,0,2
+Vietnam,1 Year,2018,7,NA,23,1,NA,NA,NA,Other,1,1,0,1,Never married,NA,NA,0,NA,1,0,0,0,0,1,0,1,0,0,0,0,NA,NA,NA,NA,1,NA,2,NA,NA,NA,NA,0,0,1,1,2,0,2
+Vietnam,1 Year,2018,7,NA,23,1,NA,NA,NA,University,1,1,0,1,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,1,1,2,0,2
+Vietnam,1 Year,2018,7,NA,23,1,NA,1,NA,NA,NA,1,0,1,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,0,1,2,1,2
+Vietnam,1 Year,2018,7,1,23,NA,NA,NA,NA,NA,NA,1,0,1,Never married,NA,NA,0,NA,1,1,0,1,1,0,0,0,0,0,0,0,2,NA,2,2,NA,NA,NA,NA,NA,NA,NA,0,0,1,1,2,0,2
+Vietnam,1 Year,2018,7,NA,23,NA,NA,NA,NA,NA,NA,0,0,NA,Married,21,1,1,22,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,1,2,0,2
+Vietnam,1 Year,2018,7,1,23,NA,NA,NA,NA,NA,NA,1,0,1,Married,20,1,2,20,1,1,1,0,0,0,1,1,0,0,0,0,1,1,NA,NA,NA,1,1,NA,NA,NA,NA,0,1,1,1,2,0,2
+Vietnam,1 Year,2018,7,NA,23,1,NA,1,NA,NA,NA,1,0,1,Married,20,1,1,21,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,1,1,2,0,1
+Vietnam,1 Year,2018,7,NA,23,1,NA,1,NA,NA,NA,1,0,1,Never married,NA,NA,0,NA,1,1,0,0,1,0,0,0,0,0,0,0,1,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,0,0,1,1,2,0,1
+Vietnam,1 Year,2018,7,NA,23,NA,NA,NA,NA,NA,NA,1,0,1,Married,22,1,1,23,1,0,0,0,0,1,0,0,1,1,0,0,NA,NA,NA,NA,2,NA,NA,1,2,NA,NA,0,0,1,1,2,0,2
+Vietnam,1 Year,2018,7,NA,23,1,NA,NA,NA,University,1,1,0,1,Never married,NA,NA,0,NA,1,0,0,1,0,0,0,0,0,0,0,0,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,1,2
+Vietnam,1 Year,2018,7,NA,23,1,NA,1,NA,NA,NA,1,0,1,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,1,1,2,0,2
+Vietnam,1 Year,2018,7,NA,23,NA,NA,NA,NA,NA,NA,1,0,1,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,1,1,2,0,1
+Vietnam,1 Year,2018,7,NA,23,NA,NA,NA,NA,NA,NA,1,0,1,Never married,NA,NA,0,NA,1,0,0,0,1,0,0,0,0,0,0,0,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,0,0,0,1,2,1,2
+Vietnam,1 Year,2018,7,1,23,NA,NA,NA,NA,NA,NA,0,0,NA,Married,23,1,1,23,1,0,0,1,1,0,0,0,0,0,0,0,NA,NA,1,1,NA,NA,NA,NA,NA,NA,NA,0,0,0,1,2,1,1
+Vietnam,1 Year,2018,7,NA,23,1,NA,0,NA,NA,NA,1,0,1,Married,22,0,0,NA,1,0,1,0,0,0,0,0,0,1,0,0,NA,1,NA,NA,NA,NA,NA,NA,1,NA,NA,0,1,1,1,2,1,2
+Vietnam,1 Year,2018,4,NA,23,NA,NA,NA,NA,NA,NA,1,0,1,Never married,NA,NA,0,NA,1,1,0,0,1,0,1,0,1,0,0,1,1,NA,NA,1,NA,1,NA,1,NA,NA,1,0,0,0,1,2,1,1
+Vietnam,1 Year,2018,7,NA,23,1,NA,1,NA,NA,NA,1,0,1,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,1,1,2,0,1
+Vietnam,1 Year,2019,7,NA,23,1,NA,1,NA,NA,NA,1,0,1,Never married,NA,NA,0,NA,1,0,0,0,1,0,1,1,1,0,0,1,NA,NA,NA,1,NA,1,1,1,NA,NA,1,0,0,1,0,NA,0,2
+Vietnam,1 Year,2019,7,NA,23,1,NA,NA,NA,University,0,1,0,1,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,1,1,2,0,2
+Vietnam,1 Year,2019,7,1,24,1,NA,1,NA,NA,NA,1,0,1,Never married,NA,NA,0,NA,1,1,1,0,0,0,0,0,0,0,0,1,2,1,NA,NA,NA,NA,NA,NA,NA,NA,2,1,1,1,1,2,0,1
+Vietnam,1 Year,2019,7,NA,23,1,NA,NA,NA,University,1,1,0,1,Engaged to be married,NA,NA,0,NA,1,0,0,0,0,0,0,0,0,0,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,1,1,2
+Vietnam,1 Year,2019,7,NA,24,1,NA,1,NA,NA,NA,1,0,1,Married,23,0,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,1,2
+Vietnam,1 Year,2019,7,NA,24,1,NA,1,NA,NA,NA,1,1,1,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,1,0,2
+Vietnam,1 Year,2019,7,NA,23,1,NA,1,NA,NA,NA,1,0,1,Never married,NA,NA,0,NA,1,0,0,1,0,0,0,0,0,0,0,0,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,1,0,1
+Vietnam,1 Year,2019,7,1,23,NA,NA,NA,NA,NA,NA,1,0,1,Married,21,1,1,22,1,0,0,1,1,0,0,0,0,0,0,0,NA,NA,0,0,NA,NA,NA,NA,NA,NA,NA,0,0,1,1,2,0,2
+Vietnam,1 Year,2019,7,NA,23,1,NA,NA,NA,University,1,1,0,1,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,1,1,1,0,2
+Vietnam,1 Year,2019,7,1,23,1,NA,1,NA,NA,NA,1,0,1,Never married,NA,NA,0,NA,1,1,0,0,1,0,1,1,0,0,0,0,1,NA,NA,1,NA,2,2,NA,NA,NA,NA,0,1,1,1,2,0,2
+Vietnam,1 Year,2019,7,1,23,NA,NA,NA,NA,NA,NA,1,0,1,Married,21,0,0,NA,1,0,0,0,0,0,0,0,1,0,0,0,NA,NA,NA,NA,NA,NA,NA,1,NA,NA,NA,0,1,1,1,2,0,2
+Vietnam,1 Year,2019,7,NA,23,NA,NA,NA,NA,NA,NA,1,0,1,Engaged to be married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,1,1,2,0,2
+Vietnam,1 Year,2019,7,NA,23,NA,NA,NA,NA,NA,NA,1,0,1,Never married,NA,NA,0,NA,1,1,0,0,0,0,0,1,0,0,0,0,2,NA,NA,NA,NA,NA,1,NA,NA,NA,NA,0,1,1,1,2,0,2
+Vietnam,1 Year,2019,7,1,23,NA,NA,NA,NA,NA,NA,1,0,1,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,0,1
+Vietnam,1 Year,2019,7,NA,24,1,NA,NA,NA,Other,1,1,1,1,Never married,NA,NA,0,NA,1,0,0,0,0,0,0,0,0,0,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,0,NA,0,2
+Vietnam,1 Year,2019,7,NA,23,1,NA,1,NA,NA,NA,1,0,1,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,2,0,1
+Vietnam,1 Year,2019,7,1,23,NA,NA,NA,NA,NA,NA,1,0,1,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,1,1,0,1
+Vietnam,1 Year,2019,7,NA,23,1,NA,NA,NA,University,1,1,0,1,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,1,0,NA,0,2
+Vietnam,1 Year,2019,7,1,23,1,NA,NA,NA,University,1,1,0,1,Never married,NA,NA,0,NA,1,0,0,0,0,0,1,0,0,0,0,0,NA,NA,NA,NA,NA,1,NA,NA,NA,NA,NA,0,1,1,1,2,1,2
+Vietnam,1 Year,2019,7,NA,23,NA,NA,NA,NA,NA,NA,1,1,1,Married,23,1,1,23,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,1,1,2,0,2
+Vietnam,1 Year,2019,7,1,23,1,NA,1,NA,NA,NA,0,0,NA,Never married,NA,NA,0,NA,1,0,0,1,1,0,1,0,0,0,0,0,NA,NA,1,1,NA,2,NA,NA,NA,NA,NA,0,1,1,1,2,0,2
+Vietnam,1 Year,2019,7,1,23,1,NA,NA,NA,Post-Secondary -Technical/Vocational,0,1,0,1,Never married,NA,NA,0,NA,1,0,0,0,0,0,0,1,0,0,0,0,NA,NA,NA,NA,NA,NA,1,NA,NA,NA,NA,0,1,1,1,1,0,1
+Vietnam,1 Year,2019,7,NA,23,1,NA,NA,NA,University,1,1,0,1,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,1,0,NA,1,2
+Vietnam,1 Year,2019,7,NA,23,1,NA,NA,NA,Medical Degree,1,0,0,NA,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,1,0,NA,0,1
+Vietnam,1 Year,2019,7,NA,23,1,NA,1,NA,NA,NA,1,0,0,Never married,NA,NA,0,NA,1,1,1,0,0,0,1,1,0,0,0,1,1,1,NA,NA,NA,1,1,NA,NA,NA,1,0,1,1,0,NA,0,1
+Vietnam,1 Year,2019,7,1,23,1,NA,1,NA,NA,NA,1,0,1,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,1,0,NA,0,2
+Vietnam,1 Year,2019,7,NA,23,1,NA,NA,NA,University,0,1,0,1,Never married,NA,NA,0,NA,1,1,0,1,1,1,1,0,1,1,0,0,1,NA,2,1,1,0,NA,1,1,NA,NA,1,1,1,1,2,1,1
+Vietnam,1 Year,2019,7,1,23,NA,NA,NA,NA,NA,NA,1,0,1,Never married,NA,NA,0,NA,1,0,0,0,0,0,0,1,0,0,0,0,NA,NA,NA,NA,NA,NA,1,NA,NA,NA,NA,0,1,1,1,2,0,1
+Vietnam,1 Year,2019,7,NA,24,1,NA,NA,NA,University,1,1,0,1,Never married,NA,NA,0,NA,1,0,0,0,1,0,1,0,0,0,0,0,NA,NA,NA,1,NA,2,NA,NA,NA,NA,NA,0,0,1,0,NA,0,2
+Vietnam,1 Year,2019,7,1,23,1,NA,1,NA,NA,NA,1,0,1,Never married,NA,NA,0,NA,1,1,0,1,1,0,0,1,0,0,0,1,1,NA,1,1,NA,NA,1,NA,NA,NA,1,0,1,1,1,2,0,2
+Vietnam,1 Year,2019,7,NA,23,1,NA,1,NA,NA,NA,1,0,1,Never married,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,1,1,2,1,2
+Vietnam,1 Year,2019,7,1,24,1,NA,NA,NA,University,1,1,0,1,Never married,NA,NA,0,NA,1,0,0,0,0,0,0,1,0,0,0,0,NA,NA,NA,NA,NA,NA,1,NA,NA,NA,NA,0,1,1,0,NA,0,2
+Vietnam,1 Year,2019,7,1,23,1,NA,NA,NA,University,1,0,0,NA,Never married,NA,NA,0,NA,1,1,1,1,1,0,0,1,1,0,0,1,2,2,2,2,NA,NA,2,2,NA,NA,2,0,1,1,0,NA,0,2

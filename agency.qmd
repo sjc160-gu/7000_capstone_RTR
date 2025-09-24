@@ -1,0 +1,197 @@
+```{=html}
+<div class="hero-band">
+  <div class="pane-text">
+    <div class="hero-lead">
+      <p>
+        <strong>
+          <a href="https://www.roomtoread.org/literacy-gender-equality/gender-equality/" target="_blank" style="color:#FFC142; text-decoration:none;">
+            Room to Read’s Girls’ Education Program has a big focus on agency
+          </a>
+        </strong>
+        which helps girls build the skills, connections, and confidence to stay in school and make informed decisions about their futures.
+      </p>
+      <p>
+        This page looks at how alumnae experience and navigate <em>family disagreements</em> around major life choices—education, work, marriage, mobility, finances, and body autonomy—and how often those disagreements are ultimately resolved in their favor. Results are shown for both the <em>1-year</em> and <em>5-year</em> alumnae cohorts.
+      </p>
+    </div>
+    <div class="rule"></div>
+  </div>
+```
+
+```{r, echo=FALSE, warning=FALSE, message=FALSE}
+library(tidyverse)
+library(janitor)
+library(glue)
+library(broom)
+
+# Data import
+df <- readr::read_csv("AlumnaeSurvey2324_cleaned.csv")
+df_clean <- df
+
+# Brand palette
+brand <- list(
+  teal   = "#007AA4",
+  green  = "#0C6F5A",
+  yellow = "#FFC142",
+  pink   = "#994263"
+)
+
+# Theme
+theme_rtr <- function() {
+  theme_minimal(base_family = "Georgia") +
+    theme(
+      plot.title = element_text(face = "bold", size = 18, color = "#111111"),
+      plot.subtitle = element_text(size = 12, color = "#333333"),
+      axis.title = element_text(size = 11, color = "#333333"),
+      axis.text  = element_text(size = 10, color = "#333333"),
+      panel.grid.minor = element_blank(),
+      panel.grid.major.x = element_blank(),
+      plot.margin = margin(6, 6, 6, 6)
+    )
+}
+```
+
+```{r}
+head(df_clean$n4_c1)
+```
+
+```{r, echo=FALSE, warning=FALSE, message=FALSE}
+c1_by_country <- df_clean %>%
+  filter(!is.na(country), !is.na(n4_c1)) %>%
+  group_by(country) %>%
+  summarise(
+    n = n(),
+    mean_c1 = mean(n4_c1, na.rm = TRUE),
+    pct_all_time = mean(n4_c1 == 2, na.rm = TRUE)
+  ) %>%
+  arrange(desc(mean_c1))
+
+# Top 15 by mean frequency
+top_countries <- c1_by_country %>% slice_max(mean_c1, n = 15) %>% pull(country)
+
+# Bar chart of mean C1 (Top 15 countries)
+p_mean <- df_clean %>%
+  filter(country %in% top_countries, !is.na(n4_c1)) %>%
+  group_by(country) %>%
+  summarise(mean_c1 = mean(n4_c1), .groups = "drop") %>%
+  mutate(country = forcats::fct_reorder(country, mean_c1)) %>%
+  ggplot(aes(country, mean_c1)) +
+  geom_col(fill = brand$teal) +
+  coord_flip() +
+  labs(
+    title = "Disagreement Frequency by Country (Top 15)",
+    subtitle = "(0 = No, 1 = Sometimes, 2 = All the time)",
+    x = NULL, y = "Mean Disagreements"
+  ) +
+  theme_rtr()
+
+p_mean
+
+top_cty <- df_clean %>%
+  dplyr::filter(!is.na(country), !is.na(n4_c1)) %>%
+  dplyr::count(country, sort = TRUE) %>%
+  dplyr::slice_head(n = 12) %>% 
+  dplyr::pull(country)
+
+# Helper to make a cohort-specific plot with identical y-order
+make_cohort_plot <- function(cohort_label, fill_color) {
+  # Compute country means within the chosen cohort
+  stats <- df_clean %>%
+    dplyr::filter(country %in% top_cty,
+                  alum_survey == cohort_label,
+                  !is.na(n4_c1)) %>%
+    dplyr::group_by(country) %>%
+    dplyr::summarise(mean_c1 = mean(n4_c1), .groups = "drop")
+  
+  # Establish a common ordering based on the ALL-sample mean (for consistent y-axis)
+  order_ref <- df_clean %>%
+    dplyr::filter(country %in% top_cty, !is.na(n4_c1)) %>%
+    dplyr::group_by(country) %>%
+    dplyr::summarise(ref_mean = mean(n4_c1), .groups = "drop") %>%
+    dplyr::arrange(ref_mean) %>%
+    dplyr::pull(country)
+  
+  stats %>%
+    dplyr::mutate(country = forcats::fct_relevel(country, order_ref)) %>%
+    ggplot2::ggplot(ggplot2::aes(x = country, y = mean_c1)) +
+    ggplot2::geom_col(fill = fill_color) +
+    ggplot2::coord_flip() +
+    ggplot2::labs(
+      title = glue::glue("Disagreement Frequency — {cohort_label} Cohort"),
+      subtitle = "(0 = No, 1 = Sometimes, 2 = All the time)",
+      x = NULL, y = "Mean Disagreements"
+    ) +
+    theme_rtr()
+}
+
+p_1y <- make_cohort_plot("1 Year", brand$yellow)
+p_5y <- make_cohort_plot("5 Year", brand$green)
+
+# Save for the slider
+ggplot2::ggsave("cohort_1year.png", p_1y, width = 9, height = 6, dpi = 300)
+ggplot2::ggsave("cohort_5year.png", p_5y, width = 9, height = 6, dpi = 300)
+```
+
+```{=html}
+<div class="slider-wrap" style="margin:1.25rem 0 2rem 0;">
+  <!-- tabs (radio inputs) -->
+  <input type="radio" name="cohort-slide" id="slide-1y" checked style="display:none;">
+  <input type="radio" name="cohort-slide" id="slide-5y" style="display:none;">
+
+  <!-- tab buttons -->
+  <div class="slider-tabs" style="display:flex; gap:.5rem; margin-bottom:.75rem;">
+    <label for="slide-1y"
+           style="cursor:pointer; padding:.4rem .8rem; border-radius:999px; border:1px solid #FFC142; color:#FFC142; font-weight:600;">
+      1-Year Cohort
+    </label>
+    <label for="slide-5y"
+           style="cursor:pointer; padding:.4rem .8rem; border-radius:999px; border:1px solid #0C6F5A; color:#0C6F5A; font-weight:600;">
+      5-Year Cohort
+    </label>
+  </div>
+
+  <!-- slides -->
+  <div class="slides" style="position:relative;">
+    <div class="slide s1" style="display:block;">
+      <img src="cohort_1year.png" alt="Disagreement Frequency — 1-Year Cohort"
+           style="width:100%; height:auto; border-radius:12px; box-shadow:0 8px 20px rgba(0,0,0,.08);">
+    </div>
+    <div class="slide s5" style="display:none;">
+      <img src="cohort_5year.png" alt="Disagreement Frequency — 5-Year Cohort"
+           style="width:100%; height:auto; border-radius:12px; box-shadow:0 8px 20px rgba(0,0,0,.08);">
+    </div>
+  </div>
+</div>
+
+<style>
+/* show/hide slides based on which radio is checked */
+#slide-1y:checked ~ .slides .s1 { display:block !important; }
+#slide-1y:checked ~ .slides .s5 { display:none  !important; }
+#slide-5y:checked ~ .slides .s1 { display:none  !important; }
+#slide-5y:checked ~ .slides .s5 { display:block !important; }
+
+/* simple active-state for tabs */
+#slide-1y:checked ~ .slider-tabs label[for="slide-1y"] {
+  background:#E6F3F8; border-color:#007AA4; color:#007AA4;
+}
+#slide-5y:checked ~ .slider-tabs label[for="slide-5y"] {
+  background:#EAF2EF; border-color:#0C6F5A; color:#0C6F5A;
+}
+</style>
+```
+```{=html}
+<div class="callout">
+  <h3 class="headline-serif" style="margin:0 0 .25rem 0;">What these charts show</h3>
+  <p>
+    Countries are ranked by the <strong>average frequency of family disagreements</strong> around key life choices.
+    We use an index where <strong>0 = No</strong>, <strong>1 = Sometimes</strong>, and <strong>2 = All the time</strong>.
+    Higher bars indicate that alumnae report disagreements more often.
+  </p>
+  <div class="rule"></div>
+  <p><strong>Why it matters:</strong> Frequent disagreements signal higher friction around decision-making.
+    In the sections that follow, we look at <em>how often disagreements are resolved favorably</em>,
+    whether resolution differs between the <em>1-year</em> and <em>5-year</em> cohorts,
+    and which topics—like education, employment, finances, and body autonomy—tend to reach favorable outcomes.
+  </p>
+</div>
+```

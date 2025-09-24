@@ -1,0 +1,233 @@
+
+Clean and standardize the data
+
+```{r}
+# Packages
+library(readr)
+library(dplyr)
+
+#----------------------------
+# 1) Load data
+#----------------------------
+df_raw   <- read_csv("AlumnaeSurvey2324.csv")
+df_clean <- df_raw
+
+#----------------------------
+# 2) Drop irrelevant columns
+#----------------------------
+df_clean <- df_clean %>%
+  select(-survey_year, -consent, -gep_id, -n2_a4_KH, -n2_a4_NP)
+
+#----------------------------
+# Helper utilities (robust + re-runnable)
+#----------------------------
+to_str <- function(x) trimws(tolower(as.character(x)))
+
+# Yes -> 1, No -> 0, else -> NA
+yn_01_na <- function(x) {
+  xs <- to_str(x)
+  ifelse(xs == "yes", 1,
+    ifelse(xs == "no", 0, NA_real_))
+}
+
+# Yes -> 1, No -> 0, else -> NA
+yn_01_na_partial <- function(x) {
+  xs <- to_str(x)
+  ifelse(xs == "yes", 1,
+  ifelse(xs == "partially",2,
+    ifelse(xs == "no", 0, NA_real_)))
+}
+
+# Yes -> 1, 0 (or "0") stays 0, blanks -> NA
+yes1_zero0_blankNA <- function(x) {
+  xs <- to_str(x)
+  ifelse(xs == "yes", 1,
+    ifelse(xs %in% c("0", "no"), 0,        # if someone typed "no" here, treat as 0
+      ifelse(xs %in% c("", "na"), NA_real_, NA_real_)))
+}
+
+# Blank -> NA (leave everything else as-is)
+blank_to_na <- function(x) {
+  is_blank <- to_str(x) == ""
+  ifelse(is_blank, NA, x)
+}
+
+# Numeric: blank -> NA, coerce to numeric
+numeric_blank_to_na <- function(x) {
+  out <- ifelse(to_str(x) == "" | is.na(x), NA, x)
+  suppressWarnings(as.numeric(out))
+}
+
+# Numeric: blank -> 0, coerce to numeric
+numeric_blank_to_zero <- function(x) {
+  out <- ifelse(to_str(x) == "" | is.na(x), 0, x)
+  suppressWarnings(as.numeric(out))
+}
+
+# n4_c1 recode:
+# "Yes, all the time" -> 2
+# "Yes, sometimes" or literal 0/"0" (your code for that) -> 1
+# "No, never" -> 0
+# else -> NA
+recode_n4 <- function(x) {
+  xs <- to_str(x)
+  ifelse(xs == "yes, all the time", 2,
+    ifelse(xs == "yes, sometimes" | xs == "0", 1,
+      ifelse(xs == "no, never", 0, NA_real_)))
+}
+
+recode_d <- function(x) {
+  xs <- to_str(x)
+  ifelse(xs == "to a great extent", 2,
+    ifelse(xs == "to some extent", 1,
+      ifelse(xs == "not at all", 0, NA_real_)))
+}
+
+recode_n4_d5 <- function(x) {
+  xs <- to_str(x)
+  ifelse(xs == "very helpful", 2,
+    ifelse(xs == "somewhat helpful", 1,
+      ifelse(xs == "not at all helpful", 0, NA_real_)))
+}
+
+#----------------------------
+# 3) Column-specific transforms
+#----------------------------
+
+# alum_survey: 0 -> "5 Year", 1 -> "1 Year", leave others (or NA)
+df_clean <- df_clean %>%
+  mutate(
+    alum_survey = ifelse(to_str(alum_survey) %in% c("0", "0.0"), "5 Year",
+                   ifelse(to_str(alum_survey) %in% c("1", "1.0"), "1 Year", alum_survey))
+  )
+
+# Simple Yes/No -> 1/0
+df_clean <- df_clean %>%
+  mutate(
+    same_residence = yn_01_na(same_residence),
+    n2_a1 = yn_01_na(n2_a1),
+    n2_a2  = yn_01_na(n2_a1),
+    n4_c2_a = yn_01_na(n4_c2_a),
+    n4_c2_b = yn_01_na(n4_c2_b),
+    n4_c2_c = yn_01_na(n4_c2_c),
+    n4_c2_d = yn_01_na(n4_c2_d),
+    n4_c2_e = yn_01_na(n4_c2_e),
+    n4_c2_f = yn_01_na(n4_c2_f),
+    n4_c2_g = yn_01_na(n4_c2_g),
+    n4_c2_h = yn_01_na(n4_c2_h),
+    n4_c2_i = yn_01_na(n4_c2_i),
+    n4_c2_j = yn_01_na(n4_c2_j),
+    n4_c2_k = yn_01_na(n4_c2_k),
+    n5_d6 = yn_01_na(n5_d6)
+  )
+
+# Simple Yes/No -> 1/0, Partially -> 2, Blank -> NA
+df_clean <- df_clean %>%
+  mutate(
+    n4_c3_a = yn_01_na_partial(n4_c3_a),
+    n4_c3_b = yn_01_na_partial(n4_c3_b),
+    n4_c3_c = yn_01_na_partial(n4_c3_c),
+    n4_c3_d = yn_01_na_partial(n4_c3_d),
+    n4_c3_e = yn_01_na_partial(n4_c3_e),
+    n4_c3_f = yn_01_na_partial(n4_c3_f),
+    n4_c3_g = yn_01_na_partial(n4_c3_g),
+    n4_c3_h = yn_01_na_partial(n4_c3_h),
+    n4_c3_i = yn_01_na_partial(n4_c3_i),
+    n4_c3_j = yn_01_na_partial(n4_c3_j),
+    n4_c3_k = yn_01_na_partial(n4_c3_k),
+  )
+
+# Yes -> 1, 0 stays 0, anything else (incl. blank) -> NA
+df_clean <- df_clean %>%
+  mutate(
+    n2_a3 = yes1_zero0_blankNA(n2_a3),
+    n2_a4 = yes1_zero0_blankNA(n2_a4),
+    n5_d1 = yes1_zero0_blankNA(n5_d1),
+    n5_d2 = yes1_zero0_blankNA(n5_d2),
+    n5_d3 = yes1_zero0_blankNA(n5_d3),
+    n5_d4 = yes1_zero0_blankNA(n5_d4)
+  )
+
+# Blank -> NA (keep strings like "University" etc.)
+#df_clean <- df_clean %>%
+#  mutate(
+#    n2_a5 = blank_to_na(n2_a5)
+#   n2_a5_KH = blank_to_na(n2_a5_KH)
+#   n2_a5_NP = blank_to_na(n2_a5_NP)
+# )
+
+# All education into one column 
+df_clean <- df_clean %>%
+  mutate(
+    n2_a5 = coalesce(n2_a5, n2_a5_KH, n2_a5_NP)
+  ) %>%
+  select(-n2_a5_KH, -n2_a5_NP)
+
+# "Full time" -> 1, 0 stays 0, else -> NA
+df_clean <- df_clean %>%
+  mutate(
+    n2_a6 = case_when(
+      to_str(n2_a6) == "full time" ~ 1,
+      to_str(n2_a6) %in% c("0", "no") ~ 0,
+      TRUE ~ NA_real_
+    )
+  )
+
+# More Yes -> 1 / 0 stays 0 / blanks -> NA
+df_clean <- df_clean %>%
+  mutate(
+    n2_a7 = yes1_zero0_blankNA(n2_a7),
+    n2_a8 = yes1_zero0_blankNA(n2_a8),
+    n2_a9 = yes1_zero0_blankNA(n2_a9),
+    n3_b3 = yes1_zero0_blankNA(n3_b3)
+  )
+
+# Keep numbers but if blank -> NA (then make numeric)
+df_clean <- df_clean %>%
+  mutate(
+    n3_b2 = numeric_blank_to_na(n3_b2)
+  )
+
+# If blank -> 0 (number of children context), keep numbers
+df_clean <- df_clean %>%
+  mutate(
+    n3_b4 = numeric_blank_to_zero(n3_b4)
+  )
+
+# Keep numbers; blank -> NA
+df_clean <- df_clean %>%
+  mutate(
+    n3_b5 = numeric_blank_to_na(n3_b5)
+  )
+
+# n4_c1 special recode (handles text + raw "0" as 1)
+# 0 -> No, never
+# 1 -> Sometimes
+# 2 -> All the time
+# see above function
+df_clean <- df_clean %>%
+  mutate(
+    n4_c1 = recode_n4(n4_c1)
+  )
+
+# 0 -> not at all
+# 1 -> somewhat
+# 2 -> greatly
+df_clean <- df_clean %>%
+  mutate(
+    n5_d7 = recode_d(n5_d7)
+  )
+
+df_clean <- df_clean %>%
+  mutate(
+    n5_d5 = recode_n4_d5(n5_d5)
+  )
+
+```
+
+```{r}
+#----------------------------
+# Save cleaned file
+#----------------------------
+write_csv(df_clean, "AlumnaeSurvey2324_cleaned.csv")
+```

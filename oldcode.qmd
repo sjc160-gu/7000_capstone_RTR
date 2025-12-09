@@ -1,0 +1,349 @@
+```{r, echo=FALSE, warning=FALSE, message=FALSE}
+
+# labels for 0/1/2
+#resp_labs <- c("0"="No", "1"="Sometimes", "2"="All the time")
+
+# Long data with within-country shares by cohort
+#df_cohort <- df_clean %>%
+#  filter(!is.na(country), !is.na(n4_c1), !is.na(alum_survey)) %>%
+#  mutate(resp = factor(as.character(n4_c1), levels = c("0","1","2"), labels = resp_labs)) %>%
+#  count(alum_survey, country, resp, name = "n") %>%
+#  group_by(alum_survey, country) %>%
+#  mutate(prop = n / sum(n)) %>%
+ # ungroup()
+
+# Use same top_countries you already computed (by total N); if not defined, compute:
+#if (!exists("top_countries")) {
+#  top_countries <- df_cohort %>%
+#  group_by(country) %>% summarise(N = sum(n), .groups="drop") %>%
+#    slice_max(N, n = 15) %>% pull(country)
+#}
+
+# Order key = overall share "All the time" per country (stable across cohorts)
+#order_tbl <- df_cohort %>%
+#  filter(country %in% top_countries, resp == "All the time") %>%
+#  group_by(country) %>%
+#  summarise(order_val = sum(prop), .groups = "drop") %>%
+#  mutate(order_val = replace_na(order_val, 0))
+
+#df_cohort_top <- df_cohort %>%
+#  filter(country %in% top_countries) %>%
+#  left_join(order_tbl, by = "country") %>%
+#  mutate(
+#    country = fct_reorder(country, order_val, .desc = FALSE),
+#    resp = factor(resp, levels = c("No","Sometimes","All the time"))
+#  )
+
+# Faceted slideshow-friendly plot (renders in the doc)
+#p_cohort <- ggplot(df_cohort_top, aes(x = prop, y = country, fill = resp)) +
+#  geom_col() +
+#  scale_x_continuous(labels = percent_format(accuracy = 1)) +
+#  scale_fill_manual(values = c(
+#    "No" = brand$lightgray,
+#    "Sometimes" = brand$lightgreen,
+#    "All the time" = brand$teal
+#  )) +
+#  facet_wrap(~ alum_survey, ncol = 2) +
+#  labs(
+#    title    = "Disagreement Responses by Country and Cohort",
+#    subtitle = "100% stacked bars: share of responses (No / Sometimes / All the time)",
+#    x = "Percent of Responses", y = NULL, fill = NULL
+#  ) +
+#  theme_rtr()
+
+# Save two images for the HTML slider
+#save_one <- function(cohort_label, file) {
+#  df_one <- df_cohort_top %>% filter(alum_survey == cohort_label)
+#  p <- ggplot(df_one, aes(x = prop, y = country, fill = resp)) +
+#    geom_col() +
+#    scale_x_continuous(labels = percent_format(accuracy = 1)) +
+#    scale_fill_manual(values = c("No"= brand$lightgray,"Sometimes"= brand$lightgreen ,"All the time"= # brand$teal)) +
+#    labs(
+#      title    = paste0("Disagreement Responses — ", cohort_label),
+#      subtitle = "100% stacked bars: No / Sometimes / All the time",
+#      x = "Percent of Responses", y = NULL, fill = NULL
+#    ) +
+#    theme_rtr()
+#  ggsave(file, p, width = 9, height = 6, dpi = 300)
+#}
+```
+
+```{r, echo=FALSE, warning=FALSE, message=FALSE}
+#res_cols <- c("n4_c3_a","n4_c3_b","n4_c3_c",#"n4_c3_d","n4_c3_e",
+#              "n4_c3_f","n4_c3_g","n4_c3_h",#"n4_c3_i","n4_c3_j","n4_c3_k")
+
+#topic_map <- c(
+#  n4_c3_a = "Marriage",
+#  n4_c3_b = "Children",
+# n4_c3_c = "Study",
+#  n4_c3_d = "Work",
+#  n4_c3_e = "Transportation",
+# n4_c3_f = "Dress",
+#  n4_c3_g = "Finances",
+# n4_c3_h = "Behavior",
+#  n4_c3_i = "Healthcare",
+#  n4_c3_j = "Voting",
+#  n4_c3_k = "Living"
+#)
+
+# Normalize outcomes (0/1/2 -> labels)
+#normalize_outcome <- function(x){
+ # x <- as.character(x)
+# case_when(
+ #   x == "1" ~ "Favorable",
+ #   x == "2" ~ "Partially Favorable",
+#    x == "0" ~ "Not in Favor",
+ #   TRUE     ~ NA_character_
+ # )
+#}
+
+# Catch all
+#res_cols <- intersect(res_cols, names(df_clean))
+
+# Long data
+#df_res_long <- df_clean %>%
+ # select(alum_survey, all_of(res_cols)) %>%
+ # pivot_longer(all_of(res_cols), names_to = #"var", values_to = "raw") %>%
+#  mutate(
+#    Topic   = recode(var, !!!topic_map, .default #= var),
+ #   Outcome = normalize_outcome(raw)
+ # ) %>%
+ # filter(!is.na(Outcome))
+
+# Distribution by topic
+#dist_topic <- df_res_long %>%
+#  count(Topic, Outcome, name = "n") %>%
+ # group_by(Topic) %>%
+ # mutate(prop = n / sum(n)) %>%
+ # ungroup() %>%
+ # mutate(Outcome = factor(Outcome,
+ #                         levels = c("Not in #Favor","Partially Favorable","Favorable")))
+
+# Order topics
+#topic_order <- dist_topic %>%
+ # filter(Outcome == "Favorable") %>%
+ # select(Topic, prop) %>%
+ # rename(order_val = prop)
+
+#dist_topic <- dist_topic %>%
+# left_join(topic_order, by = "Topic") %>%
+ # mutate(Topic = fct_reorder(Topic, order_val, .#desc = FALSE))
+
+# Plot it 
+#p_stack <- ggplot(dist_topic, aes(x = prop, y = Topic, fill = Outcome)) +
+#  geom_col() +
+#  scale_x_continuous(labels = percent_format(#accuracy = 1)) +
+ # scale_y_discrete(limits = rev) +   # <-- flips #order for smallest→largest top→bottom
+ # scale_fill_manual(values = c(
+ #   "Not in Favor"        = brand$lightgray,
+ #   "Partially Favorable" = brand$lightgreen,
+ #   "Favorable"           = brand$teal
+ # )) +
+ #labs(
+  #  title = "Resolution of Disagreements by Topic",
+  #  subtitle = "Share of alumnae reporting #favorable outcomes, from smallest to largest",
+  #  x = "Percent of Responses", y = NULL, fill = NULL
+ # ) +
+ # theme_rtr()
+
+#p_stack
+
+```
+
+
+```{r, echo=FALSE, warning=FALSE, message=FALSE}
+# Tidy long data (keep cohort) 
+#df_res_long <- df_clean %>%
+ # select(alum_survey, all_of(res_cols)) %>%
+ # pivot_longer(cols = all_of(res_cols), names_to = "var", values_to = "raw") %>%
+ # mutate(
+ #   # safe map: if key missing, fall back to var
+ #   Topic = if_else(var %in% names(topic_map), #topic_map[var], var),
+   # Outcome = normalize_outcome(raw)
+ # ) %>%
+ # filter(!is.na(alum_survey), !is.na(Outcome))
+
+# Topic x Outcome x Cohort shares 
+#dist_topic_cohort <- df_res_long %>%
+ # count(alum_survey, Topic, Outcome, name = "n") %>%
+ # group_by(alum_survey, Topic) %>%
+ # mutate(prop = n / sum(n)) %>%
+ # ungroup() %>%
+ # mutate(
+ #   Outcome = factor(Outcome,
+  #                   levels = c("Not in Favor", "Partially Favorable", "Favorable"))
+  #)
+
+# Consistent facet order: by avg Favorable share (pooled cohorts) 
+#topic_order <- dist_topic_cohort %>%
+ # filter(Outcome == "Favorable") %>%
+ # group_by(Topic) %>%
+ # summarise(avg_fav = mean(prop, na.rm = TRUE), .#groups = "drop") %>%
+ # arrange(desc(avg_fav)) %>%
+ # pull(Topic)
+
+#dist_topic_cohort <- dist_topic_cohort %>%
+ # mutate(Topic = fct_relevel(Topic, topic_order))
+
+#make_topic_grid <- function(cohort_label, file_out) {
+ # df_one <- dist_topic_cohort %>% filter(alum_survey == cohort_label)
+
+ # p <- ggplot(df_one, aes(x = Outcome, y = prop, fill = Outcome)) +
+ #   geom_col(width = 0.78) +
+ #   facet_wrap(~ Topic, ncol = 3) +
+ #  scale_y_continuous(labels = percent_format(accuracy = 1)) +
+ #   scale_fill_manual(values = c(
+ #     "Not in Favor"  = brand$gray,
+ #     "Partially Favorable" = brand$yellow,
+ #     "Favorable" = brand$teal
+ #   )) +
+  #  labs(
+ #     title    = paste0("Resolution of Disagreements by Topic — ", cohort_label),
+  #    subtitle = "Each panel shows share of outcomes within topic",
+ #     x = NULL, y = "Percent of Responses", fill = #NULL
+ #   ) +
+ #   theme_rtr() +
+ #   theme(
+      # keep the plot clean—use legend for the categories
+ #     axis.text.x  = element_blank(),
+ #     axis.ticks.x = element_blank(),
+#      strip.text   = element_text(face = "bold"),
+ #     legend.position = "right"
+ #   )
+
+ # print(p)
+#  ggsave(file_out, p, width = 11, height = 8, dpi #= 300)
+#}
+
+#make_topic_grid("1 Year", #"topic_resolution_1year.png")
+#make_topic_grid("5 Year", #"topic_resolution_5year.png")
+```
+
+```{r, echo=FALSE, warning=FALSE, message=FALSE}
+# Map for resolution
+# c2_yes helper converts yes/no style answers to 1/0
+# c2_yes   <- function(x) as.integer(tolower(as.character(x)) %in% c("1","yes","y","true","t"))
+
+# c3_label helper converts outcome codes into readable categories
+# c3_label <- function(x) dplyr::case_when(
+#   tolower(as.character(x)) %in% c("1","yes","y","true","t")  ~ "Favorable",
+#   tolower(as.character(x)) %in% c("2","partial","partially") ~ "Partially Favorable",
+#   tolower(as.character(x)) %in% c("0","no","n","false","f")  ~ "Not in Favor",
+#   TRUE ~ NA_character_
+# )
+
+# Topic columns present in your data (C2 = disagreement; C3 = resolution)
+# c2_vars <- c(
+#   Marriage="n4_c2_a", Children="n4_c2_b", Study="n4_c2_c", Work="n4_c2_d",
+#   Transportation="n4_c2_e", Dress="n4_c2_f", Finances="n4_c2_g",
+#   Behavior="n4_c2_h", `Reproductive Healthcare`="n4_c2_i",
+#   `Voting/Politics`="n4_c2_j", `Where to Live`="n4_c2_k"
+# )
+# c3_vars <- c(
+#   Marriage="n4_c3_a", Children="n4_c3_b", Study="n4_c3_c", Work="n4_c3_d",
+#   Transportation="n4_c3_e", Dress="n4_c3_f", Finances="n4_c3_g",
+#   Behavior="n4_c3_h", `Reproductive Healthcare`="n4_c3_i",
+#   `Voting/Politics`="n4_c3_j", `Where to Live`="n4_c3_k"
+# )
+
+# Keep only topics where both C2 and C3 exist in df_clean
+# keep <- names(c2_vars)[c2_vars %in% names(df_clean) & c3_vars %in% names(df_clean)]
+# c2_vars <- c2_vars[keep]
+# c3_vars <- c3_vars[keep]
+
+# Choose the 8 largest countries by sample size
+# countries8 <- df_clean %>%
+#   filter(!is.na(country)) %>%
+#   count(country, sort = TRUE) %>%
+#   slice_head(n = 8) %>%
+#   pull(country)
+
+# For each of those countries, find the most common disagreement topic (highest yes-rate)
+# top_topic_by_cty <- df_clean %>%
+#   filter(country %in% countries8) %>%
+#   select(country, all_of(unname(c2_vars))) %>%
+#   mutate(across(all_of(unname(c2_vars)), c2_yes)) %>%
+#   pivot_longer(all_of(unname(c2_vars)), names_to = "c2_var", values_to = "yes") %>%
+#   mutate(Topic = names(c2_vars)[match(c2_var, c2_vars)]) %>%
+#   group_by(country, Topic) %>%
+#   summarise(rate_yes = mean(yes, na.rm = TRUE), .groups = "drop") %>%
+#   group_by(country) %>%
+#   slice_max(rate_yes, n = 1, with_ties = FALSE) %>%
+#   ungroup()
+
+# Compute resolution shares for each (country, top topic)
+# cty_topic_res <- pmap_dfr(
+#   list(top_topic_by_cty$country, top_topic_by_cty$Topic),
+#   function(cty, topic) {
+#     c2v <- c2_vars[[topic]]
+#     c3v <- c3_vars[[topic]]
+#     d <- df_clean %>%
+#       filter(country == cty) %>%
+#       transmute(
+#         c2 = c2_yes(.data[[c2v]]),
+#         c3 = c3_label(.data[[c3v]])
+#       ) %>%
+#       filter(c2 == 1, !is.na(c3))
+#     if (nrow(d) == 0) {
+#       return(tibble(country = cty, Topic = topic,
+#                     Favorable = NA_real_, Partially = NA_real_, N = 0L))
+#     }
+#     dist <- count(d, c3, name = "n") %>%
+#       mutate(prop = n / sum(n))
+#     tibble(
+#       country   = cty,
+#       Topic     = topic,
+#       Favorable = dist$prop[match("Favorable", dist$c3)],
+#       Partially = dist$prop[match("Partially Favorable", dist$c3)],
+#       N         = sum(dist$n)
+#     )
+#   }
+# ) %>%
+#   mutate(across(c(Favorable, Partially), ~replace_na(.x, 0)))
+
+# Prepare world basemap using rnaturalearth
+# world <- ne_countries(scale = "medium", returnclass = "sf") %>%
+#   st_transform(4326) %>%
+#   select(admin, geometry)
+
+# Join world polygons with results by country
+# joined <- world %>%
+#   inner_join(
+#     cty_topic_res %>% rename(admin = country),
+#     by = "admin"
+#   )
+
+# Create HTML popups for the map
+# joined$popup <- paste0(
+#   "<b>", joined$admin, "</b><br>",
+#   "<em>Top disagreement:</em> ", joined$Topic, "<br><br>",
+#   "<b>Favorable:</b> ", percent(joined$Favorable, 1), "<br>",
+#   "<b>Partially Favorable:</b> ", percent(joined$Partially, 1), "<br>",
+#   "<b>N =</b> ", joined$N
+# )
+
+# Define color palette for favorable share
+# pal <- colorNumeric(c("#E6F3F8", "#007AA4"), domain = c(0, 1))
+
+# Build the interactive Leaflet map
+# leaflet(options = leafletOptions(minZoom = 2)) %>%
+#   addProviderTiles(providers$CartoDB.Positron) %>%
+#   addPolygons(
+#     data = world,
+#     weight = 0.4, color = "#bbbbbb",
+#     fillColor = "#f5f5f5", fillOpacity = 0.7
+#   ) %>%
+#   addPolygons(
+#     data = joined,
+#     weight = 0.8, color = "#666666",
+#     fillColor = ~pal(Favorable), fillOpacity = 0.9,
+#     label = ~paste0(admin, " — ", Topic),
+#     popup = ~popup,
+#     highlightOptions = highlightOptions(weight = 2, color = "#007AA4", bringToFront = TRUE)
+#   ) %>%
+#   addLegend(
+#     "bottomright", pal = pal, values = joined$Favorable,
+#     title = "Favorable share", opacity = 1
+#   ) %>%
+#   setView(lng = 90, lat = 15, zoom = 4)
+```

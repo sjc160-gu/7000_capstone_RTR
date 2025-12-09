@@ -1,0 +1,350 @@
+---
+title: "Laos: Alumnae Snapshot"
+toc: true
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+---
+<p style="color:#475569; font-family:Georgia,serif; font-size:1rem; margin-top:-.5rem; margin-bottom:1rem;"> This snapshot highlights how alumnae from Laos navigate key life milestones such as education, marriage, and motherhood, surveyed one and five years after completing the program. </p>
+
+```{r, echo=FALSE, warning=FALSE, message=FALSE}
+library(dplyr)
+library(tidyr)
+library(forcats)
+library(ggplot2)
+library(scales)
+library(readr)
+library(glue)
+library(knitr)
+library(stringr)
+library(scales)
+library(tibble)
+library(purrr)
+
+df_clean <- read_csv("AlumnaeSurvey2324_cleaned.csv", show_col_types = FALSE)
+laos <- df_clean %>% filter(country == "Laos")
+
+m_mean  <- function(x) if (all(is.na(x))) NA_real_ else mean(as.numeric(x), na.rm = TRUE)
+m_share <- function(x) mean(x, na.rm = TRUE)
+
+marital_raw <- if ("n3_b1" %in% names(laos)) laos$n3_b1 else NA_character_
+age_marriage_col <- c("n3_b2")
+age_marriage_col <- age_marriage_col[age_marriage_col %in% names(laos)][1]
+age_first_marriage <- if (!is.null(age_marriage_col)) laos[[age_marriage_col]] else NA_real_
+has_children_col <- c("n3_b3")
+has_children_col <- has_children_col[has_children_col %in% names(laos)][1]
+has_children <- if (!is.null(has_children_col)) laos[[has_children_col]] else NA
+num_children_col <- c("n3_b4")
+num_children_col <- num_children_col[num_children_col %in% names(laos)][1]
+num_children <- if (!is.null(num_children_col)) laos[[num_children_col]] else NA_real_
+college_flag <- !is.na(laos$n2_a5)
+enrolled_now <- if ("n2_a2" %in% names(laos)) tolower(as.character(laos$n2_a2)) %in% c("1","yes","y","true","t") else NA
+
+marital_status <- case_when(
+tolower(trimws(as.character(marital_raw))) == "married" ~ "Married",
+tolower(trimws(as.character(marital_raw))) == "never married" ~ "Never married",
+is.na(marital_raw) ~ NA_character_,
+TRUE ~ "Other"
+)
+
+N_total  <- nrow(laos)
+share_married <- m_share(marital_status == "Married")
+share_never   <- m_share(marital_status == "Never married")
+avg_age_first_marriage_married <- m_mean(age_first_marriage[marital_status == "Married"])
+share_has_children <- if (all(is.na(has_children))) NA_real_ else
+m_share(tolower(as.character(has_children)) %in% c("1","yes","y","true","t"))
+avg_children_among_mothers <- if (all(is.na(num_children))) NA_real_ else
+m_mean(as.numeric(num_children)[!is.na(as.numeric(num_children)) & as.numeric(num_children) > 0])
+avg_children_overall <- if (all(is.na(num_children))) NA_real_ else m_mean(as.numeric(num_children))
+share_college <- m_share(college_flag)
+share_enrolled_now <- if (all(is.na(enrolled_now))) NA_real_ else m_share(enrolled_now)
+
+# === Hero with Stat Cards ===
+hero <- glue::glue('
+<div style="position:relative; margin:0 0 1.25rem 0;">
+  <img src="assets/la.jpg" alt="Laos alumnae"
+       style="width:100%; border-radius:18px; box-shadow:0 10px 28px rgba(0,0,0,.12);">
+  <div style="position:absolute; right:1rem; bottom:1rem; display:grid; gap:.6rem;
+              grid-template-columns: repeat(3, minmax(0, 1fr)); max-width:720px;">
+    <div style="background:#ffffffE6; backdrop-filter:blur(4px); border:1px solid #E5E7EB;
+                border-left:6px solid #007AA4; padding:.7rem .9rem; border-radius:14px;">
+      <div style="font-size:.8rem; color:#000000;">Married</div>
+      <div style="font-weight:700; font-size:1.25rem; color:#000000;">{scales::percent(share_married, 1)}</div>
+    </div>
+    <div style="background:#ffffffE6; backdrop-filter:blur(4px); border:1px solid #E5E7EB;
+                border-left:6px solid #007AA4; padding:.7rem .9rem; border-radius:14px;">
+      <div style="font-size:.8rem; color:#000000;">Post-Secondary Education</div>
+      <div style="font-weight:700; font-size:1.25rem; color:#000000;">{scales::percent(share_college, 1)}</div>
+    </div>
+    <div style="background:#ffffffE6; backdrop-filter:blur(4px); border:1px solid #E5E7EB;
+                border-left:6px solid #007AA4; padding:.7rem .9rem; border-radius:14px;">
+      <div style="font-size:.8rem; color:#000000;">Has Children</div>
+      <div style="font-weight:700; font-size:1.25rem; color:#000000;">
+        {ifelse(is.na(share_has_children), "—", scales::percent(share_has_children, 1))}
+      </div>
+    </div>
+  </div>
+</div>')
+knitr::asis_output(hero)
+```
+
+```{r, echo=FALSE, warning=FALSE, message=FALSE}
+# --- Laos At a Glance: waffle + year-split slideshow (2023 vs 2024, by cohort) ---
+
+m_mean  <- function(x) if (all(is.na(x))) NA_real_ else mean(as.numeric(x), na.rm = TRUE)
+m_share <- function(x) if (all(is.na(x))) NA_real_ else mean(as.logical(x), na.rm = TRUE)
+
+get_first_col <- function(df, candidates) {
+  nm <- candidates[candidates %in% names(df)][1]
+  if (length(nm) == 0 || is.na(nm)) NULL else nm
+}
+
+coerce_college <- function(df) {
+  if (!"n2_a5" %in% names(df)) return(rep(NA_real_, nrow(df)))
+  v <- df[["n2_a5"]]
+  ifelse(is.na(v), 0, 1)
+}
+
+coerce_children_count <- function(df) {
+  count_cand <- get_first_col(df, c("n3_b4","n3_c2","num_children","children_count"))
+  if (!is.null(count_cand)) return(as.numeric(df[[count_cand]]))
+  has_cand <- get_first_col(df, c("n3_b3","has_children"))
+  if (!is.null(has_cand)) {
+    v <- df[[has_cand]]
+    if (is.numeric(v)) return(v)
+    if (is.character(v)) return(ifelse(tolower(v) %in% c("yes","1","true","y"), 1, 0))
+  }
+  rep(NA_real_, nrow(df))
+}
+
+coerce_marital <- function(df) {
+  cand <- get_first_col(df, c("n3_b1","marital_status"))
+  if (is.null(cand)) return(rep(NA_character_, nrow(df)))
+  tolower(trimws(as.character(df[[cand]])))
+}
+
+coerce_age_first_marriage <- function(df) {
+  cand <- get_first_col(df, c("n3_b2","age_first_marriage"))
+  if (is.null(cand)) return(rep(NA_real_, nrow(df)))
+  as.numeric(df[[cand]])
+}
+
+coerce_age <- function(df) {
+  cand <- get_first_col(df, c("girl_age","age","current_age"))
+  if (is.null(cand)) return(rep(NA_real_, nrow(df)))
+  as.numeric(df[[cand]])
+}
+
+compute_metrics <- function(df_slice) {
+  if (nrow(df_slice) == 0) {
+    return(list(
+      N_total = 0,
+      avg_age_overall = NA_real_,
+      share_married = NA_real_,
+      share_never = NA_real_,
+      avg_age_first_marriage_married = NA_real_,
+      share_has_children = NA_real_,
+      avg_children_among_mothers = NA_real_,
+      share_college = NA_real_
+    ))
+  }
+
+  age_vec <- coerce_age(df_slice)
+  marital_txt <- coerce_marital(df_slice)
+  age_first_m <- coerce_age_first_marriage(df_slice)
+  kids_count <- coerce_children_count(df_slice)
+  college_tf <- coerce_college(df_slice)
+
+  is_married <- marital_txt == "married"
+  is_never <- marital_txt == "never married"
+  has_children <- ifelse(is.na(kids_count), NA, kids_count > 0)
+
+  list(
+    N_total = nrow(df_slice),
+    avg_age_overall = m_mean(age_vec),
+    share_married = m_share(is_married),
+    share_never = m_share(is_never),
+    avg_age_first_marriage_married = m_mean(age_first_m[is_married]),
+    share_has_children = m_share(has_children),
+    avg_children_among_mothers = m_mean(kids_count[kids_count > 0]),
+    share_college = m_share(college_tf)
+  )
+}
+
+fmt_num <- function(x, digits = 1) ifelse(is.na(x), "—", round(x, digits))
+fmt_pct <- function(x) ifelse(is.na(x), "—", percent(x, 1))
+
+laos <- df_clean %>% filter(country == "Laos")
+stopifnot("survey_year" %in% names(laos))
+
+marital_all <- coerce_marital(laos)
+share_married <- m_share(marital_all == "married")
+share_never <- m_share(marital_all == "never married")
+
+p <- tibble(
+group=c("Never married","Married","Other/NA"),
+prop=c(share_never,share_married,1-share_never-share_married)
+) %>%
+mutate(prop=pmax(0,pmin(prop,1)),
+n100=round(prop/sum(prop,na.rm=TRUE)*100)) %>%
+arrange(desc(group))
+
+grid <- expand.grid(x=1:10,y=1:10) %>%
+arrange(desc(y),x) %>%
+mutate(id=row_number())
+assignments <- p %>% uncount(n100) %>% mutate(id=row_number())
+waffle_df <- grid %>% left_join(assignments,by="id")
+
+palette <- c("Married"="#007AA4","Never married"="#A3C754","Other/NA"="#B3B3B3")
+
+ggplot(waffle_df,aes(x,y,fill=group))+
+geom_tile(width=.95,height=.95,colour="white",linewidth=.6)+
+scale_fill_manual(values=palette,na.value="#E5E7EB")+
+coord_equal()+
+labs(title="Out of 100 alumnae from Laos",
+subtitle="Each square ≈ 1 alumna from 1-year and 5-year cohorts",
+fill=NULL)+
+theme_void(base_family="Georgia")+
+theme(legend.position="bottom",
+plot.title=element_text(hjust=.5,face="bold",size=14),
+plot.subtitle=element_text(hjust=.5),
+plot.margin=margin(8,8,8,8),
+legend.text=element_text(size=10),
+panel.background=element_rect(fill="#FFFFFF",colour=NA))
+
+years <- sort(unique(laos$survey_year))
+years <- years[years %in% c(2023,2024)]
+
+make_table_html <- function(df_year,title_year){
+cohort_levels <- c("1 Year","5 Year")
+cohorts <- intersect(cohort_levels,sort(unique(df_year$alum_survey)))
+
+if(length(cohorts)==0){
+metrics_list <- list("All alumnae"=compute_metrics(df_year))
+} else {
+metrics_list <- setNames(
+lapply(cohorts,function(coh) compute_metrics(df_year %>% filter(alum_survey==coh))),
+cohorts)
+}
+
+summary_tbl <- tibble(
+Metric=c(
+"Number of Lao Alumnae Surveyed",
+"Average Age",
+"% Married",
+"% Never married",
+"Average Age at First Marriage",
+"% Have Children",
+"Average Number of Children",
+"% That Have Pursued Post-Secondary Education",
+"% That Have Completed Post-Secondary Education")
+)
+
+for(coh in names(metrics_list)){
+m <- metrics_list[[coh]]
+if("n2_a3" %in% names(df_year)){
+v_a3 <- df_year %>% filter(alum_survey==coh) %>% pull(n2_a3)
+v_a3 <- suppressWarnings(as.numeric(v_a3))
+v_a3[v_a3<0 | v_a3>1] <- NA
+share_completed <- m_share(v_a3==1)
+} else share_completed <- NA_real_
+
+
+summary_tbl[[coh]] <- c(
+  m$N_total,
+  fmt_num(m$avg_age_overall),
+  fmt_pct(m$share_married),
+  fmt_pct(m$share_never),
+  fmt_num(m$avg_age_first_marriage_married),
+  fmt_pct(m$share_has_children),
+  fmt_num(m$avg_children_among_mothers),
+  fmt_pct(m$share_college),
+  fmt_pct(share_completed)
+)
+
+
+}
+
+tbl_html <- knitr::kable(summary_tbl,format="html",table.attr="class='r-year-table'")
+tbl_html <- as.character(tbl_html)
+tbl_html <- sub("<table",
+"<table style='border-collapse:separate;border-spacing:0;width:100%;border-radius:12px;overflow:hidden;box-shadow:0 6px 18px rgba(0,0,0,.06);'",
+tbl_html)
+tbl_html <- sub("<thead>","<thead style='background:#F3F4F6;'>",tbl_html)
+
+glue("
+  <div class='slide' role='group' aria-label='Table for {title_year}' data-year='{title_year}'>
+    <div style='display:flex;justify-content:space-between;align-items:center;margin:0 0 .5rem 0;'>
+      <h3 style='margin:0;font-family:Georgia,serif;'>Laos At a Glance: {title_year}</h3>
+    </div>
+    {tbl_html}
+    <div style='font-size:0.8rem;color:#555;margin-top:6px;font-family:Georgia,serif;'>
+      <em>Note:</em> Due to cohort restrictions, it is not always possible to conduct Alumnae Survey monitoring on both 1-year and 5-year cohorts.
+    </div>
+  </div>
+")
+}
+
+slides <- map_chr(years,function(yr){
+df_year <- laos %>% filter(survey_year==yr)
+make_table_html(df_year,yr)
+})
+
+widget_id <- paste0("yrslides-",as.integer(runif(1,1e6,9e6)))
+
+
+css <- glue("
+<style>
+  #{widget_id} .slides {{position:relative;}}
+  #{widget_id} .slide {{display:none;}}
+  #{widget_id} .slide.active {{display:block;}}
+  #{widget_id} .nav {{display:flex;gap:.5rem;align-items:center;justify-content:flex-end;margin:.5rem 0 0 0;}}
+  #{widget_id} .btn {{border:1px solid #E5E7EB;padding:.4rem .7rem;border-radius:10px;background:#fff;cursor:pointer;
+    box-shadow:0 2px 8px rgba(0,0,0,.04);}}
+  #{widget_id} .btn:disabled {{opacity:.5;cursor:not-allowed;}}
+  #{widget_id} .year-pill {{font-size:.9rem;padding:.2rem .55rem;border-radius:999px;border:1px solid #E5E7EB;background:#F9FAFB;}}
+</style>")
+
+html <- glue("
+<div id='{widget_id}'>
+  <div class='slides'>{paste(slides,collapse='\\n')}</div>
+  <div class='nav' aria-label='Year navigation'>
+    <button class='btn prev' type='button' aria-label='Previous year'>&larr; Prev</button>
+    <span class='year-pill current-year'></span>
+    <button class='btn next' type='button' aria-label='Next year'>Next &rarr;</button>
+  </div>
+</div>
+{css}
+<script>
+(function(){{
+  const root=document.getElementById('{widget_id}');
+  const slides=Array.from(root.querySelectorAll('.slide'));
+  const prev=root.querySelector('.prev');
+  const next=root.querySelector('.next');
+  const pill=root.querySelector('.current-year');
+  if(slides.length===0) return;
+  let idx=0;
+  function show(i){{
+    slides.forEach(s=>s.classList.remove('active'));
+    idx=(i+slides.length)%slides.length;
+    const active=slides[idx];
+    active.classList.add('active');
+    pill.textContent=active.getAttribute('data-year');
+    prev.disabled=(idx===0);
+    next.disabled=(idx===slides.length-1);
+  }}
+  prev.addEventListener('click',()=>show(idx-1));
+  next.addEventListener('click',()=>show(idx+1));
+  root.addEventListener('keydown',(e)=>{{
+    if(e.key==='ArrowLeft') show(idx-1);
+    if(e.key==='ArrowRight') show(idx+1);
+  }});
+  root.tabIndex=0;
+  show(0);
+}})();
+</script>
+")
+
+knitr::asis_output(html)
+```

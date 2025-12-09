@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ```{=html}
 <div class="hero-band">
   <div class="pane-text">
@@ -47,10 +48,103 @@ theme_rtr <- function() {
       panel.grid.minor = element_blank(),
       panel.grid.major.x = element_blank(),
       plot.margin = margin(6, 6, 6, 6)
+=======
+  <!-- First block that introduces the story of agency -->
+```{=html}
+<div class="hero-band wide-right">
+  <!-- Left text block -->
+  <div class="pane-text">
+    <div class="hero-lead">
+      <h1 style="color:#FFFFFF; font-family:Georgia,serif; font-size:2rem; margin-bottom:1rem;">
+        Agency as Empowerment: The Alumnae Perspective
+      </h1>
+      <p>
+        <strong>
+          <a href="https://www.roomtoread.org/literacy-gender-equality/gender-equality/"
+             target="_blank" style="color:#FFFFFF; text-decoration:none;">
+            Room to Read’s Girls’ Education and Gender Equality Program cares deeply about agency.
+          </a>
+        </strong>
+        The program helps girls build the skills, connections, and confidence to stay in school
+        and make informed decisions about their futures.
+      </p>
+      <p>
+        This page looks at how alumnae experience and navigate
+        <em>family disagreements</em> around major life choices such as education, work, marriage,
+        mobility, finances, and body autonomy, and how often those disagreements are ultimately resolved in their favor (or not). These results draw from data collected between 2023 and 2025, across the <em>1-year</em> and <em>5-year</em> alumnae cohorts.
+      </p>
+    </div>
+  </div>
+
+
+  <!-- Right image block -->
+  <div class="pane-media" style="
+      flex:1 1 50%;
+      background:url('assets/Raise.png') center center/cover no-repeat;
+      border-radius:0 14px 14px 0;
+      min-height:360px;">
+  </div>
+</div>
+```
+```{r, echo=FALSE, warning=FALSE, message=FALSE}
+# If you need to install any packages this is how you would do it...
+#install.packages("patchwork")
+```
+```{r, echo=FALSE, warning=FALSE, message=FALSE}
+# Imports all the libraries needed
+library(tidyverse)
+library(forcats)
+library(scales)
+library(janitor)
+library(glue)
+library(broom)
+library(dplyr)
+library(tidyr)
+library(forcats)
+library(purrr)
+library(ggplot2)
+library(readr)
+library(stringr)
+library(sf)
+library(leaflet)
+library(rnaturalearth)
+library(rnaturalearthdata)
+library(htmltools)
+library(lmtest)
+library(sandwich)  
+library(emmeans)
+library(patchwork)
+
+# Calls the clean data
+df_clean <- readr::read_csv("AlumnaeSurvey2324_cleaned.csv", show_col_types = FALSE)
+
+# Brand palette & theme
+brand <- list(
+  teal   = "#007AA4",
+  green  = "#0C6F5A",
+  lightgreen = "#A3C754",
+  yellow = "#FFC142",
+  pink   = "#994263",
+  lightgray   = "#e5ded4"
+)
+
+# Defines the font and the sizes 
+theme_rtr <- function() {
+  ggplot2::theme_minimal(base_family = "Georgia") +
+    ggplot2::theme(
+      plot.title        = element_text(face = "bold", size = 18, color = "#111111"),
+      plot.subtitle     = element_text(size = 12, color = "#333333"),
+      axis.title        = element_text(size = 11, color = "#333333"),
+      axis.text         = element_text(size = 10, color = "#333333"),
+      panel.grid.minor  = element_blank(),
+      panel.grid.major.x= element_blank(),
+      plot.margin       = margin(6, 6, 6, 6)
+>>>>>>> 7166e56 (Flatten repo: move project files out of submodule)
     )
 }
 ```
 
+<<<<<<< HEAD
 ```{r}
 head(df_clean$n4_c1)
 ```
@@ -159,10 +253,238 @@ ggplot2::ggsave("cohort_5year.png", p_5y, width = 9, height = 6, dpi = 300)
     <div class="slide s5" style="display:none;">
       <img src="cohort_5year.png" alt="Disagreement Frequency — 5-Year Cohort"
            style="width:100%; height:auto; border-radius:12px; box-shadow:0 8px 20px rgba(0,0,0,.08);">
+=======
+```{r, echo=FALSE, warning=FALSE, message=FALSE}
+
+# Same names
+topics_display <- c(
+  "Marriage" = "Marriage",
+  "Children" = "Children",
+  "Study" = "Post-Secondary Education",
+  "Work" = "Work",
+  "Transportation" = "Transportation",
+  "Dress" = "Dress",
+  "Finances" = "Finances",
+  "Behavior" = "Behavior",
+  "Reproductive Healthcare" = "Reproductive Healthcare",
+  "Voting/Politics" = "Voting/Politics",
+  "Where to Live" = "Where to Live"
+)
+
+# # C2 (disagreement) vars
+c2_vars <- c(
+  "Marriage" = "n4_c2_a",
+  "Children" = "n4_c2_b",
+  "Study" = "n4_c2_c",
+  "Work" = "n4_c2_d",
+  "Transportation" = "n4_c2_e",
+  "Dress" = "n4_c2_f",
+  "Finances" = "n4_c2_g",
+  "Behavior" = "n4_c2_h",
+  "Reproductive Healthcare" = "n4_c2_i",
+  "Voting/Politics" = "n4_c2_j",
+  "Where to Live" = "n4_c2_k"
+)
+
+# C3 (resolution) vars
+c3_vars <- c(
+  "Marriage" = "n4_c3_a",
+  "Children" = "n4_c3_b",
+  "Study" = "n4_c3_c",
+  "Work" = "n4_c3_d",
+  "Transportation" = "n4_c3_e",
+  "Dress" = "n4_c3_f",
+  "Finances" = "n4_c3_g",
+  "Behavior" = "n4_c3_h",
+  "Reproductive Healthcare" = "n4_c3_i",
+  "Voting/Politics" = "n4_c3_j",
+  "Where to Live" = "n4_c3_k"
+)
+```
+
+```{=html}
+<div class="callout">
+  <h3 class="headline-serif" style="margin:0 0 .25rem 0;">Where Disagreements Arise</h3>
+  <p>Most alumnae “sometimes” face family disagreements over major life choices. 
+     <strong>India and Vietnam</strong> stand out with <strong>more frequent conflicts</strong>, while 
+     <strong>Tanzania and Cambodia</strong> report <strong>fewer disputes</strong>.</p>
+  <p>Disagreements are rarely absent, but their frequency varies widely across contexts.</p>
+  <div class="rule" style=solid #A3C754;></div>
+</div>
+```
+
+
+```{r, echo=FALSE, warning=FALSE, message=FALSE}
+# STACKED BAR CHARTS (#1 VIZ)
+# Labels for 0/1/2
+resp_labs <- c("0"="No", "1"="Sometimes", "2"="All the time")
+
+# Long data with within-country shares
+df_plot <- df_clean %>%
+  filter(!is.na(country), !is.na(n4_c1)) %>%
+  mutate(resp = factor(as.character(n4_c1), levels = c("0","1","2"), labels = resp_labs)) %>%
+  count(country, resp, name = "n") %>%
+  group_by(country) %>%
+  mutate(prop = n / sum(n)) %>%
+  ungroup()
+
+# Top 15 by total N
+top_countries <- df_plot %>%
+  group_by(country) %>% summarise(N = sum(n), .groups = "drop") %>%
+  slice_max(N, n = 15) %>% pull(country)
+
+# Order by share "All the time"
+order_tbl <- df_plot %>%
+  filter(country %in% top_countries, resp == "All the time") %>%
+  group_by(country) %>% summarise(order_val = sum(prop), .groups = "drop")
+
+df_top <- df_plot %>%
+  filter(country %in% top_countries) %>%
+  left_join(order_tbl, by = "country") %>%
+  mutate(country = fct_reorder(country, order_val, .desc = FALSE))
+
+p_country <- ggplot(df_top, aes(x = prop, y = country, fill = resp)) +
+  geom_col() +
+  scale_x_continuous(labels = percent_format(accuracy = 1)) +
+  scale_fill_manual(values = c(
+    "No" = brand$lightgray,
+    "Sometimes" = brand$lightgreen,
+    "All the time" = brand$teal
+  )) +
+  labs(
+  title = "How Often Alumnae Experience Disagreements",
+  subtitle = "Share of respondents in each country reporting disagreements across all topics*",
+  caption = "*The topics include: work, study, marriage, finances, dress, behavior, transportation, healthcare, voting, and where to live.",
+  x = NULL, y = NULL, fill = NULL
+) +
+theme_rtr() +
+theme(
+  plot.caption = element_text(
+    family = "Georgia", size = 8, hjust = 0, color = "gray30",
+    margin = margin(t = 8)
+  )
+)
+
+p_country
+```
+
+```{=html}
+<div class="callout" style="border-left:none;">
+  <h3 class="headline-serif" style="margin:0 0 .25rem 0;">Family Disagreements Reflect Shifting Agency Over Time</h3>
+  <p>Like the chart above, most alumnae report that family disagreements occur “sometimes” rather than constantly, 
+  with <strong>India</strong> and <strong>Vietnam</strong> showing the highest proportion of alumnae in this category. 
+  <strong>Laos</strong> stands out for more persistent conflicts, while <strong>Tanzania</strong> and <strong>Cambodia</strong> 
+  show the least.</p>
+  <p>Across cohorts, frequent disagreements lessen slightly, suggesting growing confidence and trust between alumnae and their families.</p>
+  <div class="rule"></div>
+</div>
+```
+
+```{r, echo=FALSE, warning=FALSE, message=FALSE}
+# SIDE-BY-SIDE BAR CHARTS (#2 VIZ)
+resp_labs <- c("0"="No", "1"="Sometimes", "2"="All the time")
+
+# Top 15 countries by N
+top_countries <- df_clean %>%
+  dplyr::filter(!is.na(country)) %>%
+  dplyr::count(country, name = "N") %>%
+  dplyr::slice_max(N, n = 15) %>%
+  dplyr::pull(country)
+
+# Order countries by overall share answering "All the time"
+order_tbl <- df_clean %>%
+  dplyr::filter(!is.na(country), !is.na(n4_c1), country %in% top_countries) %>%
+  dplyr::group_by(country) %>%
+  dplyr::summarise(order_val = mean(n4_c1 == 2, na.rm = TRUE), .groups = "drop")
+
+# Shares by alum_survey (cohort) / country / response
+df_cohort <- df_clean %>%
+  dplyr::filter(!is.na(country), !is.na(n4_c1), !is.na(alum_survey), country %in% top_countries) %>%
+  dplyr::mutate(resp = factor(as.character(n4_c1),
+                              levels = c("0","1","2"), labels = resp_labs)) %>%
+  dplyr::count(alum_survey, country, resp, name = "n") %>%
+  dplyr::group_by(alum_survey, country) %>%
+  dplyr::mutate(prop = n / sum(n)) %>%
+  dplyr::ungroup() %>%
+  dplyr::left_join(order_tbl, by = "country") %>%
+  dplyr::mutate(
+    order_val = tidyr::replace_na(order_val, 0),
+    country   = forcats::fct_reorder(country, order_val),
+    resp      = factor(resp, levels = c("No","Sometimes","All the time"))
+  )
+
+# facet view inside the doc
+p_cohort <- ggplot2::ggplot(df_cohort, aes(x = prop, y = country, fill = resp)) +
+  ggplot2::geom_col() +
+  ggplot2::scale_x_continuous(labels = scales::percent_format(accuracy = 1)) +
+  ggplot2::scale_fill_manual(values = c(
+    "No"           = brand$lightgray,
+    "Sometimes"    = brand$lightgreen,
+    "All the time" = brand$teal
+  )) +
+  ggplot2::facet_wrap(~ alum_survey, ncol = 2) +
+  ggplot2::labs(
+    title    = "Disagreement by Country and Cohort",
+    subtitle = "Share of alumnae reporting family disagreements",
+    x = NULL, y = NULL, fill = NULL
+  ) +
+  theme_rtr()
+
+#p_cohort
+
+# Export one PNG per cohort (for the toggle below)
+save_one_cohort <- function(cohort_label, file) {
+  df_one <- dplyr::filter(df_cohort, alum_survey == cohort_label)
+  p <- ggplot2::ggplot(df_one, aes(x = prop, y = country, fill = resp)) +
+    ggplot2::geom_col() +
+    ggplot2::scale_x_continuous(labels = scales::percent_format(accuracy = 1)) +
+    ggplot2::scale_fill_manual(values = c(
+      "No"           = brand$lightgray,
+      "Sometimes"    = brand$lightgreen,
+      "All the time" = brand$teal
+    )) +
+    ggplot2::labs(
+      title    = paste0("Disagreement by Country: ", cohort_label, " Cohort"),
+      x = NULL, y = NULL, fill = NULL
+    ) +
+    theme_rtr()
+  ggplot2::ggsave(file, p, width = 9, height = 6, dpi = 300)
+}
+
+save_one_cohort("1 Year", "disagreement_1year.png")
+save_one_cohort("5 Year", "disagreement_5year.png")
+```
+
+```{=html}
+<div class="cohort-toggle" style="margin: 0 0 1rem 0;">
+  <input type="radio" name="cohortTab" id="tab1" checked style="display:none;">
+  <input type="radio" name="cohortTab" id="tab2" style="display:none;">
+
+  <div style="display:flex; gap:.5rem; margin-bottom:.5rem;">
+    <label for="tab1"
+           style="cursor:pointer; padding:.4rem .7rem; border:1px solid #E5E7EB; border-radius:10px;
+                  font-family: Georgia; font-weight:700; background:#F9FAFB;">
+      1-year cohort
+    </label>
+    <label for="tab2"
+           style="cursor:pointer; padding:.4rem .7rem; border:1px solid #E5E7EB; border-radius:10px;
+                  font-family: Georgia; font-weight:700; background:#F9FAFB;">
+      5-year cohort
+    </label>
+  </div>
+
+  <div class="cohort-panels">
+    <div class="panel panel-1">
+      <img src="disagreement_1year.png" alt="Disagreement by Country — 1-year" style="width:100%; border-radius:12px;">
+    </div>
+    <div class="panel panel-2" style="display:none;">
+      <img src="disagreement_5year.png" alt="Disagreement by Country — 5-year" style="width:100%; border-radius:12px;">
+>>>>>>> 7166e56 (Flatten repo: move project files out of submodule)
     </div>
   </div>
 </div>
 
+<<<<<<< HEAD
 <style>
 /* show/hide slides based on which radio is checked */
 #slide-1y:checked ~ .slides .s1 { display:block !important; }
@@ -194,4 +516,943 @@ ggplot2::ggsave("cohort_5year.png", p_5y, width = 9, height = 6, dpi = 300)
     and which topics—like education, employment, finances, and body autonomy—tend to reach favorable outcomes.
   </p>
 </div>
+=======
+<script>
+  (function () {
+    const tab1 = document.getElementById('tab1');
+    const tab2 = document.getElementById('tab2');
+    const p1 = document.querySelector('.panel-1');
+    const p2 = document.querySelector('.panel-2');
+    function update() {
+      p1.style.display = tab1.checked ? 'block' : 'none';
+      p2.style.display = tab2.checked ? 'block' : 'none';
+    }
+    tab1.addEventListener('change', update);
+    tab2.addEventListener('change', update);
+    update();
+  })();
+</script>
+```
+
+```{=html}
+<div class="callout">
+  <h3 class="headline-serif" style="margin:0 0 .25rem 0;">Disagreements Cluster Around Education, Work, and Marriage</h3>
+  <p>The most common points of disagreement are <strong>work, study, and marriage</strong> which are areas directly tied to alumnae's future independence.
+     Disputes over <em>dress</em>, <em>behavior</em>, and <em>where to live</em> also highlight the tension between personal choice and family or cultural expectations.</p>
+  <p><strong>Why it matters:</strong> These topics cut to the core of alumnae's agency. 
+     They show that decisions about education and livelihood often spark the most resistance, but even everyday freedoms, like mobility or appearance, remain topics of negotiation.</p>
+     <div class="rule"></div>
+</div>
+```
+
+```{r, echo=FALSE, warning=FALSE, message=FALSE}
+# DUMBBELL CHART (#3 VIZ)
+# Topics present in the data
+topic_cols <- c(
+  Marriage  = "n4_c2_a",
+  Children  = "n4_c2_b",
+  Study = "n4_c2_c",
+  Work = "n4_c2_d",
+  Transportation  = "n4_c2_e",
+  Dress = "n4_c2_f",
+  Finances = "n4_c2_g",
+  Behavior = "n4_c2_h",
+  Healthcare= "n4_c2_i",
+  Voting  = "n4_c2_j",
+  Location = "n4_c2_k"
+)
+topic_cols <- topic_cols[topic_cols %in% names(df_clean)]
+
+# Yes-rate per topic
+topic_rates <- df_clean %>%
+  dplyr::select(dplyr::all_of(unname(topic_cols))) %>%
+  dplyr::mutate(dplyr::across(dplyr::everything(), ~ tolower(as.character(.)))) %>%
+  tidyr::pivot_longer(dplyr::everything(), names_to = "topic_var", values_to = "val") %>%
+  dplyr::mutate(
+    Topic = names(topic_cols)[match(topic_var, topic_cols)],
+    yes = dplyr::case_when(
+      val %in% c("yes","1","true","y") ~ 1,
+      val %in% c("no","0","false","n") ~ 0,
+      TRUE ~ NA_real_
+    )
+  ) %>%
+  dplyr::group_by(Topic) %>%
+  dplyr::summarise(pct_yes = mean(yes, na.rm = TRUE), n = sum(!is.na(yes)), .groups = "drop") %>%
+  dplyr::mutate(
+    Topic = forcats::fct_reorder(Topic, pct_yes),               
+    Topic_label = stringr::str_replace_all(Topic, "_", " ")
+  )
+
+# Lollipop chart
+p_topic <- ggplot(topic_rates, aes(x = pct_yes, y = Topic)) +
+  geom_segment(aes(x = 0, xend = pct_yes, y = Topic, yend = Topic),
+               linewidth = 2, color = brand$lightgray) +
+  geom_point(size = 4.2, color = brand$teal) +
+  scale_x_continuous(
+    labels = scales::percent_format(accuracy = 1),
+    limits = c(0, 1)  # force axis from 0% to 100%
+  ) +
+  labs(
+    title = "Disagreements by Topic",
+    subtitle = "Share of alumnae who reported a disagreement",
+    x = NULL, y = NULL
+  ) +
+  theme_rtr() +
+  # removes the gridlines per edits
+  theme( 
+    panel.grid.major = element_blank(),
+    panel.grid.minor = element_blank()
+  )
+
+p_topic
+```
+
+```{=html}
+<div class="callout">
+  <h3 class="headline-serif" style="margin:0 0 .25rem 0;">How Disagreements Differ by Cohort</h3>
+  <p>Both the <strong>1-year</strong> and <strong>5-year</strong> cohorts identify <strong>work, study, and marriage</strong> as the most frequent areas of family disagreement. 
+     These topics remain at the top of the list, empasizing how education and livelihood decisions continue to challenge traditional expectations.</p>
+  <p>For the <strong>5-year cohort</strong>, disagreements are slightly less common overall, suggesting that alumnae gain more autonomy.</p>
+  <div class="rule"></div>
+</div>
+
+```
+```{r, echo=FALSE, warning=FALSE, message=FALSE}
+# DUMBBELL (VIZ FLIP #4)
+
+# topics present
+topic_cols <- c(
+  Marriage="n4_c2_a", Children="n4_c2_b", Study="n4_c2_c", Work="n4_c2_d",
+  Transportation="n4_c2_e", Dress="n4_c2_f", Finances="n4_c2_g",
+  Behavior="n4_c2_h", Healthcare="n4_c2_i", Voting="n4_c2_j", Location="n4_c2_k"
+)
+topic_cols <- topic_cols[topic_cols %in% names(df_clean)]
+
+# long with cohort
+df_long <- df_clean %>%
+  dplyr::select(alum_survey, dplyr::all_of(unname(topic_cols))) %>%
+  tidyr::pivot_longer(dplyr::all_of(unname(topic_cols)),
+                      names_to = "topic_var", values_to = "val") %>%
+  dplyr::mutate(
+    Topic = names(topic_cols)[match(topic_var, topic_cols)],
+    yes = dplyr::case_when(
+      tolower(as.character(val)) %in% c("yes","1","true","y","t") ~ 1,
+      tolower(as.character(val)) %in% c("no","0","false","n","f") ~ 0,
+      TRUE ~ NA_real_
+    )
+  ) %>%
+  dplyr::filter(!is.na(alum_survey))
+
+# order topics by pooled yes-rate (small -> large)
+topic_order <- df_long %>%
+  dplyr::group_by(Topic) %>%
+  dplyr::summarise(pct_yes = mean(yes, na.rm = TRUE), .groups="drop") %>%
+  dplyr::arrange(pct_yes) %>% dplyr::pull(Topic)
+
+make_lollipop <- function(cohort_label, file) {
+  dat <- df_long %>%
+    dplyr::filter(alum_survey == cohort_label) %>%
+    dplyr::group_by(Topic) %>%
+    dplyr::summarise(
+      pct_yes = mean(yes, na.rm = TRUE),
+      n = sum(!is.na(yes)),
+      .groups = "drop"
+    ) %>%
+    dplyr::mutate(Topic = forcats::fct_relevel(Topic, topic_order))
+
+  p <- ggplot2::ggplot(dat, aes(x = pct_yes, y = Topic)) +
+    ggplot2::geom_segment(
+      aes(x = 0, xend = pct_yes, y = Topic, yend = Topic),
+      linewidth = 2, color = brand$lightgray
+    ) +
+    ggplot2::geom_point(size = 4.2, color = brand$teal) +
+    # Force x-axis to range from 0% to 100%
+    ggplot2::scale_x_continuous(
+      labels = scales::percent_format(accuracy = 1),
+      limits = c(0, 1)
+    ) +
+    ggplot2::labs(
+      title = paste0("Disagreements by Topic: ", cohort_label, " Cohort"),
+      x = NULL, y = NULL
+    ) +
+    theme_rtr() +
+    ggplot2::theme(
+      plot.subtitle = element_blank(),
+      panel.grid.major = element_blank(),
+      panel.grid.minor = element_blank()
+    )
+
+  print(p)
+  ggplot2::ggsave(file, p, width = 9, height = 6, dpi = 300)
+}
+
+# These commands display indivudually
+# Note: Uncomment these out to update the slider and then comment 
+# out again!
+#make_lollipop("1 Year", "topic_lollipop_1year.png")
+#make_lollipop("5 Year", "topic_lollipop_5year.png")
+```
+
+```{=html}
+<div class="cohort-toggle" style="margin: 0 0 1rem 0;">
+  <input type="radio" name="cohortLollipop" id="lp1" checked style="display:none;">
+  <input type="radio" name="cohortLollipop" id="lp2" style="display:none;">
+
+  <div style="display:flex; gap:.5rem; margin-bottom:.5rem;">
+    <label for="lp1"
+           style="cursor:pointer; padding:.4rem .7rem; border:1px solid #E5E7EB; border-radius:10px;
+                  font-family: Georgia; font-weight:700; background:#F9FAFB;">
+      1-year cohort
+    </label>
+    <label for="lp2"
+           style="cursor:pointer; padding:.4rem .7rem; border:1px solid #E5E7EB; border-radius:10px;
+                  font-family: Georgia; font-weight:700; background:#F9FAFB;">
+      5-year cohort
+    </label>
+  </div>
+
+  <div class="lp-panels">
+    <div class="lp-panel lp1">
+      <img src="topic_lollipop_1year.png" alt="Disagreements by Topic: 1-year" style="width:100%; border-radius:12px;">
+    </div>
+    <div class="lp-panel lp2" style="display:none;">
+      <img src="topic_lollipop_5year.png" alt="Disagreements by Topic: 5-year" style="width:100%; border-radius:12px;">
+    </div>
+  </div>
+</div>
+
+<script>
+  (function () {
+    const a = document.getElementById('lp1');
+    const b = document.getElementById('lp2');
+    const p1 = document.querySelector('.lp1');
+    const p2 = document.querySelector('.lp2');
+    function upd(){ p1.style.display = a.checked ? 'block' : 'none';
+                    p2.style.display = b.checked ? 'block' : 'none'; }
+    a.addEventListener('change', upd); b.addEventListener('change', upd); upd();
+  })();
+</script>
+```
+
+```{=html}
+<div class="hero-band wide-right" style="margin-top:1rem;">
+  <div class="pane-text">
+    <div class="hero-lead">
+      <h2 class="headline-serif" style="margin:0 0 .75rem 0; color:white;">
+        How Often Disagreements End in Alumnae's Favor
+      </h2>
+      <p style="margin:0 0 .5rem 0;"> Now that we’ve seen <strong>where disagreements occur</strong> and <strong>which topics drive them</strong>, we can turn to the key question: <em>how often are these disagreements resolved in alumnae’s favor?</em> </p> <p style="margin:0;"> The charts below show <strong>how disagreements are resolved</strong> across the top topics, comparing the <em>1-year</em> and <em>5-year</em> cohorts, alongside the most common disagreement topics by country and a full ranking of outcomes from most to least favorable. </p>
+      </p>
+    </div>
+  </div>
+
+  <div class="pane-media">
+    <img src="assets/Four_girls.png" alt="Four girls from Room to Read">
+  </div>
+</div>
+```
+```{=html}
+<div class="callout">
+  <h3 class="headline-serif" style="margin:0 0 .25rem 0;">Reaching a Resolution</h3>
+  <p> The topics with the highest disagreement rates (work, study, marriage) are also the ones least likely to end in the alumnae’s favor.
+  In contrast, lower-frequency issues like reproductive healthcare, children, or voting are much more likely to resolve in the alumnae’s favor when they do arise.
+  </p>
+  <div class="rule"></div>
+</div>
+```
+
+```{r, echo=FALSE, warning=FALSE, message=FALSE}
+# STACKED BAR CHARTS (#4 VIZ)
+res_cols <- c("n4_c3_a","n4_c3_b","n4_c3_c","n4_c3_d","n4_c3_e",
+              "n4_c3_f","n4_c3_g","n4_c3_h","n4_c3_i","n4_c3_j","n4_c3_k")
+
+topic_map <- c(
+  n4_c3_a = "Marriage",
+  n4_c3_b = "Children",
+  n4_c3_c = "Study",
+  n4_c3_d = "Work",
+  n4_c3_e = "Transportation",
+  n4_c3_f = "Dress",
+  n4_c3_g = "Finances",
+  n4_c3_h = "Behavior",
+  n4_c3_i = "Healthcare",
+  n4_c3_j = "Voting",
+  n4_c3_k = "Living"
+)
+
+# Normalize outcomes (0/1/2 -> labels)
+normalize_outcome <- function(x){
+  x <- as.character(x)
+  case_when(
+    x == "1" ~ "Favorable",
+    x == "2" ~ "Partially Favorable",
+    x == "0" ~ "Not in Favor",
+    TRUE     ~ NA_character_
+  )
+}
+
+# Catch all
+res_cols <- intersect(res_cols, names(df_clean))
+
+# Long data
+df_res_long <- df_clean %>%
+  select(alum_survey, all_of(res_cols)) %>%
+  pivot_longer(all_of(res_cols), names_to = "var", values_to = "raw") %>%
+  mutate(
+    Topic   = recode(var, !!!topic_map, .default = var),
+    Outcome = normalize_outcome(raw)
+  ) %>%
+  filter(!is.na(Outcome))
+
+# Distribution by topic
+dist_topic <- df_res_long %>%
+  count(Topic, Outcome, name = "n") %>%
+  group_by(Topic) %>%
+  mutate(prop = n / sum(n)) %>%
+  ungroup() %>%
+  mutate(Outcome = factor(Outcome,
+                          levels = c("Not in Favor","Partially Favorable","Favorable")))
+
+# Order topics
+topic_order <- dist_topic %>%
+  filter(Outcome == "Favorable") %>%
+  select(Topic, prop) %>%
+  rename(order_val = prop)
+
+dist_topic <- dist_topic %>%
+  left_join(topic_order, by = "Topic") %>%
+  mutate(Topic = fct_reorder(Topic, order_val, .desc = FALSE))
+
+# Plot it 
+p_stack <- ggplot(dist_topic, aes(x = prop, y = Topic, fill = Outcome)) +
+  geom_col() +
+  scale_x_continuous(labels = percent_format(accuracy = 1)) +
+  scale_y_discrete(limits = rev) +   # <-- flips order for smallest→largest top→bottom
+  scale_fill_manual(values = c(
+    "Not in Favor"        = brand$lightgray,
+    "Partially Favorable" = brand$lightgreen,
+    "Favorable"           = brand$teal
+  )) +
+  labs(
+    title = "Resolution of Disagreements by Topic",
+    subtitle = "Share of alumnae reporting favorable outcomes, from least to most",
+    x = NULL, y = NULL, fill = NULL
+  ) +
+  theme_rtr()
+
+p_stack
+```
+
+```{=html}
+<div class="callout">
+  <h3 class="headline-serif" style="margin:0 0 .25rem 0;">How Key Disagreements Are Resolved by Cohort</h3>
+  <p>
+    Below we can see that in the one-year cohort, <strong>marriage</strong> disagreements are most often resolved favorably, but this drops noticeably by the 
+    five-year mark as <strong>partially favorable</strong> outcomes increase.
+    A similar shift appears for <strong>study</strong>: strong favorable outcomes in the first year soften into more partial agreements 
+    in year five. <strong>Work</strong> shows the opposite trend: what begins as mostly partial agreement in the one-year cohort becomes 
+    more fully <strong>favorable</strong> for alumnae in the five-year cohort.
+  </p>
+  <div class="rule"></div>
+</div>
+```
+
+```{r, echo=FALSE, warning=FALSE, message=FALSE}
+# BAR CHARTS (#5 VIZ) — STACKED + 1-YEAR VS 5-YEAR SIDE-BY-SIDE
+
+# topics
+focus_topics <- c("Work", "Study", "Marriage")
+
+# dataset
+dist_topic_cohort <- df_res_long %>%
+  count(alum_survey, Topic, Outcome, name = "n") %>%
+  group_by(alum_survey, Topic) %>%
+  mutate(prop = n / sum(n)) %>%
+  ungroup() %>%
+  mutate(
+    # ensures stack order
+    Outcome = factor(
+      Outcome,
+      levels = c("Not in Favor", "Partially Favorable", "Favorable")
+    )
+  ) %>%
+  filter(Topic %in% focus_topics)
+
+# colors for key
+pal <- c(
+  "Not in Favor"        = brand$lightgray,
+  "Partially Favorable" = brand$lightgreen,
+  "Favorable"           = brand$teal
+)
+
+# stacked bars, reversed order, no gridlines
+p_barnhart <- ggplot(dist_topic_cohort, 
+                     aes(
+                       x = alum_survey, 
+                       y = prop, 
+                       fill = Outcome,
+                       group = forcats::fct_rev(Outcome)   # forces stack order
+                     )) +
+  geom_col(width = 0.7, position = "stack") +
+  facet_wrap(~ Topic, nrow = 1) +
+  scale_y_continuous(
+    labels = scales::percent_format(accuracy = 1),
+    limits = c(0, 1)
+  ) +
+  scale_fill_manual(
+    values = pal,
+    breaks = c("Not in Favor", "Partially Favorable", "Favorable"),
+    guide = guide_legend(reverse = TRUE)   # legend matches bottom-to-top order
+  ) +
+  labs(
+    title = "Top 3 Disagreement Outcomes by Cohort",
+    subtitle = NULL,
+    x = NULL, y = NULL, fill = NULL
+  ) +
+  theme_minimal(base_family = "Georgia") +
+  theme(
+    plot.title = element_text(face = "bold", size = 18, hjust = 0.5),
+    plot.subtitle = element_text(size = 13, hjust = 0.5),
+    axis.text = element_text(size = 11),
+    strip.text = element_text(face = "bold", size = 12),
+    legend.position = "bottom",
+    panel.grid.major = element_blank(),
+    panel.grid.minor = element_blank()
+  )
+
+p_barnhart
+```
+
+```{=html}
+<div class="callout">
+  <h3 class="headline-serif" style="margin:0 0 .25rem 0;">
+    Most Common Disagreement Topics by Country
+  </h3>
+  <p>
+    This chart shows the <strong>most frequent areas of disagreement</strong> for alumnae in each country, 
+    along with how often those disagreements were <strong>favorably</strong> or <strong>partially favorably</strong> resolved. 
+    Each country’s top topic reflects a unique social tension, ranging from <em>behavior</em> in Tanzania and Cambodia 
+    to <em>study</em> in India and Nepal, <em>dress</em> in Laos, and <em>marriage</em> in Sri Lanka.
+  </p>
+  <p>
+    In several countries, especially <strong>Tanzania, Laos, and Bangladesh</strong>, a large majority of alumnae
+    report <strong>favorable resolutions</strong>, suggesting that these disputes often end in empowerment or compromise. 
+    In contrast, <strong>Sri Lanka’s marriage disputes</strong> and <strong>Vietnam’s work-related disagreements</strong> 
+    show more <strong>partial resolutions</strong>, indicating areas where autonomy remains more constrained.
+  </p>
+  <p>
+    Overall, the variation across countries highlights that <strong>agency operates differently depending on cultural context</strong>: 
+    where behavioral norms dominate, resolutions tend to be more favorable; where decisions touch on 
+    <em>marriage or work</em>, tensions are harder to resolve.
+  </p>
+  <div class="rule"></div>
+</div>
+```
+
+```{r, echo=FALSE, warning=FALSE, message=FALSE}
+# BAR CHART COUNTRY (#6 VIZ)
+c2_yes <- function(x) ifelse(tolower(as.character(x)) %in% c("yes","y","1","true","t"), 1,
+                             ifelse(tolower(as.character(x)) %in% c("no","n","0","false","f"), 0, NA))
+c3_label <- function(x) case_when(
+  tolower(as.character(x)) %in% c("1","yes","y","true","t")  ~ "Favorable",
+  tolower(as.character(x)) %in% c("2","partial","partially") ~ "Partially Favorable",
+  tolower(as.character(x)) %in% c("0","no","n","false","f")  ~ "Not in Favor",
+  TRUE ~ NA_character_
+)
+
+
+keep_topics <- names(c2_vars)[c2_vars %in% names(df_clean) & c3_vars %in% names(df_clean)]
+c2_vars <- c2_vars[keep_topics]
+c3_vars <- c3_vars[keep_topics]
+
+countries8 <- df_clean %>%
+  filter(!is.na(country)) %>%
+  count(country, sort = TRUE) %>%
+  slice_head(n = 8) %>%
+  pull(country)
+
+top_topic_by_cty <- df_clean %>%
+  filter(country %in% countries8) %>%
+  select(country, all_of(unname(c2_vars))) %>%
+  mutate(across(all_of(unname(c2_vars)), c2_yes)) %>%
+  pivot_longer(all_of(unname(c2_vars)), names_to = "c2_var", values_to = "yes") %>%
+  mutate(Topic = names(c2_vars)[match(c2_var, c2_vars)]) %>%
+  group_by(country, Topic) %>%
+  summarise(rate_yes = mean(yes, na.rm = TRUE), .groups = "drop") %>%
+  arrange(country, desc(rate_yes)) %>%
+  group_by(country) %>%
+  slice_head(n = 1) %>%
+  ungroup()
+
+cty_topic_res <- pmap_dfr(
+  list(top_topic_by_cty$country, top_topic_by_cty$Topic),
+  \(country, Topic) {
+    c2v <- c2_vars[[Topic]]; c3v <- c3_vars[[Topic]]
+    df_clean %>%
+      filter(country == !!country) %>%
+      transmute(c2 = c2_yes(.data[[c2v]]),
+                c3 = c3_label(.data[[c3v]])) %>%
+      filter(c2 == 1, !is.na(c3)) %>%
+      count(c3, name = "n") %>%
+      mutate(country = country, Topic = Topic, Outcome = c3)
+  }
+) %>%
+  group_by(country, Topic) %>%
+  complete(Outcome = c("Not in Favor","Partially Favorable","Favorable"), fill = list(n = 0)) %>%
+  mutate(prop = n / sum(n)) %>%
+  ungroup() %>%
+  mutate(country_lab = glue("{country}: {Topic}"),
+         Outcome = factor(Outcome, levels = c("Not in Favor","Partially Favorable","Favorable")))
+
+pal <- c(
+  "Not in Favor"        = brand$lightgray,
+  "Partially Favorable" = brand$lightgreen,
+  "Favorable"           = brand$teal
+)
+
+
+p_cty_top_issue <- ggplot(cty_topic_res, aes(y = country_lab, x = prop, fill = Outcome)) +
+  geom_col(position = "dodge", width = 0.80) +
+  scale_x_continuous(labels = scales::percent, limits = c(0, 1)) +
+  scale_fill_manual(values = pal) +
+  labs(
+    title = "Most-Common Disagreement per Country",
+    subtitle = NULL,
+    x = NULL, y = NULL, fill = NULL
+  ) +
+  theme_minimal(base_family = "Georgia") +
+  theme(
+    plot.title    = element_text(face = "bold", size = 18, hjust = 0.5),
+    axis.text.y   = element_text(size = 10),
+    axis.text.x   = element_text(size = 10),
+    panel.grid.major = element_blank(),
+    panel.grid.minor = element_blank(),
+    legend.position = "bottom"
+  )
+
+p_cty_top_issue
+```
+
+
+```{=html}
+<div class="hero-band wide-right" style="margin-top:1rem;">
+  <div class="pane-text">
+    <div class="hero-lead">
+      <h2 class="headline-serif" style="margin:0 0 .75rem 0; color:white;">
+        From Resolution to Agency in Action
+      </h2>
+      <p style="margin:0 0 .5rem 0;">
+        We’ve identified the <strong>most common disagreement topics</strong> and how they tended to be resolved.
+        The natural next step is to ask: <em>how does agency shape the choices alumnae make?</em>
+      </p>
+    </div>
+  </div>
+
+  <div class="pane-media">
+    <img src="assets/Two_girls.png" alt="Two girls from Room to Read">
+  </div>
+</div>
+```
+
+```{=html}
+<div class="callout">
+  <h3 class="headline-serif" style="margin:0 0 .25rem 0;">Agency and Post-Secondary Education</h3>
+  <p>
+    Alumnae with disagreements that are <strong>not resolved</strong> and are less likely to persue post-secondary education.
+  </p>
+
+  <p>
+    In our data, only about <strong>1 in 8</strong> pursue post-secondary education with an unresolved dispute:
+  </p>
+  <div style="margin:0.5rem 0; text-align:left;">
+  <img src="assets/1_in_8.png" alt="1 in 8 visual showing resolved disputes" style="width:100%; max-width:1200px; height:auto;">
+</div>
+
+ <p style="margin:0.5rem 0 0.25rem 0;">
+  Compared with roughly <strong>2 in 5</strong> when the dispute is <strong>resolved</strong>:
+</p>
+<div style="margin:0.5rem 0; text-align:left;">
+  <img src="assets/2_in_5.png" alt="2 in 5 visual showing resolved disputes" style="width:100%; max-width:1200px; height:auto;">
+  <div class="rule"></div>
+</div>
+```
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+# AGENCY X POST-SECONDARY EEDUCATION
+# Detect ID and country columns (robust)
+id_candidates  <- c("gep_id")
+country_candidates <- c("country")
+
+id_col      <- dplyr::first(intersect(id_candidates, names(df_clean)))
+country_col <- dplyr::first(intersect(country_candidates, names(df_clean)))
+
+# Normalize key column types (use tidy-eval correctly)
+df_clean <- df_clean %>%
+  dplyr::mutate(
+    !!rlang::sym(id_col) := as.character(.data[[id_col]]),
+    !!rlang::sym(country_col) := as.character(.data[[country_col]])
+  )
+
+# sanity: helpers and maps must exist
+if (!exists("c2_vars") || !exists("c3_vars")) stop("c2_vars / c3_vars not defined.")
+if (!exists("c2_yes")  || !exists("c3_label")) stop("c2_yes() / c3_label() not defined.")
+
+# Build person_resolution if not present
+if (!exists("person_resolution")) {
+
+  long_disagreements <- purrr::imap_dfr(c2_vars, function(c2_col, topic) {
+    c3_col <- c3_vars[[topic]]
+    df_clean %>%
+      dplyr::transmute(
+        gep_id  = .data[[id_col]],
+        country = .data[[country_col]],
+        topic   = topic,
+        c2      = c2_yes(.data[[c2_col]]),
+        c3      = c3_label(.data[[c3_col]])
+      )
+  })
+
+  disag <- long_disagreements %>% dplyr::filter(c2 == 1, !is.na(c3))
+
+  person_resolution <- disag %>%
+    dplyr::mutate(is_resolved = c3 %in% c("Favorable", "Partially Favorable")) %>%
+    dplyr::group_by(gep_id) %>%
+    dplyr::summarise(
+      resolution_status = dplyr::if_else(any(is_resolved, na.rm = TRUE), "Resolved", "Not Resolved"),
+      n_topics_with_disagreement = dplyr::n(),
+      country = dplyr::first(country),
+      .groups = "drop"
+    )
+}
+
+# Attach education outcome
+person_outcome <- df_clean %>%
+  dplyr::transmute(
+    gep_id = .data[[id_col]],
+    n2_a5  = .data[["n2_a5"]]
+  ) %>%
+  dplyr::left_join(person_resolution, by = "gep_id") %>%
+  dplyr::filter(!is.na(resolution_status)) %>%
+  dplyr::mutate(
+    edu = dplyr::if_else(
+      is.na(n2_a5) | tolower(trimws(as.character(n2_a5))) %in% c("", "na", "n/a", "none", "null"),
+      0L, 1L
+    ),
+    edu_lab = dplyr::if_else(edu == 1L, "College education", "No college"),
+    resolution_status = factor(resolution_status, levels = c("Not Resolved","Resolved"))
+  )
+
+# 2x2 table (+ row percentages)
+edu_table <- person_outcome %>%
+  dplyr::count(resolution_status, edu_lab) %>%
+  dplyr::group_by(resolution_status) %>%
+  dplyr::mutate(pct = n / sum(n)) %>%
+  dplyr::ungroup() %>%
+  # >>> FORCE BLUE CATEGORY ON TOP <<<
+  dplyr::mutate(
+    edu_lab = factor(
+      edu_lab,
+      levels = c("No college", "College education")  # BLUE FIRST
+    )
+  )
+
+# Visualization
+ggplot2::ggplot(
+  edu_table,
+  ggplot2::aes(x = resolution_status, y = pct, fill = edu_lab)
+) +
+  ggplot2::geom_col(width = 0.7) +
+  ggplot2::scale_y_continuous(labels = scales::percent_format(accuracy = 1), limits = c(0,1)) +
+  ggplot2::scale_fill_manual(
+    values = c(
+      "No college" = brand$teal,              # BLUE (TOP)
+      "College education" = brand$lightgreen  # GREEN (BOTTOM)
+    ),
+    labels = c(
+      "College education" = "Post-secondary education",
+      "No college" = "No Post-secondary education"
+    ),
+    guide = ggplot2::guide_legend(reverse = FALSE)
+  ) +
+  ggplot2::labs(
+    title = "Post-Secondary Education by Dispute Resolution Status",
+    x = NULL, y = NULL, fill = NULL
+  ) +
+  ggplot2::theme_minimal(base_family = "Georgia") +
+  ggplot2::theme(
+    plot.title = element_text(face = "bold", size = 16, hjust = 0.5),
+    panel.grid.minor = element_blank(),
+    legend.position = "bottom"
+  )
+```
+
+```{=html}
+<div class="callout">
+  <h3 class="headline-serif" style="margin:0 0 .25rem 0;">
+    How Agency Relates to Marital Status
+  </h3>
+  <p>
+    Among alumnae with <strong>resolved disputes</strong>, the share who are <strong>married</strong> is considerably smaller, 
+    while the <strong>never married/other</strong> group is larger. 
+    In contrast, unresolved disputes are more frequently observed among those who are married.
+    <div style="font-size:0.8rem; color:#555; margin-top:6px; font-family:Georgia,serif;">
+  <em>Note:</em> The “other” category includes alumnae who did not answer the question or whose marital status could not be determined.
+  </p>
+</div>
+  <div class="rule"></div>
+</div>
+```
+
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+# AGENCY × MARRIAGE
+
+# --- Detect ID and country columns
+id_candidates <- c("gep_id")
+country_candidates <- c("country")
+
+id_col      <- dplyr::first(intersect(id_candidates, names(df_clean)))
+country_col <- dplyr::first(intersect(country_candidates, names(df_clean)))
+
+# Normalize key columns
+df_clean <- df_clean %>%
+  dplyr::mutate(
+    !!rlang::sym(id_col)      := as.character(.data[[id_col]]),
+    !!rlang::sym(country_col) := as.character(.data[[country_col]])
+  )
+
+# --- Helpers must exist
+if (!exists("c2_vars") || !exists("c3_vars")) stop("c2_vars / c3_vars not defined.")
+if (!exists("c2_yes")  || !exists("c3_label")) stop("c2_yes() / c3_label() not defined.")
+
+# --- Build person_resolution if not present
+if (!exists("person_resolution")) {
+  long_disagreements <- purrr::imap_dfr(c2_vars, function(c2_col, topic) {
+    c3_col <- c3_vars[[topic]]
+    df_clean %>%
+      dplyr::transmute(
+        gep_id  = .data[[id_col]],
+        country = .data[[country_col]],
+        topic   = topic,
+        c2      = c2_yes(.data[[c2_col]]),
+        c3      = c3_label(.data[[c3_col]])
+      )
+  })
+
+  disag <- long_disagreements %>%
+    dplyr::filter(c2 == 1, !is.na(c3))
+
+  person_resolution <- disag %>%
+    dplyr::mutate(is_resolved = c3 %in% c("Favorable", "Partially Favorable")) %>%
+    dplyr::group_by(gep_id) %>%
+    dplyr::summarise(
+      resolution_status = dplyr::if_else(any(is_resolved, na.rm = TRUE), "Resolved", "Not Resolved"),
+      n_topics_with_disagreement = dplyr::n(),
+      country = dplyr::first(country),
+      .groups = "drop"
+    )
+}
+
+# --- Attach marital outcome
+marital_outcome <- df_clean %>%
+  dplyr::transmute(
+    gep_id = .data[[id_col]],
+    mraw   = tolower(trimws(as.character(n3_b1)))
+  ) %>%
+  dplyr::mutate(
+    marital_grp = dplyr::case_when(
+      mraw == "married" ~ "Married",
+      mraw == "never married" ~ "Never married",
+      is.na(mraw) ~ NA_character_,
+      TRUE ~ "Other"
+    ),
+    marital_grp = forcats::fct_collapse(
+      factor(marital_grp),
+      `Never married/Other` = c("Never married", "Other")
+    ),
+    marital_grp = forcats::fct_relevel(marital_grp, "Never married/Other", "Married")
+  ) %>%
+  dplyr::select(gep_id, marital_grp)
+
+# --- Join + compute table
+agency_marriage <- person_resolution %>%
+  dplyr::left_join(marital_outcome, by = "gep_id") %>%
+  dplyr::filter(!is.na(marital_grp)) %>%
+  dplyr::mutate(
+    resolution_status = factor(resolution_status, levels = c("Not Resolved","Resolved"))
+  )
+
+marriage_table <- agency_marriage %>%
+  dplyr::count(resolution_status, marital_grp) %>%
+  dplyr::group_by(resolution_status) %>%
+  dplyr::mutate(
+    pct = n / sum(n)
+  ) %>%
+  dplyr::ungroup()
+
+# --- Visualization
+ggplot2::ggplot(
+  marriage_table,
+  ggplot2::aes(x = resolution_status, y = pct, fill = marital_grp)
+) +
+  ggplot2::geom_col(width = 0.7) +
+  
+  ggplot2::scale_y_continuous(
+    labels = scales::percent_format(accuracy = 1),
+    limits = c(0,1)
+  ) +
+  ggplot2::scale_fill_manual(
+    values = c(
+      "Never married/Other" = brand$teal,
+      "Married" = brand$lightgreen
+    ),
+    labels = c(
+      "Never married/Other" = "Never married / Other",
+      "Married" = "Married"
+    )
+  ) +
+  ggplot2::labs(
+    title = "Marital Status by Dispute Resolution Status",
+    x = NULL, y = NULL, fill = NULL,
+    caption = "Counts: Not Resolved = 8 married, 8 never married/other; Resolved = 213 married, 87 never married/other."
+  ) +
+  ggplot2::theme_minimal(base_family = "Georgia") +
+  ggplot2::theme(
+    plot.title = element_text(face = "bold", size = 16, hjust = 0.5),
+    plot.caption = element_text(size = 10, hjust = 0.5, color = 'grey40', margin = margin(t = 10)),
+    panel.grid.minor = element_blank(),
+    legend.position = "bottom"
+  )
+```
+
+
+```{=html}
+<div class="callout">
+  <h3 class="headline-serif" style="margin:0 0 .25rem 0;">
+    Post-Secondary Education and Marital Status
+  </h3>
+  <p>
+    <strong>Never married/other alumnae are much more likely to have enrolled in a post-secondary education program</strong>, while those who are
+    <strong>married</strong> are far more concentrated in the <em>no post-secondary education</em> category. The size of the gap reflects how strongly marital status is associated with post-secondary participation in this dataset.
+  </p>   
+  <div class="rule"></div>
+</div>
+```
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+# MARRIAGE x PSE
+
+# Recode marital status and education
+marriage_df <- df_clean %>%
+  dplyr::transmute(
+    gep_id, country,
+    marital_status = dplyr::case_when(
+      tolower(trimws(as.character(n3_b1))) == "married" ~ "Married",
+      tolower(trimws(as.character(n3_b1))) == "never married" ~ "Never married",
+      is.na(n3_b1) ~ NA_character_,
+      TRUE ~ "Other"
+    ),
+    # robust 0/1 college indicator
+    edu01 = dplyr::if_else(
+      is.na(n2_a5) | tolower(trimws(as.character(n2_a5))) %in% c("", "na", "n/a", "none", "null"),
+      0L, 1L
+    ),
+    edu_lab = dplyr::if_else(edu01 == 1L, "College education", "No college")
+  ) %>%
+  dplyr::mutate(
+    marital_status = forcats::fct_collapse(
+      factor(marital_status, levels = c("Never married","Married","Other")),
+      `Never married/Other` = c("Never married","Other")
+    ),
+    marital_status = forcats::fct_relevel(marital_status, "Never married/Other","Married")
+  )
+
+# % composition by marital status
+mar_edu_tbl <- marriage_df %>%
+  dplyr::filter(!is.na(marital_status)) %>%
+  dplyr::count(marital_status, edu_lab) %>%
+  dplyr::group_by(marital_status) %>%
+  dplyr::mutate(pct = n / sum(n)) %>%
+  dplyr::ungroup() %>%
+  # >>> FORCE BLUE CATEGORY ON TOP <<<
+  dplyr::mutate(
+    edu_lab = factor(
+      edu_lab,
+      levels = c("No college", "College education")
+    )
+  )
+
+# Bar chart
+ggplot2::ggplot(mar_edu_tbl, ggplot2::aes(x = marital_status, y = pct, fill = edu_lab)) +
+  ggplot2::geom_col(width = 0.7) +
+  ggplot2::scale_y_continuous(labels = scales::percent_format(accuracy = 1), limits = c(0,1)) +
+  ggplot2::scale_fill_manual(
+    values = c(
+      "No college" = brand$teal, 
+      "College education" = brand$lightgreen
+    ),
+    labels = c(
+      "College education" = "Post-secondary education",
+      "No college" = "No Post-secondary education"
+    ),
+    guide = ggplot2::guide_legend(reverse = FALSE)
+  ) +
+  ggplot2::labs(
+    title = "Post-Secondary Education by Marital Status",
+    x = NULL, y = NULL, fill = NULL
+  ) +
+  ggplot2::theme_minimal(base_family = "Georgia") +
+  ggplot2::theme(
+    plot.title = element_text(face = "bold", size = 16, hjust = 0.5),
+    panel.grid.minor = element_blank(),
+    legend.position = "bottom"
+  )
+```
+
+```{=html}
+<style>
+  .final-card{
+    --teal:#146b78; --gold:#e4b32a; --ink:#1f2937; --paper:#fff; --muted:#6b7280;
+    max-width: 980px; margin: 2.25rem auto; padding: 1.5rem 1.75rem;
+    background: var(--paper); border: 1px solid #e5e7eb; border-radius: 18px;
+    box-shadow: 0 6px 18px rgba(31,41,55,.08);
+  }
+  .final-card h2{
+    font-family: "Charter", "Georgia", serif; font-size: 1.65rem; margin: 0 0 .5rem;
+    line-height: 1.2; color: var(--ink);
+  }
+  .final-pill{
+    display:inline-block; padding:.25rem .6rem; border-radius:999px;
+    background: rgba(20,107,120,.08); color: var(--teal); font-weight:600;
+    font-size:.85rem; margin-bottom:.75rem;
+  }
+  .final-grid{display:grid; gap:10px; grid-template-columns: 1fr 1fr 1fr;}
+  .final-tile{
+    background:#f9fafb; border:1px solid #e5e7eb; border-radius:14px; padding:.85rem;
+  }
+  .final-tile h4{margin:.1rem 0 .35rem; font-size:1rem; color:var(--ink);}
+  .final-tile p{margin:0; color:var(--muted); font-size:.95rem;}
+  .final-note{
+    margin-top: .9rem; font-size:.95rem; color: var(--muted);
+  }
+</style>
+
+<div class="final-card">
+  <h2>Each resolved conflict represents a measurable shift toward autonomy and opportunity.</h2>
+
+  <div class="final-grid">
+    <div class="final-tile">
+      <p>Disagreements cluster around <strong>work, study, and marriage</strong>.</p>
+    </div>
+    <div class="final-tile">
+      <p><strong>Favorable</strong> or <strong>partially favorable</strong> resolutions are common across several topics.</p>
+    </div>
+    <div class="final-tile">
+      <p>Resolved disputes correspond with <strong>higher post-secondary education</strong> and <strong>lower rates of early marriage</strong>.</p>
+    </div>
+  </div>
+
+  <p class="final-note"><em>Future analyses may reveal how agency shapes life choices beyond these early outcomes.</em></p>
+</div>
+>>>>>>> 7166e56 (Flatten repo: move project files out of submodule)
 ```

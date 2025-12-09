@@ -1,11 +1,23 @@
 /* ===== Brand ===== */
 :root{
   --teal:#007AA4;
+<<<<<<< HEAD
   --green:#0C6F5A;
+=======
+  --lightgreen:#A3C754;
+>>>>>>> 7166e56 (Flatten repo: move project files out of submodule)
   --accent:#FFC142;
   --ink:#333;
 }
 
+<<<<<<< HEAD
+=======
+/* Change navbar background color */
+.navbar, .navbar-dark, .navbar-expand-lg {
+  background-color: #00546B !important;
+}
+
+>>>>>>> 7166e56 (Flatten repo: move project files out of submodule)
 /* ===== Title & Headings ===== */
 #title-block-header h1.title{
   font-size:2.6rem; font-weight:800; color:var(--teal); margin:0 0 .75rem;
@@ -21,7 +33,18 @@
 @media (min-width:900px){ .hero-band{ grid-template-columns:1.15fr 1fr; } .hero-band .pane-text{ padding:2rem; } }
 
 .hero-lead{ font-family: Georgia,"Times New Roman",Times,serif; font-size:clamp(1rem,.5vw + .9rem,1.2rem); line-height:1.55; }
+<<<<<<< HEAD
 .rule{ height:5px; width:140px; background:var(--accent); border-radius:999px; margin:.5rem 0 1rem; }
+=======
+/* mini bars after the headings and before text explanations */
+.rule {
+  height:5px;
+  width:140px;
+  background:var(--lightgreen); /* was var(--accent) */
+  border-radius:999px;
+  margin:.5rem 0 1rem;
+}
+>>>>>>> 7166e56 (Flatten repo: move project files out of submodule)
 .stat-row{ display:flex; flex-wrap:wrap; gap:.5rem; }
 .stat{ background:rgba(255,255,255,.14); border:1px solid rgba(255,255,255,.22); color:#fff; padding:.4rem .7rem; border-radius:999px; font-weight:700; }
 
@@ -44,3 +67,60 @@
 
 /* ===== Section band (optional wrapper) ===== */
 .section-band{ background:#F9FAFB; padding:2rem 1.5rem; border-radius:12px; margin:2rem 0; }
+<<<<<<< HEAD
+=======
+
+/* Page width */
+.page { max-width: 1280px; margin: 0 auto; padding: 28px 18px; }
+
+/* Headings */
+.h1 { font-size: 2rem; font-weight: 800; margin: 0 0 .6rem; }
+.h2 { font-size: 1.5rem; font-weight: 700; margin: 1.8rem 0 .35rem; color:#141414; }
+.sub { color:#535353; margin: 0 0 1rem; }
+
+/* Teal intro card */
+.card {
+  background:#0B6C82; color:#fff; border-radius:16px;
+  padding: 22px 22px 20px;
+}
+.card a { color:#FFC142; text-decoration:none; }
+
+/* Big figure */
+.figure { background:#fff; border-radius:14px; padding:14px;
+  box-shadow:0 10px 28px rgba(0,0,0,.06); margin: 14px 0; }
+.figure img { display:block; width:100%; height:auto; border-radius:10px; }
+
+/* Callout */
+.callout { margin: 18px 0 0; }
+.callout h3 { margin:0 0 .35rem; font-size:1.25rem; }
+
+<style>
+.hero-band.media-only{grid-template-columns:1fr;}
+.hero-band.media-only .pane-text{display:none;}
+.hero-band .pane-media img{width:100%;height:auto;border-radius:12px;box-shadow:0 8px 20px rgba(0,0,0,.08);}
+</style>
+
+<style>
+/* Fix hero layout: bigger right pane, align to top, no forced min-height */
+.hero-band.wide-right { grid-template-columns: minmax(320px, 0.9fr) 1.6fr; align-items: start; }
+@media (max-width: 900px){ .hero-band.wide-right { grid-template-columns: 1fr; } }
+
+/* Make the media side look like a clean card and remove the old min-height */
+.hero-band .pane-media { min-height: auto !important; padding: 0; background: transparent; }
+.media-card { background:#fff; border-radius:16px; box-shadow:0 8px 28px rgba(0,0,0,.06); padding:12px; }
+.media-card img { width:100%; height:auto; display:block; border-radius:10px; }
+</style>
+
+.pane-media {
+  background-size: contain;   /* fit entire image */
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.hero-band .pane-media img {
+  border-radius: 0 !important;  /* removes rounding */
+  object-fit: cover;            /* makes sure it fills the box */
+  width: 100%;
+  height: 100%;
+}
+>>>>>>> 7166e56 (Flatten repo: move project files out of submodule)

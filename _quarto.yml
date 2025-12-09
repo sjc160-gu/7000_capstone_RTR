@@ -1,17 +1,60 @@
 project:
   type: website
   output-dir: _site
+<<<<<<< HEAD
   resources: 
     - assets/**        
 
 website:
   title: "Room to Read Alumnae Survey"
+=======
+  execute-dir: project 
+  resources: 
+    - assets/**  
+
+website:
+  title: "Room to Read"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: agency.qmd
+        text: Agency Visuals
+      - text: Countries
+        menu:
+          - text: "Bangladesh"
+            href: bangladesh.html
+          - text: "Cambodia"
+            href: cambodia.html
+          - text: "India"
+            href: india.html
+          - text: "Laos"
+            href: laos.html
+          - text: "Nepal"
+            href: nepal.html
+          - text: "Sri Lanka"
+            href: sri-lanka.html
+          - text: "Tanzania"
+            href: tanzania.html
+          - text: "Vietnam"
+            href: vietnam.html
+>>>>>>> 7166e56 (Flatten repo: move project files out of submodule)
 
 format:
   html:
     theme: default
+<<<<<<< HEAD
     css: styles.css    
+=======
+    css: styles.css
+    navbar-bg: #00546B   
+>>>>>>> 7166e56 (Flatten repo: move project files out of submodule)
     toc: false
     smooth-scroll: true
     mainfont: Georgia
     monofont: "Courier New"
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 7166e56 (Flatten repo: move project files out of submodule)
